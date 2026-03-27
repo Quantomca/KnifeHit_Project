@@ -35,7 +35,7 @@ public class KnifeSpawner : MonoBehaviour
 
             currentKnife = null;
 
-            Invoke(nameof(Spawn), 0.05f);
+            Invoke(nameof(Spawn), 0.02f);
         }
     }
 

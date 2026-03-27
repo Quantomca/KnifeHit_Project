@@ -569,9 +569,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a006380dc860c8438e3df849cd3a591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
+  levels:
+  - knivesCount: 6
+    rotationSpeed: 200
+    isBoss: 0
+    stuckKnifeAngles: []
+    randomDirection: 0
+    targetSprite: {fileID: 24848354092545896, guid: 5afc64e369d285f488a9a1367404ab70, type: 3}
+    targetRadius: 1
+    targetScale: {x: 1, y: 1}
+  - knivesCount: 7
+    rotationSpeed: 200
+    isBoss: 0
+    stuckKnifeAngles:
+    - 330
+    - 30
+    randomDirection: 1
+    targetSprite: {fileID: 24848354092545896, guid: 5afc64e369d285f488a9a1367404ab70, type: 3}
+    targetRadius: 1
+    targetScale: {x: 1, y: 1}
+  - knivesCount: 8
+    rotationSpeed: 200
+    isBoss: 0
+    stuckKnifeAngles:
+    - 0
+    - 180
+    randomDirection: 1
+    targetSprite: {fileID: 24848354092545896, guid: 5afc64e369d285f488a9a1367404ab70, type: 3}
+    targetRadius: 1
+    targetScale: {x: 1, y: 1}
+  - knivesCount: 9
+    rotationSpeed: 200
+    isBoss: 0
+    stuckKnifeAngles: []
+    randomDirection: 1
+    targetSprite: {fileID: 24848354092545896, guid: 5afc64e369d285f488a9a1367404ab70, type: 3}
+    targetRadius: 1
+    targetScale: {x: 1, y: 1}
+  - knivesCount: 10
+    rotationSpeed: 150
+    isBoss: 1
+    stuckKnifeAngles:
+    - 0
+    - 90
+    - 180
+    - 270
+    randomDirection: 1
+    targetSprite: {fileID: 6021305993862070941, guid: 096ae57e29c666a4cb64d24b97e6558d, type: 3}
+    targetRadius: 1
+    targetScale: {x: 1, y: 1}
+  knifePrefab: {fileID: 19707966464715390, guid: a9b6f97f49941d54788a6f376dadbbb1, type: 3}
   currentLevel: 1
   maxLevel: 5
-  knivesPerLevel: 5
   knivesLeft: 5
   canThrow: 1
   isStageClearing: 0
@@ -759,7 +808,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 24848354092545896, guid: 5afc64e369d285f488a9a1367404ab70, type: 3}
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -801,7 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.AspectRatioFitter
   m_AspectMode: 3
-  m_AspectRatio: 0.5
+  m_AspectRatio: 1
 --- !u!1 &789484902
 GameObject:
   m_ObjectHideFlags: 0
