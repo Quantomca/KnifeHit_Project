@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 using System.Collections.Generic;
 
 public class LevelManager : MonoBehaviour
@@ -6,9 +7,13 @@ public class LevelManager : MonoBehaviour
     [Header("Level Data")]
     public List<LevelData> levels;
 
-    public GameObject knifePrefab;
-    public static LevelManager instance;
+    [Header("Prefabs")]
+    public GameObject targetPrefab;
 
+    [FormerlySerializedAs("knifePrefab")]
+    public GameObject stuckKnifePrefab;
+
+    [Header("Runtime")]
     public int currentLevel = 1;
     public int maxLevel = 5;
 
@@ -16,7 +21,12 @@ public class LevelManager : MonoBehaviour
     public bool canThrow = true;
     public bool isStageClearing = false;
 
+    [SerializeField] Vector3 targetSpawnPosition = new Vector3(0f, 1.2f, 0f);
+
+    public static LevelManager instance;
     public TargetRotation target;
+
+    int knivesRemainingToStick;
 
     void Awake()
     {
@@ -30,134 +40,242 @@ public class LevelManager : MonoBehaviour
 
     public void StartLevel()
     {
+        CancelInvoke();
         ClearKnives();
+
         isStageClearing = false;
         canThrow = true;
-            KnifeSpawner spawner = FindObjectOfType<KnifeSpawner>();
-    if (spawner != null)
-        spawner.ResetSpawner();
 
-        LevelData data = levels[currentLevel - 1];
+        ResetSpawner();
+        DestroyCurrentTarget();
 
-        // 🎯 knives
-        knivesLeft = data.knivesCount;
+        LevelData data = GetCurrentLevelData();
+        if (data == null || targetPrefab == null)
+            return;
 
-        // 🎯 rotation
-        float speed = data.rotationSpeed;
+        knivesLeft = Mathf.Max(0, data.knivesCount);
+        knivesRemainingToStick = knivesLeft;
 
-        if (data.randomDirection)
-            speed *= (Random.value > 0.5f ? 1 : -1);
+        GameObject newTarget = Instantiate(targetPrefab, targetSpawnPosition, Quaternion.identity);
+        target = newTarget.GetComponent<TargetRotation>();
 
-        if (data.isBoss)
-            speed *= 1.3f;
+        if (target == null)
+            return;
 
-        target.speed = speed;
+        target.speed = ResolveRotationSpeed(data);
+        target.Configure(data.targetSprite, data.targetRadius);
 
-        SpriteRenderer sr = target.GetComponent<SpriteRenderer>();
-        sr.sprite = data.targetSprite;
-        sr.color = Color.white;
+        ConfigureBreakPieces(newTarget, data);
 
-        float baseRadius = sr.sprite.bounds.extents.y;
-        float targetRadius = data.targetRadius;
-
-        float scale = (targetRadius / baseRadius) * 1.2f;
-
-        target.transform.localScale = Vector3.one * scale;
-
-        // 🎯 UI
         KnifeUIManager.instance.totalKnives = knivesLeft;
         KnifeUIManager.instance.ResetUI();
         StageUIManager.instance.UpdateStageUI(currentLevel);
 
-        // 🎯 spawn dao cắm sẵn
         SpawnPreStuckKnives(data.stuckKnifeAngles);
+    }
+
+    public void OnKnifeThrown()
+    {
+        if (isStageClearing || !canThrow) return;
+
+        knivesLeft = Mathf.Max(0, knivesLeft - 1);
+    }
+
+    public void HandleThrownKnifeHit(Knife thrownKnife, Collider2D targetCollider)
+    {
+        if (thrownKnife == null || target == null || isStageClearing)
+            return;
+
+        if (!thrownKnife.HasReachedTargetSurface(target))
+            return;
+
+        Vector2 impactPoint = thrownKnife.GetTipPosition();
+
+        Vector2 outwardDirection = target.GetOutwardDirection(impactPoint);
+
+        Knife stuckKnife = SpawnStuckKnife(outwardDirection, true);
+
+        if (stuckKnife != null)
+        {
+            thrownKnife.DisableBeforeDestroy();
+            Destroy(thrownKnife.gameObject);
+        }
+        else
+        {
+            thrownKnife.PlaceAsStuck(target, outwardDirection, true);
+        }
+
+        target.PlayHitFeedback();
+        OnKnifeStuck();
+    }
+
+    public bool CanThrowKnife()
+    {
+        return canThrow && !isStageClearing && knivesLeft > 0;
+    }
+
+    public bool ShouldSpawnNextKnife()
+    {
+        return canThrow && !isStageClearing && knivesLeft > 0;
+    }
+
+    public void FailKnifeCollision(Knife thrownKnife)
+    {
+        if (!canThrow || isStageClearing)
+            return;
+
+        canThrow = false;
+
+        KnifeSpawner spawner = FindFirstObjectByType<KnifeSpawner>();
+        if (spawner != null)
+            spawner.StopSpawning();
+
+        if (thrownKnife != null)
+            thrownKnife.DropOnKnifeCollision();
+
+        Invoke(nameof(ShowGameOverUIWithoutFreeze), 0.3f);
+    }
+
+    public void WinLevel()
+    {
+        canThrow = false;
+
+        if (target != null)
+        {
+            TargetBreak targetBreak = target.GetComponent<TargetBreak>();
+            if (targetBreak != null)
+                targetBreak.Break();
+        }
+
+        target = null;
+        Invoke(nameof(AfterBreak), 2f);
+    }
+
+    public void GameOver()
+    {
+        canThrow = false;
+
+        if (target != null)
+        {
+            TargetBreak targetBreak = target.GetComponent<TargetBreak>();
+            if (targetBreak != null)
+                targetBreak.Break();
+        }
+
+        target = null;
+        Invoke(nameof(RestartGame), 0.6f);
     }
 
     void SpawnPreStuckKnives(List<float> angles)
     {
-        if (angles == null || angles.Count == 0) return;
+        if (target == null || angles == null || angles.Count == 0)
+            return;
 
-        SpriteRenderer sr = target.GetComponent<SpriteRenderer>();
-        float radius = sr.bounds.extents.y; 
-            Vector2 center = target.transform.position;
-
-            foreach (float angle in angles)
-            {
-                GameObject knife = Instantiate(knifePrefab);
-
-                Vector2 dir = Quaternion.Euler(0, 0, angle) * Vector2.up;
-
-                Vector2 hitPoint = center + dir * radius;
-
-                knife.transform.up = -dir;
-
-                SpriteRenderer knifeSR = knife.GetComponent<SpriteRenderer>();
-
-                float knifeLength = knifeSR.sprite.bounds.size.y * knife.transform.localScale.y;
-                float embed = knifeLength * 0.25f;
-
-                // 🎯 FIX QUAN TRỌNG: đúng chiều
-                knife.transform.position = hitPoint - dir * embed;
-
-                knife.transform.SetParent(target.transform);
-
-                Rigidbody2D rb = knife.GetComponent<Rigidbody2D>();
-                rb.bodyType = RigidbodyType2D.Kinematic;
-                rb.simulated = true;
-
-                knife.layer = LayerMask.NameToLayer("KnifeStuck");
-                knife.tag = "Knife";
-                Collider2D col = knife.GetComponent<Collider2D>();
-                col.isTrigger = false;
-            }
-    }
-
-    public void UseKnife()
-    {
-        if (isStageClearing) return;
-
-        knivesLeft--;
-
-        if (knivesLeft <= 0)
+        foreach (float angle in angles)
         {
-            canThrow = false;
-            isStageClearing = true;
-            WinLevel();
+            Vector2 outwardDirection = Quaternion.Euler(0f, 0f, angle) * Vector2.up;
+            SpawnStuckKnife(outwardDirection, false);
         }
     }
 
-    void WinLevel()
+    Knife SpawnStuckKnife(Vector2 outwardDirection, bool playImpactFeedback)
     {
-        canThrow = false;
+        if (target == null || stuckKnifePrefab == null)
+            return null;
 
-        if (currentLevel >= maxLevel)
+        GameObject knifeObject = Instantiate(stuckKnifePrefab);
+        Knife knife = knifeObject.GetComponent<Knife>();
+
+        if (knife == null)
+        {
+            Destroy(knifeObject);
+            return null;
+        }
+
+        knife.PlaceAsStuck(target, outwardDirection, playImpactFeedback);
+        return knife;
+    }
+
+    void OnKnifeStuck()
+    {
+        if (isStageClearing) return;
+
+        knivesRemainingToStick = Mathf.Max(0, knivesRemainingToStick - 1);
+
+        if (knivesRemainingToStick <= 0)
+        {
+            isStageClearing = true;
+            canThrow = false;
+            Invoke(nameof(WinLevel), 0.12f);
+        }
+    }
+
+    void ConfigureBreakPieces(GameObject targetObject, LevelData data)
+    {
+        TargetBreak targetBreak = targetObject.GetComponent<TargetBreak>();
+        if (targetBreak == null || data == null)
+            return;
+
+        if (data.breakPieces != null && data.breakPieces.Length > 0)
+            targetBreak.piecePrefabs = data.breakPieces;
+    }
+
+    float ResolveRotationSpeed(LevelData data)
+    {
+        float speed = data.rotationSpeed;
+
+        if (data.randomDirection)
+            speed *= Random.value > 0.5f ? 1f : -1f;
+
+        if (data.isBoss)
+            speed *= 1.3f;
+
+        return speed;
+    }
+
+    LevelData GetCurrentLevelData()
+    {
+        if (levels == null || levels.Count == 0)
+            return null;
+
+        int configuredMaxLevel = maxLevel > 0 ? maxLevel : levels.Count;
+        int highestLevel = Mathf.Max(1, Mathf.Min(configuredMaxLevel, levels.Count));
+        currentLevel = Mathf.Clamp(currentLevel, 1, highestLevel);
+
+        return levels[currentLevel - 1];
+    }
+
+    void AfterBreak()
+    {
+        if (levels == null || levels.Count == 0)
+        {
+            GameWin();
+            return;
+        }
+
+        int configuredMaxLevel = maxLevel > 0 ? maxLevel : levels.Count;
+        int highestLevel = Mathf.Max(1, Mathf.Min(configuredMaxLevel, levels.Count));
+
+        if (currentLevel >= highestLevel)
         {
             GameWin();
             return;
         }
 
         currentLevel++;
-        Invoke(nameof(NextLevel), 1f);
-    }
-
-    void NextLevel()
-    {
-        isStageClearing = false;
-        canThrow = true;
-
-        ClearKnives();
-
-        KnifeSpawner spawner = FindObjectOfType<KnifeSpawner>();
-        if (spawner != null)
-            spawner.ResetSpawner();
-
         StartLevel();
     }
 
-    public void GameOver()
+    void RestartGame()
     {
         currentLevel = 1;
         GameManager.instance.GameOver();
+    }
+
+    void ShowGameOverUIWithoutFreeze()
+    {
+        if (GameManager.instance != null)
+            GameManager.instance.GameOver(false);
     }
 
     void GameWin()
@@ -165,11 +283,26 @@ public class LevelManager : MonoBehaviour
         GameManager.instance.GameWin();
     }
 
+    void ResetSpawner()
+    {
+        KnifeSpawner spawner = FindFirstObjectByType<KnifeSpawner>();
+        if (spawner != null)
+            spawner.ResetSpawner();
+    }
+
+    void DestroyCurrentTarget()
+    {
+        if (target == null) return;
+
+        Destroy(target.gameObject);
+        target = null;
+    }
+
     void ClearKnives()
     {
-        GameObject[] knives = GameObject.FindGameObjectsWithTag("Knife");
+        Knife[] knives = FindObjectsByType<Knife>(FindObjectsSortMode.None);
 
-        foreach (var k in knives)
-            Destroy(k);
+        foreach (Knife knife in knives)
+            Destroy(knife.gameObject);
     }
 }

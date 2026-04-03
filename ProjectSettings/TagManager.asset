@@ -43,5 +43,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 4135644299
+    locked: 0
+  - name: UI
+    uniqueID: 4073011561
+    locked: 0
+  - name: Game
+    uniqueID: 887978909
+    locked: 0
   m_RenderingLayers:
   - Default
+  - Layer 1

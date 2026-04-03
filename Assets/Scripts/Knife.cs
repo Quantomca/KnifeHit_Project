@@ -1,98 +1,190 @@
 using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class Knife : MonoBehaviour
 {
+    const string KnifeTag = "Knife";
+    const string StuckKnifeLayer = "KnifeStuck";
+
     [Header("Movement")]
-    public float speed = 60f;
+    public float speed = 90f;
+
+    [Header("Stuck Pose")]
+    [SerializeField] float stuckPenetrationPercent = 1f;
+    [SerializeField] float tipInsetPercent = 0.06f;
 
     [Header("Shake Effect")]
-    [SerializeField] float shakeDuration = 0.15f;
-    [SerializeField] float shakeStrength = 5f;
-    [SerializeField] int shakeVibrato = 25;
+    [SerializeField] float shakeDuration = 0.06f;
+    [SerializeField] float shakeStrength = 1.5f;
+    [SerializeField] int shakeVibrato = 40;
+
+    [Header("Fail Drop")]
+    [SerializeField] float failDropGravity = 2.8f;
+    [SerializeField] float failDropVerticalSpeed = -2.5f;
+    [SerializeField] float failDropHorizontalSpeed = 1.25f;
+    [SerializeField] float failDropAngularSpeed = 540f;
 
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
+    private Collider2D knifeCollider;
+    private float defaultGravityScale;
+    private int defaultLayer;
 
-    private bool isThrown = false;
-    private bool isStuck = false;
+    private bool isThrown;
+    private bool isStuck;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        knifeCollider = GetComponent<Collider2D>();
+        defaultGravityScale = rb.gravityScale;
+        defaultLayer = gameObject.layer;
 
-        // ⚠️ luôn bật simulated để trigger hoạt động
-        rb.simulated = true;
         rb.bodyType = RigidbodyType2D.Kinematic;
+        gameObject.tag = KnifeTag;
     }
 
     public void Throw()
     {
         if (isThrown) return;
-        if (!LevelManager.instance.canThrow) return;
+        if (LevelManager.instance == null || !LevelManager.instance.canThrow) return;
 
         isThrown = true;
+        isStuck = false;
+
+        if (knifeCollider != null)
+            knifeCollider.enabled = true;
 
         rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.gravityScale = defaultGravityScale;
         rb.linearVelocity = Vector2.up * speed;
+        rb.angularVelocity = 0f;
+        gameObject.layer = defaultLayer;
 
         KnifeCounterUI.instance.AddKnife();
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
-    if (!isThrown && !isStuck) return;
-
-        // 💀 Va vào target = chạm
-        if (col.CompareTag("Target")){
-            StickToTarget(col.transform, col);
-        }
-
-        // 💀 Va vào dao khác = thua
-        else if (col.CompareTag("Knife"))
-        {
-            if (!isThrown) return;
-            if (!LevelManager.instance.canThrow) return;
-
-            GameManager.instance.GameOver();
-        }
+        HandleTrigger(col);
     }
 
-    void StickToTarget(Transform target, Collider2D col)
+    void OnTriggerStay2D(Collider2D col)
     {
-        if (isStuck) return;
+        HandleTrigger(col);
+    }
+
+    public void PlaceAsStuck(TargetRotation target, Vector2 outwardDirection, bool playImpactFeedback)
+    {
+        if (target == null) return;
+
+        Vector2 dir = outwardDirection.sqrMagnitude > 0f ? outwardDirection.normalized : Vector2.up;
+        Vector2 surfacePoint = target.GetSurfacePoint(dir);
+
+        isThrown = false;
         isStuck = true;
 
         rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
         rb.bodyType = RigidbodyType2D.Kinematic;
 
-        // 🎯 điểm chạm
-        Vector2 hitPoint = col.ClosestPoint(transform.position);
+        if (knifeCollider != null)
+            knifeCollider.enabled = true;
 
-        // 🎯 hướng về tâm
-        Vector2 dir = (target.position - (Vector3)hitPoint).normalized;
+        transform.up = -dir;
 
-        // 🎯 xoay dao
-        transform.up = dir;
+        float knifeLength = spriteRenderer.bounds.size.y;
+        float penetrationDepth = knifeLength * stuckPenetrationPercent;
+        float tipOffset = Mathf.Max(0f, spriteRenderer.bounds.extents.y * (1f - tipInsetPercent));
+        transform.position = surfacePoint + dir * (tipOffset - penetrationDepth);
+        transform.SetParent(target.transform, true);
 
-        // 🎯 độ cắm
-        float knifeLength = GetComponent<SpriteRenderer>().bounds.size.y;
-        float backOffset = knifeLength * -0.4f;
+        int stuckLayer = LayerMask.NameToLayer(StuckKnifeLayer);
+        if (stuckLayer >= 0)
+            gameObject.layer = stuckLayer;
 
-        transform.position = hitPoint - dir * backOffset;
+        gameObject.tag = KnifeTag;
 
-        // 🎯 gắn vào target
-        transform.SetParent(target);
+        if (playImpactFeedback)
+            PlayImpactFeedback();
+    }
 
-        // 🎯 chuyển layer thành dao đã cắm
-        gameObject.layer = LayerMask.NameToLayer("KnifeStuck");
+    public void DisableBeforeDestroy()
+    {
+        isThrown = false;
 
-        // 🎯 hiệu ứng
-        if (!GameManager.instance.gameOverUI.activeSelf)
-        {
-            CameraShake.instance.Shake(0.1f, 0.15f);
-        }
+        if (knifeCollider != null)
+            knifeCollider.enabled = false;
 
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.bodyType = RigidbodyType2D.Kinematic;
+    }
+
+    public void DropOnKnifeCollision()
+    {
+        isThrown = false;
+        isStuck = false;
+
+        transform.SetParent(null, true);
+
+        if (knifeCollider != null)
+            knifeCollider.enabled = false;
+
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.gravityScale = failDropGravity;
+
+        float horizontalDirection = transform.position.x >= 0f ? 1f : -1f;
+        rb.linearVelocity = new Vector2(horizontalDirection * failDropHorizontalSpeed, failDropVerticalSpeed);
+        rb.angularVelocity = -horizontalDirection * failDropAngularSpeed;
+
+        gameObject.layer = defaultLayer;
+    }
+
+    public bool HasReachedTargetSurface(TargetRotation target)
+    {
+        if (target == null || spriteRenderer == null)
+            return false;
+
+        return Vector2.Distance(target.transform.position, GetTipPosition()) <= target.Radius;
+    }
+
+    public Vector2 GetTipPosition()
+    {
+        if (spriteRenderer == null)
+            return transform.position;
+
+        float tipOffset = Mathf.Max(0f, spriteRenderer.bounds.extents.y * (1f - tipInsetPercent));
+        return (Vector2)transform.position + (Vector2)transform.up * tipOffset;
+    }
+
+    void PlayImpactFeedback()
+    {
         StartCoroutine(ShakeKnife());
+    }
+
+    void HandleTrigger(Collider2D col)
+    {
+        if (col == null) return;
+        if (isStuck) return;
+        if (!isThrown) return;
+        if (LevelManager.instance == null || !LevelManager.instance.canThrow) return;
+
+        if (col.CompareTag("Target"))
+        {
+            TargetRotation target = col.GetComponent<TargetRotation>();
+            if (target == null || !HasReachedTargetSurface(target))
+                return;
+
+            LevelManager.instance.HandleThrownKnifeHit(this, col);
+        }
+        else if (col.CompareTag(KnifeTag))
+        {
+            LevelManager.instance.FailKnifeCollision(this);
+        }
     }
 
     IEnumerator ShakeKnife()
@@ -104,10 +196,9 @@ public class Knife : MonoBehaviour
         {
             float progress = elapsed / shakeDuration;
             float damper = 1f - progress;
-
             float angle = Mathf.Sin(elapsed * shakeVibrato) * shakeStrength * damper;
 
-            transform.localRotation = originalRot * Quaternion.Euler(0, 0, angle);
+            transform.localRotation = originalRot * Quaternion.Euler(0f, 0f, angle);
 
             elapsed += Time.deltaTime;
             yield return null;

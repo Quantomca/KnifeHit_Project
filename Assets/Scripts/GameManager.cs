@@ -12,9 +12,11 @@ public class GameManager : MonoBehaviour
         instance = this;
     }
 
-    public void GameOver()
+    public void GameOver(bool freezeTime = true)
     {
-        Time.timeScale = 0f;
+        if (freezeTime)
+            Time.timeScale = 0f;
+
         gameOverUI.SetActive(true);
     }
 

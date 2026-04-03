@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &19707966464715390
+--- !u!1 &2431785744499846022
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8776023333551661897}
-  - component: {fileID: 5239617432041145145}
-  - component: {fileID: 2284134811862151318}
-  - component: {fileID: 1049178586921741502}
-  - component: {fileID: -2449764594485037473}
-  m_Layer: 6
-  m_Name: Knife
-  m_TagString: Knife
+  - component: {fileID: 2596984740206594274}
+  - component: {fileID: 5041944922023959699}
+  - component: {fileID: 40692042219196698}
+  - component: {fileID: 6944913464279557275}
+  - component: {fileID: 479911462393875680}
+  - component: {fileID: 5006703570524260182}
+  m_Layer: 7
+  m_Name: Target
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8776023333551661897
-Transform:
+--- !u!224 &2596984740206594274
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19707966464715390}
-  serializedVersion: 2
+  m_GameObject: {fileID: 2431785744499846022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04648, y: 1.31838, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.57, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5239617432041145145
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1.2}
+  m_SizeDelta: {x: 5.67, y: 5.67}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!212 &5041944922023959699
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19707966464715390}
+  m_GameObject: {fileID: 2431785744499846022}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -82,9 +87,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3634783721494784906, guid: e567df9fcc760e6498e0c05bf5141553, type: 3}
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,13 +99,13 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!61 &2284134811862151318
-BoxCollider2D:
+--- !u!58 &40692042219196698
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19707966464715390}
+  m_GameObject: {fileID: 2431785744499846022}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -124,63 +129,59 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.75, y: 2.52}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.28, y: 2.56}
-  m_EdgeRadius: 0
---- !u!50 &1049178586921741502
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19707966464715390}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
---- !u!114 &-2449764594485037473
+  m_Radius: 1
+--- !u!114 &6944913464279557275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19707966464715390}
+  m_GameObject: {fileID: 2431785744499846022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9411d3e27553d86478c196027b996cfe, type: 3}
+  m_Script: {fileID: 11500000, guid: ab4df9b71e68e1447ba8b6a1563a9f92, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Knife
-  speed: 10
-  stuckEmbedPercent: 0.3
-  shakeDuration: 0.15
-  shakeStrength: 5
-  shakeVibrato: 25
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRotation
+  speed: 150
+--- !u!114 &479911462393875680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2431785744499846022}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.AspectRatioFitter
+  m_AspectMode: 3
+  m_AspectRatio: 1
+--- !u!114 &5006703570524260182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2431785744499846022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706396f9ebf7b1a40a7bab7a8e193541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetBreak
+  piecePrefabs:
+  - {fileID: 1498139531461716730, guid: bb5996661098d9641b424ac6eddd1c37, type: 3}
+  - {fileID: 2944510920986251275, guid: 05448487a954d3a48a45e42ec986f8b7, type: 3}
+  - {fileID: 5478520992472537274, guid: 3c3c785bb6ec4054d8414a444f3863c4, type: 3}
+  spawnCount: 3
+  minForce: 3
+  maxForce: 7
+  torque: 400
+  hitEffect: {fileID: 0}
+  breakSound: {fileID: 0}
+  pieceLifeTime: 2
