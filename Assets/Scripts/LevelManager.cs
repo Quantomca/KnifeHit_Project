@@ -93,7 +93,7 @@ public class LevelManager : MonoBehaviour
 
         Vector2 outwardDirection = target.GetOutwardDirection(impactPoint);
 
-        Knife stuckKnife = SpawnStuckKnife(outwardDirection, true);
+        Knife stuckKnife = SpawnStuckKnife(outwardDirection, true, true);
 
         if (stuckKnife != null)
         {
@@ -174,16 +174,18 @@ public class LevelManager : MonoBehaviour
         foreach (float angle in angles)
         {
             Vector2 outwardDirection = Quaternion.Euler(0f, 0f, angle) * Vector2.up;
-            SpawnStuckKnife(outwardDirection, false);
+            SpawnStuckKnife(outwardDirection, false, false);
         }
     }
 
-    Knife SpawnStuckKnife(Vector2 outwardDirection, bool playImpactFeedback)
+    Knife SpawnStuckKnife(Vector2 outwardDirection, bool playImpactFeedback, bool useSelectedAppearance)
     {
         if (target == null || stuckKnifePrefab == null)
             return null;
 
         GameObject knifeObject = Instantiate(stuckKnifePrefab);
+        if (useSelectedAppearance)
+            ApplySelectedKnifeAppearance(knifeObject);
         Knife knife = knifeObject.GetComponent<Knife>();
 
         if (knife == null)
@@ -304,5 +306,26 @@ public class LevelManager : MonoBehaviour
 
         foreach (Knife knife in knives)
             Destroy(knife.gameObject);
+    }
+
+    void ApplySelectedKnifeAppearance(GameObject knifeObject)
+    {
+        if (knifeObject == null)
+            return;
+
+        KnifeData selectedKnife = KnifeDatabase.GetSelectedKnife();
+        if (selectedKnife == null || selectedKnife.gameplaySprite == null)
+            return;
+
+        Knife knife = knifeObject.GetComponent<Knife>();
+        if (knife != null)
+        {
+            knife.SetAppearance(selectedKnife.gameplaySprite);
+            return;
+        }
+
+        SpriteRenderer spriteRenderer = knifeObject.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+            spriteRenderer.sprite = selectedKnife.gameplaySprite;
     }
 }

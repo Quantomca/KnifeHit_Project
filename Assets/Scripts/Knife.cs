@@ -7,6 +7,7 @@ public class Knife : MonoBehaviour
 {
     const string KnifeTag = "Knife";
     const string StuckKnifeLayer = "KnifeStuck";
+    static readonly Vector2 FixedColliderSize = new Vector2(0.28f, 2.56f);
 
     [Header("Movement")]
     public float speed = 90f;
@@ -45,6 +46,8 @@ public class Knife : MonoBehaviour
 
         rb.bodyType = RigidbodyType2D.Kinematic;
         gameObject.tag = KnifeTag;
+
+        RefreshColliderToSprite();
     }
 
     public void Throw()
@@ -96,10 +99,12 @@ public class Knife : MonoBehaviour
 
         transform.up = -dir;
 
-        float knifeLength = spriteRenderer.bounds.size.y;
+        float knifeLength = GetKnifeLengthWorld();
         float penetrationDepth = knifeLength * stuckPenetrationPercent;
-        float tipOffset = Mathf.Max(0f, spriteRenderer.bounds.extents.y * (1f - tipInsetPercent));
-        transform.position = surfacePoint + dir * (tipOffset - penetrationDepth);
+
+        Vector2 desiredTipPosition = surfacePoint - (dir * penetrationDepth);
+        Vector2 worldTipOffset = transform.TransformVector(GetLocalTipOffset());
+        transform.position = desiredTipPosition - worldTipOffset;
         transform.SetParent(target.transform, true);
 
         int stuckLayer = LayerMask.NameToLayer(StuckKnifeLayer);
@@ -154,11 +159,19 @@ public class Knife : MonoBehaviour
 
     public Vector2 GetTipPosition()
     {
-        if (spriteRenderer == null)
+        if (spriteRenderer == null || spriteRenderer.sprite == null)
             return transform.position;
 
-        float tipOffset = Mathf.Max(0f, spriteRenderer.bounds.extents.y * (1f - tipInsetPercent));
-        return (Vector2)transform.position + (Vector2)transform.up * tipOffset;
+        return transform.TransformPoint(GetLocalTipOffset());
+    }
+
+    public void SetAppearance(Sprite sprite)
+    {
+        if (spriteRenderer == null || sprite == null)
+            return;
+
+        spriteRenderer.sprite = sprite;
+        RefreshColliderToSprite();
     }
 
     void PlayImpactFeedback()
@@ -205,5 +218,30 @@ public class Knife : MonoBehaviour
         }
 
         transform.localRotation = originalRot;
+    }
+
+    float GetKnifeLengthWorld()
+    {
+        return spriteRenderer != null ? spriteRenderer.bounds.size.y : 1f;
+    }
+
+    Vector2 GetLocalTipOffset()
+    {
+        if (spriteRenderer == null || spriteRenderer.sprite == null)
+            return Vector2.up * 0.5f;
+
+        Bounds spriteBounds = spriteRenderer.sprite.bounds;
+        float tipY = spriteBounds.center.y + (spriteBounds.extents.y * (1f - tipInsetPercent));
+        return new Vector2(spriteBounds.center.x, tipY);
+    }
+
+    void RefreshColliderToSprite()
+    {
+        BoxCollider2D boxCollider = knifeCollider as BoxCollider2D;
+        if (boxCollider == null)
+            return;
+
+        boxCollider.offset = Vector2.zero;
+        boxCollider.size = FixedColliderSize;
     }
 }

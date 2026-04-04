@@ -47,6 +47,7 @@ public class KnifeSpawner : MonoBehaviour
         if (knifePrefab == null) return;
 
         currentKnife = Instantiate(knifePrefab, transform.position, Quaternion.identity);
+        ApplySelectedKnifeAppearance(currentKnife);
         canThrow = true;
     }
 
@@ -70,5 +71,26 @@ public class KnifeSpawner : MonoBehaviour
             Destroy(currentKnife);
 
         currentKnife = null;
+    }
+
+    void ApplySelectedKnifeAppearance(GameObject knifeObject)
+    {
+        if (knifeObject == null)
+            return;
+
+        KnifeData selectedKnife = KnifeDatabase.GetSelectedKnife();
+        if (selectedKnife == null || selectedKnife.gameplaySprite == null)
+            return;
+
+        Knife knife = knifeObject.GetComponent<Knife>();
+        if (knife != null)
+        {
+            knife.SetAppearance(selectedKnife.gameplaySprite);
+            return;
+        }
+
+        SpriteRenderer spriteRenderer = knifeObject.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+            spriteRenderer.sprite = selectedKnife.gameplaySprite;
     }
 }

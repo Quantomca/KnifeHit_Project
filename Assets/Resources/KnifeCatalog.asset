@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c32d661636642a9b91b420570cc76c1, type: 3}
+  m_Name: KnifeCatalog
+  m_EditorClassIdentifier: 
+  defaultKnifeId: knife_0
+  knives:
+  - id: knife_0
+    displayName: Knife 01
+    gameplaySprite: {fileID: 3635051260525435366, guid: ade352bf152681245b7311c66c1d7dd6, type: 3}
+    icon: {fileID: 3635051260525435366, guid: ade352bf152681245b7311c66c1d7dd6, type: 3}
+    unlocked: 1
+  - id: knife_1
+    displayName: Knife 02
+    gameplaySprite: {fileID: -8975381302521842214, guid: bfa46f63c5316564794cb334c5f62d21, type: 3}
+    icon: {fileID: -8975381302521842214, guid: bfa46f63c5316564794cb334c5f62d21, type: 3}
+    unlocked: 1
+  - id: knife_2
+    displayName: Knife 03
+    gameplaySprite: {fileID: 1771811887748417134, guid: 98c90886eb1a57c4e9fa7dfd92d9a0eb, type: 3}
+    icon: {fileID: 1771811887748417134, guid: 98c90886eb1a57c4e9fa7dfd92d9a0eb, type: 3}
+    unlocked: 1
+  - id: knife_3
+    displayName: Knife 04
+    gameplaySprite: {fileID: -2987387156167074895, guid: 0e3f4b98e6851ce408b78bf9a73ec41d, type: 3}
+    icon: {fileID: -2987387156167074895, guid: 0e3f4b98e6851ce408b78bf9a73ec41d, type: 3}
+    unlocked: 1
+  - id: knife_4
+    displayName: Knife 05
+    gameplaySprite: {fileID: 2967776462370516203, guid: ece88731076684541bb37dd4b6f6f241, type: 3}
+    icon: {fileID: 2967776462370516203, guid: ece88731076684541bb37dd4b6f6f241, type: 3}
+    unlocked: 1
+  - id: knife_5
+    displayName: Knife 06
+    gameplaySprite: {fileID: 9041870366472081700, guid: 99b70f5aaf229994faf249536f7260d2, type: 3}
+    icon: {fileID: 9041870366472081700, guid: 99b70f5aaf229994faf249536f7260d2, type: 3}
+    unlocked: 1
+  - id: knife_6
+    displayName: Knife 07
+    gameplaySprite: {fileID: 6501847863201939567, guid: 41b726cf5b936804a8be3e6fcdbdc69a, type: 3}
+    icon: {fileID: 6501847863201939567, guid: 41b726cf5b936804a8be3e6fcdbdc69a, type: 3}
+    unlocked: 1
+  - id: knife_7
+    displayName: Knife 08
+    gameplaySprite: {fileID: 9176805819228060775, guid: 87186dfb31b402b4ea84f01128ef5e15, type: 3}
+    icon: {fileID: 9176805819228060775, guid: 87186dfb31b402b4ea84f01128ef5e15, type: 3}
+    unlocked: 1
+  - id: knife_8
+    displayName: Knife 09
+    gameplaySprite: {fileID: -2598768078663636649, guid: 5ad1bbfd7405428469ec1d4a918109e8, type: 3}
+    icon: {fileID: -2598768078663636649, guid: 5ad1bbfd7405428469ec1d4a918109e8, type: 3}
+    unlocked: 1
+  - id: knife_9
+    displayName: Knife 10
+    gameplaySprite: {fileID: 7570544726125066552, guid: 60f16ed7b19b09b4ba220b31fdc5808d, type: 3}
+    icon: {fileID: 7570544726125066552, guid: 60f16ed7b19b09b4ba220b31fdc5808d, type: 3}
+    unlocked: 1
+  - id: knife_10
+    displayName: Knife 11
+    gameplaySprite: {fileID: -3414919156691112677, guid: 2523a42f79d115c48839adcd284d439c, type: 3}
+    icon: {fileID: -3414919156691112677, guid: 2523a42f79d115c48839adcd284d439c, type: 3}
+    unlocked: 1
+  - id: knife_11
+    displayName: Knife 12
+    gameplaySprite: {fileID: 6084233675290069662, guid: db522ba2b4e771140ab608a8726cf9d8, type: 3}
+    icon: {fileID: 6084233675290069662, guid: db522ba2b4e771140ab608a8726cf9d8, type: 3}
+    unlocked: 1
+  - id: knife_12
+    displayName: Knife 13
+    gameplaySprite: {fileID: -356237527355714874, guid: b1a8235a83a016a44bed40452523ebca, type: 3}
+    icon: {fileID: -356237527355714874, guid: b1a8235a83a016a44bed40452523ebca, type: 3}
+    unlocked: 1
+  - id: knife_13
+    displayName: Knife 14
+    gameplaySprite: {fileID: 7525850785441826070, guid: 6d9f4f5d33d67174496dc6fc2a1a42c6, type: 3}
+    icon: {fileID: 7525850785441826070, guid: 6d9f4f5d33d67174496dc6fc2a1a42c6, type: 3}
+    unlocked: 1
+  - id: knife_14
+    displayName: Knife 15
+    gameplaySprite: {fileID: 2520188878139699707, guid: d06b325a333560d4ea354183056b7d4b, type: 3}
+    icon: {fileID: 2520188878139699707, guid: d06b325a333560d4ea354183056b7d4b, type: 3}
+    unlocked: 1
+  - id: knife_15
+    displayName: Knife 16
+    gameplaySprite: {fileID: 384899534616560757, guid: ae94977a68fa99b4d97ea82f7a452a24, type: 3}
+    icon: {fileID: 384899534616560757, guid: ae94977a68fa99b4d97ea82f7a452a24, type: 3}
+    unlocked: 1
