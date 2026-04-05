@@ -5,6 +5,7 @@ public static class KnifeDatabase
 {
     const string CatalogResourcePath = "KnifeCatalog";
     const string SelectedKnifeKey = "SELECTED_KNIFE";
+    const string KnifeUnlockedKeyPrefix = "KNIFE_UNLOCKED_";
 
     static readonly List<KnifeData> EmptyKnives = new List<KnifeData>();
 
@@ -26,7 +27,7 @@ public static class KnifeDatabase
         {
             KnifeCatalog catalog = LoadCatalog();
             if (catalog == null || string.IsNullOrWhiteSpace(catalog.defaultKnifeId))
-                return "knife_0";
+                return Knives.Count > 0 ? Knives[0].id : "knife_0";
 
             return catalog.defaultKnifeId;
         }
@@ -51,11 +52,11 @@ public static class KnifeDatabase
     public static string GetSelectedKnifeId()
     {
         string selectedId = PlayerPrefs.GetString(SelectedKnifeKey, DefaultKnifeId);
-        EnsureLookup();
-
-        if (!string.IsNullOrWhiteSpace(selectedId) && knifeLookup != null && knifeLookup.ContainsKey(selectedId))
+        if (IsKnifeUnlocked(selectedId))
             return selectedId;
 
+        PlayerPrefs.SetString(SelectedKnifeKey, DefaultKnifeId);
+        PlayerPrefs.Save();
         return DefaultKnifeId;
     }
 
@@ -67,11 +68,75 @@ public static class KnifeDatabase
     public static void SelectKnife(string id)
     {
         KnifeData knife = GetKnifeByID(id);
-        if (knife == null)
+        if (knife == null || !IsKnifeUnlocked(knife.id))
             return;
 
         PlayerPrefs.SetString(SelectedKnifeKey, knife.id);
         PlayerPrefs.Save();
+    }
+
+    public static bool IsKnifeUnlocked(string id)
+    {
+        if (!TryGetKnife(id, out KnifeData knife))
+            return false;
+
+        if (knife.id == DefaultKnifeId)
+            return true;
+
+        return PlayerPrefs.GetInt(GetUnlockKey(knife.id), 0) == 1;
+    }
+
+    public static bool UnlockKnife(string id)
+    {
+        if (!TryGetKnife(id, out KnifeData knife))
+            return false;
+
+        if (IsKnifeUnlocked(knife.id))
+            return false;
+
+        PlayerPrefs.SetInt(GetUnlockKey(knife.id), 1);
+        PlayerPrefs.Save();
+        return true;
+    }
+
+    public static string UnlockRandomLockedKnife()
+    {
+        List<KnifeData> lockedKnives = new List<KnifeData>();
+
+        foreach (KnifeData knife in Knives)
+        {
+            if (knife == null || IsKnifeUnlocked(knife.id))
+                continue;
+
+            lockedKnives.Add(knife);
+        }
+
+        if (lockedKnives.Count == 0)
+            return string.Empty;
+
+        KnifeData randomKnife = lockedKnives[Random.Range(0, lockedKnives.Count)];
+        UnlockKnife(randomKnife.id);
+        return randomKnife.id;
+    }
+
+    public static int CountLockedKnives()
+    {
+        int lockedKnives = 0;
+
+        foreach (KnifeData knife in Knives)
+        {
+            if (knife == null || IsKnifeUnlocked(knife.id))
+                continue;
+
+            lockedKnives++;
+        }
+
+        return lockedKnives;
+    }
+
+    public static bool HasLockedKnives()
+    {
+        return CountLockedKnives() > 0;
     }
 
     static KnifeCatalog LoadCatalog()
@@ -108,5 +173,21 @@ public static class KnifeDatabase
 
             knifeLookup[knife.id] = knife;
         }
+    }
+
+    static bool TryGetKnife(string id, out KnifeData knife)
+    {
+        EnsureLookup();
+
+        knife = null;
+        if (string.IsNullOrWhiteSpace(id) || knifeLookup == null)
+            return false;
+
+        return knifeLookup.TryGetValue(id, out knife);
+    }
+
+    static string GetUnlockKey(string id)
+    {
+        return KnifeUnlockedKeyPrefix + id;
     }
 }

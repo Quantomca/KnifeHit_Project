@@ -44,12 +44,13 @@ public class KnifeItemUI : MonoBehaviour
     {
         knifeID = data.id;
         this.manager = manager;
-        unlocked = data.unlocked;
+        unlocked = KnifeDatabase.IsKnifeUnlocked(data.id);
 
         if (icon != null)
         {
             icon.sprite = data.GetPreviewSprite();
             icon.preserveAspect = true;
+            icon.color = unlocked ? Color.white : new Color(0.35f, 0.49f, 0.67f, 0.95f);
         }
 
         if (lockIcon != null)
@@ -77,13 +78,20 @@ public class KnifeItemUI : MonoBehaviour
     public void SetSelected(bool isSelected)
     {
         if (selectedBorder != null)
-            selectedBorder.SetActive(false);
+            selectedBorder.SetActive(isSelected && unlocked);
 
         if (background != null)
         {
-            background.color = isSelected
-                ? new Color(0.12f, 0.45f, 0.46f, 1f)
-                : new Color(0.04f, 0.08f, 0.12f, 0.98f);
+            if (!unlocked)
+            {
+                background.color = new Color(0.03f, 0.06f, 0.09f, 0.98f);
+            }
+            else
+            {
+                background.color = isSelected
+                    ? new Color(0.12f, 0.45f, 0.46f, 1f)
+                    : new Color(0.04f, 0.08f, 0.12f, 0.98f);
+            }
         }
     }
 

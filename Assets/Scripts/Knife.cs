@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
@@ -8,12 +9,14 @@ public class Knife : MonoBehaviour
     const string KnifeTag = "Knife";
     const string StuckKnifeLayer = "KnifeStuck";
     static readonly Vector2 FixedColliderSize = new Vector2(0.28f, 2.56f);
+    const int KnifeSortingOrder = 110;
 
     [Header("Movement")]
     public float speed = 90f;
 
     [Header("Stuck Pose")]
-    [SerializeField] float stuckPenetrationPercent = 1f;
+    [FormerlySerializedAs("stuckEmbedPercent")]
+    [SerializeField] float stuckPenetrationPercent = 0.3f;
     [SerializeField] float tipInsetPercent = 0.06f;
 
     [Header("Shake Effect")]
@@ -46,6 +49,9 @@ public class Knife : MonoBehaviour
 
         rb.bodyType = RigidbodyType2D.Kinematic;
         gameObject.tag = KnifeTag;
+
+        if (spriteRenderer != null)
+            spriteRenderer.sortingOrder = KnifeSortingOrder;
 
         RefreshColliderToSprite();
     }
@@ -106,6 +112,14 @@ public class Knife : MonoBehaviour
         Vector2 worldTipOffset = transform.TransformVector(GetLocalTipOffset());
         transform.position = desiredTipPosition - worldTipOffset;
         transform.SetParent(target.transform, true);
+        transform.SetAsLastSibling();
+
+        SpriteRenderer targetRenderer = target.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null && targetRenderer != null)
+        {
+            spriteRenderer.sortingLayerID = targetRenderer.sortingLayerID;
+            spriteRenderer.sortingOrder = targetRenderer.sortingOrder + 1;
+        }
 
         int stuckLayer = LayerMask.NameToLayer(StuckKnifeLayer);
         if (stuckLayer >= 0)
@@ -134,7 +148,9 @@ public class Knife : MonoBehaviour
         isThrown = false;
         isStuck = false;
 
-        transform.SetParent(null, true);
+        Transform gameplayParent = LevelManager.instance != null ? LevelManager.instance.GetGameplayParent() : null;
+        transform.SetParent(gameplayParent, true);
+        transform.SetAsLastSibling();
 
         if (knifeCollider != null)
             knifeCollider.enabled = false;
@@ -147,6 +163,9 @@ public class Knife : MonoBehaviour
         rb.angularVelocity = -horizontalDirection * failDropAngularSpeed;
 
         gameObject.layer = defaultLayer;
+
+        if (spriteRenderer != null)
+            spriteRenderer.sortingOrder = KnifeSortingOrder;
     }
 
     public bool HasReachedTargetSurface(TargetRotation target)
@@ -185,6 +204,13 @@ public class Knife : MonoBehaviour
         if (isStuck) return;
         if (!isThrown) return;
         if (LevelManager.instance == null || !LevelManager.instance.canThrow) return;
+
+        AppleCollectible apple = col.GetComponent<AppleCollectible>();
+        if (apple != null)
+        {
+            apple.Collect();
+            return;
+        }
 
         if (col.CompareTag("Target"))
         {

@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(CircleCollider2D))]
 public class TargetRotation : MonoBehaviour
 {
+    const int TargetSortingOrder = 100;
+
     public float speed = 200f;
 
     [Header("Hit Feedback")]
@@ -18,9 +21,11 @@ public class TargetRotation : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     private CircleCollider2D circleCollider;
+    private SortingGroup sortingGroup;
     private Vector3 baseScale = Vector3.one;
     private Color baseColor = Color.white;
     private Coroutine hitFeedbackRoutine;
+    private bool isRotationPaused;
 
     void Awake()
     {
@@ -29,6 +34,9 @@ public class TargetRotation : MonoBehaviour
 
     void Update()
     {
+        if (isRotationPaused)
+            return;
+
         transform.Rotate(0f, 0f, speed * Time.deltaTime);
     }
 
@@ -79,6 +87,11 @@ public class TargetRotation : MonoBehaviour
         hitFeedbackRoutine = StartCoroutine(HitFeedbackRoutine());
     }
 
+    public void SetRotationPaused(bool isPaused)
+    {
+        isRotationPaused = isPaused;
+    }
+
     void CacheComponents()
     {
         if (spriteRenderer == null)
@@ -86,6 +99,18 @@ public class TargetRotation : MonoBehaviour
 
         if (circleCollider == null)
             circleCollider = GetComponent<CircleCollider2D>();
+
+        if (sortingGroup == null)
+            sortingGroup = GetComponent<SortingGroup>() ?? gameObject.AddComponent<SortingGroup>();
+
+        if (sortingGroup != null)
+        {
+            sortingGroup.sortingLayerID = spriteRenderer != null ? spriteRenderer.sortingLayerID : 0;
+            sortingGroup.sortingOrder = TargetSortingOrder;
+        }
+
+        if (spriteRenderer != null)
+            spriteRenderer.sortingOrder = TargetSortingOrder;
     }
 
     float GetSpriteRadius()

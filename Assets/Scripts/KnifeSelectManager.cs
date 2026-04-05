@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,7 +9,6 @@ public class KnifeSelectManager : MonoBehaviour
     public const string SceneName = "KnifeSelectScene";
 
     [Header("Scene References")]
-    [SerializeField] Canvas sceneCanvas;
     [SerializeField] Transform contentParent;
     [SerializeField] KnifePreviewUI previewUI;
 
@@ -16,6 +16,12 @@ public class KnifeSelectManager : MonoBehaviour
     [SerializeField] int maxGridItems = 16;
     [SerializeField] Vector2 gridCellSize = new Vector2(155f, 155f);
     [SerializeField] Vector2 gridSpacing = new Vector2(12f, 12f);
+
+    [Header("Unlock Random")]
+    [SerializeField] Button unlockRandomButton;
+    [SerializeField] Text unlockRandomText;
+    [SerializeField] TMP_Text unlockRandomTMPText;
+    [SerializeField] int unlockAppleCost = 1;
 
     readonly List<KnifeItemUI> items = new List<KnifeItemUI>();
 
@@ -40,11 +46,22 @@ public class KnifeSelectManager : MonoBehaviour
         ConfigureExistingGrid();
     }
 
+    void OnEnable()
+    {
+        AppleWallet.AppleCountChanged += HandleAppleCountChanged;
+    }
+
+    void OnDisable()
+    {
+        AppleWallet.AppleCountChanged -= HandleAppleCountChanged;
+    }
+
     void Start()
     {
         LoadSelection();
         GenerateUI();
         ShowSelectedPreview();
+        RefreshUnlockButton();
     }
 
     void LoadSelection()
@@ -85,6 +102,9 @@ public class KnifeSelectManager : MonoBehaviour
 
     public void SelectKnife(string id)
     {
+        if (!KnifeDatabase.IsKnifeUnlocked(id))
+            return;
+
         currentSelectedID = id;
         KnifeDatabase.SelectKnife(id);
 
@@ -117,9 +137,6 @@ public class KnifeSelectManager : MonoBehaviour
 
     void ResolveSceneReferences()
     {
-        if (sceneCanvas == null)
-            sceneCanvas = ResolveCanvas();
-
         if (contentParent == null)
         {
             GameObject gridObject = GameObject.Find("Grid");
@@ -159,20 +176,8 @@ public class KnifeSelectManager : MonoBehaviour
                 previewUI.previewImage = previewImage;
             }
         }
-    }
 
-    Canvas ResolveCanvas()
-    {
-        GameObject preferredCanvasObject = GameObject.Find("Canvas (1)");
-        if (preferredCanvasObject == null)
-            preferredCanvasObject = GameObject.Find("Canvas");
-        if (preferredCanvasObject == null)
-            preferredCanvasObject = GameObject.Find("Canvas ");
-
-        if (preferredCanvasObject != null)
-            return preferredCanvasObject.GetComponent<Canvas>();
-
-        return FindFirstObjectByType<Canvas>();
+        ResolveUnlockButton();
     }
 
     void ConfigureExistingGrid()
@@ -228,9 +233,116 @@ public class KnifeSelectManager : MonoBehaviour
         return existingItems;
     }
 
+    void ResolveUnlockButton()
+    {
+        if (unlockRandomButton == null)
+        {
+            GameObject buttonObject = GameObject.Find("UnlockRandomButton");
+            if (buttonObject != null)
+                unlockRandomButton = buttonObject.GetComponent<Button>();
+        }
+
+        if (unlockRandomButton == null)
+        {
+            Debug.LogWarning("KnifeSelectManager requires an UnlockRandomButton in the scene.");
+            return;
+        }
+
+        if (unlockRandomText == null)
+            unlockRandomText = unlockRandomButton.GetComponentInChildren<Text>(true);
+
+        if (unlockRandomTMPText == null)
+            unlockRandomTMPText = unlockRandomButton.GetComponentInChildren<TMP_Text>(true);
+
+        unlockRandomButton.onClick.RemoveListener(UnlockRandomKnife);
+        unlockRandomButton.onClick.AddListener(UnlockRandomKnife);
+    }
+
+    public void UnlockRandomKnife()
+    {
+        if (!KnifeDatabase.HasLockedKnives())
+        {
+            RefreshAppleUI();
+            return;
+        }
+
+        if (!AppleWallet.TrySpendApples(unlockAppleCost))
+        {
+            RefreshAppleUI();
+            return;
+        }
+
+        RefreshAppleUI();
+
+        string unlockedKnifeId = KnifeDatabase.UnlockRandomLockedKnife();
+        if (string.IsNullOrWhiteSpace(unlockedKnifeId))
+        {
+            AppleWallet.AddApples(unlockAppleCost);
+            RefreshAppleUI();
+            return;
+        }
+
+        currentSelectedID = unlockedKnifeId;
+        KnifeDatabase.SelectKnife(unlockedKnifeId);
+
+        GenerateUI();
+        UpdateSelectionUI();
+        ShowSelectedPreview();
+        RefreshAppleUI();
+    }
+
+    void RefreshUnlockButton()
+    {
+        if (unlockRandomButton == null)
+            return;
+
+        int lockedKnives = KnifeDatabase.CountLockedKnives();
+        bool canUnlock = lockedKnives > 0 && AppleWallet.GetAppleCount() >= unlockAppleCost;
+        string buttonLabel = lockedKnives <= 0
+            ? "ALL KNIVES UNLOCKED"
+            : $"UNLOCK RANDOM\nCOST: {unlockAppleCost} APPLE";
+
+        unlockRandomButton.interactable = canUnlock;
+
+        Image background = unlockRandomButton.GetComponent<Image>();
+        if (background != null)
+        {
+            background.color = lockedKnives <= 0
+                ? new Color(0.26f, 0.31f, 0.35f, 1f)
+                : canUnlock
+                    ? new Color(0.11f, 0.82f, 0.25f, 1f)
+                    : new Color(0.19f, 0.49f, 0.25f, 1f);
+        }
+
+        SetUnlockButtonText(buttonLabel);
+    }
+
+    void HandleAppleCountChanged(int appleCount)
+    {
+        RefreshUnlockButton();
+    }
+
     Image FindImage(string objectName)
     {
         GameObject imageObject = GameObject.Find(objectName);
         return imageObject != null ? imageObject.GetComponent<Image>() : null;
+    }
+
+    void SetUnlockButtonText(string value)
+    {
+        if (unlockRandomText != null)
+            unlockRandomText.text = value;
+
+        if (unlockRandomTMPText != null)
+            unlockRandomTMPText.text = value;
+    }
+
+    void RefreshAppleUI()
+    {
+        RefreshUnlockButton();
+
+        GlobalAppleHUD[] huds = Object.FindObjectsByType<GlobalAppleHUD>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        for (int i = 0; i < huds.Length; i++)
+            huds[i].RefreshNow();
     }
 }

@@ -14,4 +14,7 @@ public class LevelData
     [HideInInspector]
     public Vector2 targetScale = Vector2.one;
     public GameObject[] breakPieces;
+    [Header("Apple")]
+    public List<float> appleAngles;
+    public int appleCount;
 }

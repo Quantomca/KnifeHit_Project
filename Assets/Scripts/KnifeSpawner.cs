@@ -47,6 +47,7 @@ public class KnifeSpawner : MonoBehaviour
         if (knifePrefab == null) return;
 
         currentKnife = Instantiate(knifePrefab, transform.position, Quaternion.identity);
+        ParentToGameplayRoot(currentKnife.transform);
         ApplySelectedKnifeAppearance(currentKnife);
         canThrow = true;
     }
@@ -92,5 +93,18 @@ public class KnifeSpawner : MonoBehaviour
         SpriteRenderer spriteRenderer = knifeObject.GetComponent<SpriteRenderer>();
         if (spriteRenderer != null)
             spriteRenderer.sprite = selectedKnife.gameplaySprite;
+    }
+
+    void ParentToGameplayRoot(Transform knifeTransform)
+    {
+        if (knifeTransform == null || LevelManager.instance == null)
+            return;
+
+        Transform gameplayParent = LevelManager.instance.GetGameplayParent();
+        if (gameplayParent != null)
+        {
+            knifeTransform.SetParent(gameplayParent, true);
+            knifeTransform.SetAsLastSibling();
+        }
     }
 }

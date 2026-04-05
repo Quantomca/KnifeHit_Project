@@ -1,28 +1,28 @@
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class StageUIManager : MonoBehaviour
 {
     public static StageUIManager instance;
 
     [Header("UI Setup")]
-    public TextMeshProUGUI stageText;       // Text hiển thị Stage
-    public Transform iconContainer;          // Container cho icon level
-    public GameObject levelIconPrefab;       // Prefab level thường
-    public GameObject bossIconPrefab;        // Prefab boss
+    public TextMeshProUGUI stageText;
+    public Transform iconContainer;
+    public GameObject levelIconPrefab;
+    public GameObject bossIconPrefab;
 
     [Header("Colors")]
-    public Color unlockedColor = new Color(1f, 0.85f, 0f); // vàng
-    public Color lockedColor = Color.white;                 // trắng
+    public Color unlockedColor = new Color(1f, 0.85f, 0f);
+    public Color lockedColor = Color.white;
 
     [Header("Level Config")]
-    public int totalLevels = 20;
-    public int bossEvery = 5;     // mỗi 5 level là boss
+    public int totalLevels = 5;
+    public int bossEvery = 5;
 
-    private List<Image> levelIcons = new List<Image>();
+    readonly List<Image> levelIcons = new List<Image>();
 
     void Awake()
     {
@@ -31,67 +31,96 @@ public class StageUIManager : MonoBehaviour
 
     void Start()
     {
-        GenerateLevelIcons();
-        UpdateStageUI(1);
+        RebuildIcons();
+        UpdateStageUI(1, 1);
     }
 
-    /// <summary>
-    /// Tạo icon cho tất cả level
-    /// </summary>
-    public void GenerateLevelIcons()
+    public void RebuildIcons()
     {
         levelIcons.Clear();
 
-        for (int i = 1; i <= totalLevels; i++)
+        if (iconContainer == null)
+            return;
+
+        for (int index = iconContainer.childCount - 1; index >= 0; index--)
+            Destroy(iconContainer.GetChild(index).gameObject);
+
+        for (int level = 1; level <= totalLevels; level++)
         {
-            GameObject prefab = (i % bossEvery == 0) ? bossIconPrefab : levelIconPrefab;
+            GameObject prefab = level % Mathf.Max(1, bossEvery) == 0 ? bossIconPrefab : levelIconPrefab;
+            if (prefab == null)
+                continue;
+
             GameObject icon = Instantiate(prefab, iconContainer);
-            Image img = icon.GetComponent<Image>();
+            Image image = icon.GetComponent<Image>();
+            if (image == null)
+                continue;
 
-            img.color = lockedColor;
-            img.transform.localScale = Vector3.one;
-
-            levelIcons.Add(img);
+            image.color = lockedColor;
+            image.transform.localScale = Vector3.one;
+            levelIcons.Add(image);
         }
     }
 
-    /// <summary>
-    /// Cập nhật stage hiện tại
-    /// </summary>
-public void UpdateStageUI(int currentLevel)
-{
-    stageText.text = "STAGE " + currentLevel;
-
-    for (int i = 0; i < levelIcons.Count; i++)
+    public void UpdateStageUI(int currentStage, int currentLevel)
     {
-        Image img = levelIcons[i];
+        if (stageText != null)
+            stageText.text = "STAGE " + Mathf.Max(1, currentStage);
 
-        if (i < currentLevel)
+        int visibleProgress = Mathf.Clamp(currentLevel, 1, Mathf.Max(1, totalLevels));
+
+        for (int index = 0; index < levelIcons.Count; index++)
         {
-            if (img.color != unlockedColor)  // chỉ pop lần đầu
+            Image image = levelIcons[index];
+            bool isUnlocked = index < visibleProgress;
+
+            if (isUnlocked)
             {
-                img.color = unlockedColor;
-                StartCoroutine(PopIcon(img.transform));
+                if (image.color != unlockedColor)
+                {
+                    image.color = unlockedColor;
+                    StartCoroutine(PopIcon(image.transform));
+                }
+            }
+            else
+            {
+                image.color = lockedColor;
+                image.transform.localScale = Vector3.one;
             }
         }
-        else
-        {
-            img.color = lockedColor;
-        }
     }
-}
 
-    private IEnumerator PopIcon(Transform t)
+    public void ResetForNewStage(int currentStage)
     {
-        Vector3 original = t.localScale;
-        Vector3 target = original * 1.3f;
+        RebuildIcons();
+        UpdateStageUI(currentStage, 1);
+    }
 
+    public void ResetStageUI()
+    {
+        RebuildIcons();
+        UpdateStageUI(1, 1);
+    }
+
+    public void SetGameplayUIVisible(bool isVisible)
+    {
+        if (stageText != null)
+            stageText.gameObject.SetActive(isVisible);
+
+        if (iconContainer != null)
+            iconContainer.gameObject.SetActive(isVisible);
+    }
+
+    IEnumerator PopIcon(Transform iconTransform)
+    {
+        Vector3 originalScale = Vector3.one;
+        Vector3 targetScale = originalScale * 1.3f;
         float elapsed = 0f;
         float duration = 0.1f;
 
         while (elapsed < duration)
         {
-            t.localScale = Vector3.Lerp(original, target, elapsed / duration);
+            iconTransform.localScale = Vector3.Lerp(originalScale, targetScale, elapsed / duration);
             elapsed += Time.deltaTime;
             yield return null;
         }
@@ -99,24 +128,11 @@ public void UpdateStageUI(int currentLevel)
         elapsed = 0f;
         while (elapsed < duration)
         {
-            t.localScale = Vector3.Lerp(target, original, elapsed / duration);
+            iconTransform.localScale = Vector3.Lerp(targetScale, originalScale, elapsed / duration);
             elapsed += Time.deltaTime;
             yield return null;
         }
 
-        t.localScale = original;
-    }
-
-    /// <summary>
-    /// Reset stage (chơi lại game)
-    /// </summary>
-    public void ResetStageUI()
-    {
-        foreach (var img in levelIcons)
-        {
-            img.color = lockedColor;
-            img.transform.localScale = Vector3.one;
-        }
-        stageText.text = "STAGE 1";
+        iconTransform.localScale = originalScale;
     }
 }
