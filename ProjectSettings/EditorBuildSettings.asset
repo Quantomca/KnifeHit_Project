@@ -17,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: db7cef31a02eab742a11d8e034407ba1
+  - enabled: 1
+    path: Assets/Scenes/ShopScene.unity
+    guid: 046efec033e4cf74c8793ad251cc376f
+  - enabled: 1
+    path: Assets/Scenes/SettingScene.unity
+    guid: 7d951b9a8395f494991a7a6d66fa705d
+  - enabled: 1
+    path: Assets/Scenes/VipScene.unity
+    guid: 48c7b8c7e5a16874cb8c8b4abddb3bff
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

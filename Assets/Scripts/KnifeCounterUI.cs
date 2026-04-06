@@ -5,6 +5,7 @@ using UnityEngine;
 public class KnifeCounterUI : MonoBehaviour
 {
     public static KnifeCounterUI instance;
+    public static int TotalThrown => totalThrown;
 
     static readonly List<KnifeCounterUI> instances = new List<KnifeCounterUI>();
     static KnifeCounterDisplayMode displayMode = KnifeCounterDisplayMode.Gameplay;

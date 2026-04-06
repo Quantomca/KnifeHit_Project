@@ -6,6 +6,7 @@ public class MainMenu : MonoBehaviour
 {
     [Header("Optional References")]
     [SerializeField] Button knifeSelectButton;
+    [SerializeField] Button shopButton;
     [SerializeField] Image selectedKnifePreviewImage;
     [SerializeField] SpriteRenderer selectedKnifePreviewRenderer;
 
@@ -31,6 +32,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(KnifeSelectManager.SceneName);
     }
 
+
     public void Quit()
     {
         Application.Quit();
@@ -51,6 +53,7 @@ public class MainMenu : MonoBehaviour
         knifeSelectButton.onClick.RemoveListener(OpenKnifeSelect);
         knifeSelectButton.onClick.AddListener(OpenKnifeSelect);
     }
+
 
     void ResolvePreviewTargets()
     {

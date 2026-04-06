@@ -32,4 +32,20 @@ public class GameOverUI : MonoBehaviour
         if (GameManager.instance != null)
             GameManager.instance.PrepareGameplayUI();
     }
+    
+    public void Vip()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("VipScene");
+    }
+    public void Shop()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("ShopScene");
+    }
+    public void Setting()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("SettingScene");
+    }
 }

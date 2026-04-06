@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     Image gameContinueBackdrop;
     TMP_Text levelCounterText;
     TMP_Text gameOverStageText;
+    TMP_Text gameOverKnifeCounterText;
     Button noThanksButton;
     Button knifeSelectButton;
     GameObject canvasUiRoot;
@@ -106,7 +107,7 @@ public class GameManager : MonoBehaviour
         SetGameplayWorldState(isVisible: false, isPaused: true);
         KnifeCounterUI.SetDisplayMode(KnifeCounterDisplayMode.Hidden);
         SetGameplayHudVisible(false);
-        UpdateLevelCounter();
+        UpdateGameOverStats();
         RefreshAppleHud();
     }
 
@@ -193,6 +194,9 @@ public class GameManager : MonoBehaviour
                 gameOverStageText = stageTextTransform.GetComponent<TMP_Text>();
         }
 
+        if (gameOverKnifeCounterText == null && gameOverUI != null)
+            ResolveGameOverKnifeCounterText();
+
         if (noThanksButton == null && gameContinueUI != null)
         {
             Transform noThanksTransform = FindChildRecursive(gameContinueUI.transform, "ButtonNothanks");
@@ -261,16 +265,16 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(KnifeSelectManager.SceneName);
     }
 
-    void UpdateLevelCounter()
+    void UpdateGameOverStats()
     {
-        if (LevelManager.instance == null)
-            return;
-
-        if (levelCounterText != null)
+        if (LevelManager.instance != null && levelCounterText != null)
             levelCounterText.text = LevelManager.instance.GetCompletedLevelsInCurrentStage().ToString();
 
-        if (gameOverStageText != null)
+        if (LevelManager.instance != null && gameOverStageText != null)
             gameOverStageText.text = "STAGE " + LevelManager.instance.GetCurrentStage().ToString();
+
+        if (gameOverKnifeCounterText != null)
+            gameOverKnifeCounterText.text = "" + KnifeCounterUI.TotalThrown.ToString();
     }
 
     void SetGameplayHudVisible(bool isVisible)
@@ -375,6 +379,59 @@ public class GameManager : MonoBehaviour
         GiftButtonController[] giftButtons = rootObject.GetComponentsInChildren<GiftButtonController>(true);
         for (int i = 0; i < giftButtons.Length; i++)
             giftButtons[i].RefreshNow();
+    }
+
+    void ResolveGameOverKnifeCounterText()
+    {
+        if (gameOverUI == null)
+            return;
+
+        Transform knifeCounterTransform = FindChildRecursive(gameOverUI.transform, "KnifeCounterText");
+        if (knifeCounterTransform == null)
+            knifeCounterTransform = FindChildRecursive(gameOverUI.transform, "KnifeCountText");
+
+        if (knifeCounterTransform != null)
+        {
+            gameOverKnifeCounterText = knifeCounterTransform.GetComponent<TMP_Text>();
+            if (gameOverKnifeCounterText != null)
+                return;
+        }
+
+        CreateGameOverKnifeCounterText();
+    }
+
+    void CreateGameOverKnifeCounterText()
+    {
+        Transform parentTransform = levelCounterUI != null ? levelCounterUI.transform : gameOverUI.transform;
+        if (parentTransform == null)
+            return;
+
+        GameObject knifeCounterObject = new GameObject("KnifeCounterText", typeof(RectTransform));
+        RectTransform knifeCounterRect = knifeCounterObject.GetComponent<RectTransform>();
+        knifeCounterRect.SetParent(parentTransform, false);
+        knifeCounterRect.anchorMin = new Vector2(0.5f, 0.5f);
+        knifeCounterRect.anchorMax = new Vector2(0.5f, 0.5f);
+        knifeCounterRect.pivot = new Vector2(0.5f, 0.5f);
+        knifeCounterRect.anchoredPosition = new Vector2(-18f, -210f);
+        knifeCounterRect.sizeDelta = new Vector2(520f, 84f);
+
+        TextMeshProUGUI knifeCounterTmp = knifeCounterObject.AddComponent<TextMeshProUGUI>();
+        TMP_Text styleSource = gameOverStageText != null ? gameOverStageText : levelCounterText;
+        if (styleSource != null)
+        {
+            knifeCounterTmp.font = styleSource.font;
+            knifeCounterTmp.fontSharedMaterial = styleSource.fontSharedMaterial;
+        }
+
+        knifeCounterTmp.text = "0";
+        knifeCounterTmp.fontSize = 72f;
+        knifeCounterTmp.fontStyle = FontStyles.Bold;
+        knifeCounterTmp.color = new Color(0.8039216f, 0.63529414f, 0f, 1f);
+        knifeCounterTmp.alignment = TextAlignmentOptions.Center;
+        knifeCounterTmp.enableWordWrapping = false;
+        knifeCounterTmp.raycastTarget = false;
+
+        gameOverKnifeCounterText = knifeCounterTmp;
     }
 
     GameObject FindSceneObject(string objectName)

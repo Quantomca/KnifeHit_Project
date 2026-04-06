@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d4b3a01f6c4c8b9d35f7a112233445, type: 3}
+  m_Name: ShopSceneConfig
+  m_EditorClassIdentifier: 
+  backIcon: {fileID: -4571828015118065507, guid: 299885beb0c805b498d7fdb2da695b52, type: 3}
+  appleIcon: {fileID: -7832214784768987486, guid: 35e280e4b43ee0a42a0d54538dc3c88a, type: 3}
+  heartIcon: {fileID: -205270267638800340, guid: 944fc3c31ce53c74eb3aa36eb64c79d7, type: 3}
+  sectionLine: {fileID: -3019424127853119141, guid: bfa4674de29953c4d8477036128fd135, type: 3}
+  removeAdsSprite: {fileID: -2177223809951169663, guid: 5961ef0d0aa79174e95bd11aae002f38, type: 3}
+  extraLivesSprite: {fileID: -450108267431124739, guid: d3c3f643e16040040b9aa56f4c2bec62, type: 3}
+  blackPackSprite: {fileID: 2375022247333179879, guid: 71e8e81747c8db547901e68a38f4c25d, type: 3}
+  futurePackSprite: {fileID: -6355024694507511745, guid: a93e41cb5725a2940bfb9cfd5bc5f63c, type: 3}
+  redPackSprite: {fileID: -7777794403902367323, guid: 5435c0b63364f854994b7d1d38a57a28, type: 3}
+  purplePackSprite: {fileID: 2038552100469737243, guid: c517ddf83201d5f48a52d750a3c91c57, type: 3}
+  postApocalypticPackSprite: {fileID: -4055443673388237875, guid: 11e5a10446c4f0f42a5a50c2a41769ad, type: 3}
+  icePackSprite: {fileID: -2546932939201716582, guid: 201212a68e8f4f8428f004881779129c, type: 3}
+  bluePackSprite: {fileID: -7538002629156404006, guid: 5c1a26ca04a62434a803e6dde82a96b1, type: 3}
+  woodooPackSprite: {fileID: -8048540373145797403, guid: decd5452bf48d7045a35a1a52a0c15b2, type: 3}
