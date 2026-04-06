@@ -4,13 +4,15 @@ using UnityEngine.InputSystem;
 public class KnifeSpawner : MonoBehaviour
 {
     public GameObject knifePrefab;
+    [SerializeField] float nextKnifeSpawnDelay = 0.01f;
 
     private GameObject currentKnife;
     private bool canThrow = true;
 
     void Start()
     {
-        Spawn();
+        if (currentKnife == null)
+            Spawn();
     }
 
     void Update()
@@ -34,14 +36,18 @@ public class KnifeSpawner : MonoBehaviour
             knife.Throw();
             GameAudio.PlayKnifeThrow();
 
-            KnifeUIManager.instance.UseKnife();
-            LevelManager.instance.OnKnifeThrown();
-
             currentKnife = null;
-
-            if (LevelManager.instance.ShouldSpawnNextKnife())
-                Invoke(nameof(Spawn), 0.02f);
         }
+    }
+
+    public void QueueNextKnife()
+    {
+        CancelInvoke(nameof(Spawn));
+
+        if (knifePrefab == null)
+            return;
+
+        Invoke(nameof(Spawn), nextKnifeSpawnDelay);
     }
 
     void Spawn()
@@ -56,7 +62,7 @@ public class KnifeSpawner : MonoBehaviour
 
     public void ResetSpawner()
     {
-        CancelInvoke();
+        CancelInvoke(nameof(Spawn));
 
         if (currentKnife != null)
             Destroy(currentKnife);
@@ -67,10 +73,10 @@ public class KnifeSpawner : MonoBehaviour
 
     public void StopSpawning()
     {
-        CancelInvoke();
+        CancelInvoke(nameof(Spawn));
         canThrow = false;
 
-            if (currentKnife != null)
+        if (currentKnife != null)
             Destroy(currentKnife);
 
         currentKnife = null;

@@ -12,7 +12,7 @@ public class Knife : MonoBehaviour
     const int KnifeSortingOrder = 110;
 
     [Header("Movement")]
-    public float speed = 90f;
+    public float speed = 40f;
 
     [Header("Stuck Pose")]
     [FormerlySerializedAs("stuckEmbedPercent")]
@@ -74,8 +74,6 @@ public class Knife : MonoBehaviour
         rb.linearVelocity = Vector2.up * speed;
         rb.angularVelocity = 0f;
         gameObject.layer = defaultLayer;
-
-        KnifeCounterUI.instance.AddKnife();
     }
 
     void OnTriggerEnter2D(Collider2D col)

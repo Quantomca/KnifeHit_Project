@@ -18,6 +18,7 @@ public class GameOverUI : MonoBehaviour
     public void Restart()
     {
         Time.timeScale = 1f;
+        KnifeCounterUI.ResetTotalCounter();
 
         if (LevelManager.instance != null)
         {

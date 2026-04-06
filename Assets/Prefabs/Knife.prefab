@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9411d3e27553d86478c196027b996cfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Knife
-  speed: 10
+  speed: 40
   stuckPenetrationPercent: 0.3
   tipInsetPercent: 0.06
   shakeDuration: 0.15

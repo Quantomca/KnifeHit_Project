@@ -274,7 +274,7 @@ public class GameManager : MonoBehaviour
             gameOverStageText.text = "STAGE " + LevelManager.instance.GetCurrentStage().ToString();
 
         if (gameOverKnifeCounterText != null)
-            gameOverKnifeCounterText.text = "" + KnifeCounterUI.TotalThrown.ToString();
+            gameOverKnifeCounterText.text = "" + KnifeCounterUI.TotalSuccessfulKnives.ToString();
     }
 
     void SetGameplayHudVisible(bool isVisible)

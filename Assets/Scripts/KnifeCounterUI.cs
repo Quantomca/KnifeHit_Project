@@ -5,11 +5,11 @@ using UnityEngine;
 public class KnifeCounterUI : MonoBehaviour
 {
     public static KnifeCounterUI instance;
-    public static int TotalThrown => totalThrown;
+    public static int TotalSuccessfulKnives => totalSuccessfulKnives;
 
     static readonly List<KnifeCounterUI> instances = new List<KnifeCounterUI>();
     static KnifeCounterDisplayMode displayMode = KnifeCounterDisplayMode.Gameplay;
-    static int totalThrown;
+    static int totalSuccessfulKnives;
 
     [SerializeField] TextMeshProUGUI counterText;
     [SerializeField] bool isContinueCounter;
@@ -58,13 +58,18 @@ public class KnifeCounterUI : MonoBehaviour
 
     public void AddKnife()
     {
-        totalThrown++;
+        totalSuccessfulKnives++;
         RefreshAll();
     }
 
     public void ResetCounter()
     {
-        totalThrown = 0;
+        ResetTotalCounter();
+    }
+
+    public static void ResetTotalCounter()
+    {
+        totalSuccessfulKnives = 0;
         RefreshAll();
     }
 
@@ -79,7 +84,7 @@ public class KnifeCounterUI : MonoBehaviour
     void UpdateUI()
     {
         if (counterText != null)
-            counterText.text = totalThrown.ToString();
+            counterText.text = totalSuccessfulKnives.ToString();
     }
 
     void ApplyVisibility()

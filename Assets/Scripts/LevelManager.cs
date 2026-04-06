@@ -47,6 +47,7 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
+        KnifeCounterUI.ResetTotalCounter();
         StartLevel();
     }
 
@@ -90,22 +91,11 @@ public class LevelManager : MonoBehaviour
             KnifeUIManager.instance.ResetUI();
         }
 
-        if (KnifeCounterUI.instance != null)
-            KnifeCounterUI.instance.ResetCounter();
-
         if (StageUIManager.instance != null)
             StageUIManager.instance.UpdateStageUI(currentStage, currentLevel);
 
         SpawnPreStuckKnives(data.stuckKnifeAngles);
         SpawnApples(data);
-    }
-
-    public void OnKnifeThrown()
-    {
-        if (isStageClearing || !canThrow)
-            return;
-
-        knivesLeft = Mathf.Max(0, knivesLeft - 1);
     }
 
     public void HandleThrownKnifeHit(Knife thrownKnife, Collider2D targetCollider)
@@ -122,6 +112,7 @@ public class LevelManager : MonoBehaviour
 
         target.PlayHitFeedback();
         GameAudio.PlayKnifeHitWood();
+        RegisterSuccessfulKnifeHit();
         OnKnifeStuck();
     }
 
@@ -305,7 +296,31 @@ public class LevelManager : MonoBehaviour
             isStageClearing = true;
             canThrow = false;
             Invoke(nameof(WinLevel), 0.12f);
+            return;
         }
+
+        SpawnNextKnife();
+    }
+
+    void RegisterSuccessfulKnifeHit()
+    {
+        knivesLeft = Mathf.Max(0, knivesLeft - 1);
+
+        if (KnifeCounterUI.instance != null)
+            KnifeCounterUI.instance.AddKnife();
+
+        if (KnifeUIManager.instance != null)
+            KnifeUIManager.instance.UseKnife();
+    }
+
+    void SpawnNextKnife()
+    {
+        if (!ShouldSpawnNextKnife())
+            return;
+
+        KnifeSpawner spawner = FindFirstObjectByType<KnifeSpawner>();
+        if (spawner != null)
+            spawner.QueueNextKnife();
     }
 
     void ConfigureBreakPieces(GameObject targetObject, LevelData data)
