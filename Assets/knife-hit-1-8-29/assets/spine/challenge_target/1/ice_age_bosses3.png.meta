@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 2722756f5f5965742906bded6fafd015
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3605168429644123643
+    second: ice_age_bosses3_0
+  - first:
+      213: -8290398848490626671
+    second: ice_age_bosses3_1
+  - first:
+      213: -4183929279934181795
+    second: ice_age_bosses3_2
+  - first:
+      213: 1224168955865751124
+    second: ice_age_bosses3_3
+  - first:
+      213: -2199565014863389713
+    second: ice_age_bosses3_4
+  - first:
+      213: -8635561873046670640
+    second: ice_age_bosses3_5
+  - first:
+      213: -932750829722033137
+    second: ice_age_bosses3_6
+  - first:
+      213: -5486662713618689074
+    second: ice_age_bosses3_7
+  - first:
+      213: -5588533508483651460
+    second: ice_age_bosses3_8
+  - first:
+      213: 6683820930184326894
+    second: ice_age_bosses3_9
+  - first:
+      213: -110071981098452879
+    second: ice_age_bosses3_10
+  - first:
+      213: -1715805703884519439
+    second: ice_age_bosses3_11
+  - first:
+      213: -1918861025677667886
+    second: ice_age_bosses3_12
+  - first:
+      213: -6677046544166554355
+    second: ice_age_bosses3_13
+  - first:
+      213: 3592440716455306063
+    second: ice_age_bosses3_14
+  - first:
+      213: 8378224811194206462
+    second: ice_age_bosses3_15
+  - first:
+      213: 2245547923527530912
+    second: ice_age_bosses3_16
+  - first:
+      213: -3904137848388346204
+    second: ice_age_bosses3_17
+  - first:
+      213: -5047074511231748920
+    second: ice_age_bosses3_18
+  - first:
+      213: -2363447265508939515
+    second: ice_age_bosses3_19
+  - first:
+      213: 4609204762664700753
+    second: ice_age_bosses3_20
+  - first:
+      213: -4754496696938257310
+    second: ice_age_bosses3_21
+  - first:
+      213: -858697746017330023
+    second: ice_age_bosses3_22
+  - first:
+      213: -1540963648783095119
+    second: ice_age_bosses3_23
+  - first:
+      213: 921828581402370518
+    second: ice_age_bosses3_24
+  - first:
+      213: 7584773142264192066
+    second: ice_age_bosses3_25
+  - first:
+      213: -7638261376760713210
+    second: ice_age_bosses3_26
+  - first:
+      213: 7327155085673253502
+    second: ice_age_bosses3_27
+  - first:
+      213: 3641772562588148021
+    second: ice_age_bosses3_28
+  - first:
+      213: -4976176204435554290
+    second: ice_age_bosses3_29
+  - first:
+      213: -123287938478990673
+    second: ice_age_bosses3_30
+  - first:
+      213: 9179596489569272630
+    second: ice_age_bosses3_31
+  - first:
+      213: -3016826951663097972
+    second: ice_age_bosses3_32
+  - first:
+      213: -1332756532002369692
+    second: ice_age_bosses3_33
+  - first:
+      213: 2663250837878179517
+    second: ice_age_bosses3_34
+  - first:
+      213: 5151913452092953675
+    second: ice_age_bosses3_35
+  - first:
+      213: 5129259944675587643
+    second: ice_age_bosses3_36
+  - first:
+      213: 7587115205192851807
+    second: ice_age_bosses3_37
+  - first:
+      213: 9190159190669550554
+    second: ice_age_bosses3_38
+  - first:
+      213: 8036717531660640356
+    second: ice_age_bosses3_39
+  - first:
+      213: 3299483853329462122
+    second: ice_age_bosses3_40
+  - first:
+      213: -8723656526075866877
+    second: ice_age_bosses3_41
+  - first:
+      213: -8768184999122247847
+    second: ice_age_bosses3_42
+  - first:
+      213: 1299938383653770239
+    second: ice_age_bosses3_43
+  - first:
+      213: 2232967602271743553
+    second: ice_age_bosses3_44
+  - first:
+      213: -1758382522473571236
+    second: ice_age_bosses3_45
+  - first:
+      213: 1552222417137753668
+    second: ice_age_bosses3_46
+  - first:
+      213: 3645552735953233583
+    second: ice_age_bosses3_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ice_age_bosses3_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1547
+        width: 26
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502fb9b0a6ed7fdc0800000000000000
+      internalID: -3605168429644123643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1551
+        width: 24
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191a865fb2692fc80800000000000000
+      internalID: -8290398848490626671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1555
+        width: 20
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5eca20cc72bfe5c0800000000000000
+      internalID: -4183929279934181795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1554
+        width: 20
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e507fed2f1df010800000000000000
+      internalID: 1224168955865751124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1536
+        width: 26
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febd0b4d5439971e0800000000000000
+      internalID: -2199565014863389713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1516
+        width: 52
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d27529ca32582880800000000000000
+      internalID: -8635561873046670640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_6
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1523
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04a772ff043e03f0800000000000000
+      internalID: -932750829722033137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1522
+        width: 290
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec39060e4557bd3b0800000000000000
+      internalID: -5486662713618689074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_8
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1522
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78e673226a8172b0800000000000000
+      internalID: -5588533508483651460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_9
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1522
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee25fd39b3b1cc50800000000000000
+      internalID: 6683820930184326894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_10
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1420
+        width: 202
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17837eacd12f87ef0800000000000000
+      internalID: -110071981098452879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_11
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1415
+        width: 145
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7cf549dcb3038e0800000000000000
+      internalID: -1715805703884519439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_12
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1415
+        width: 145
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1142f4016de55e0800000000000000
+      internalID: -1918861025677667886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_13
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1492
+        width: 160
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05f33a6b8d5653a0800000000000000
+      internalID: -6677046544166554355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_14
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1492
+        width: 109
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43e7fc4cc9ead130800000000000000
+      internalID: 3592440716455306063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_15
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1486
+        width: 109
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef84897731f654470800000000000000
+      internalID: 8378224811194206462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_16
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1595
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a979f360f9c92f10800000000000000
+      internalID: 2245547923527530912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_17
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1486
+        width: 106
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae97a8df47b1d9c0800000000000000
+      internalID: -3904137848388346204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_18
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1499
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c47a1bf87035f9b0800000000000000
+      internalID: -5047074511231748920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1493
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509a8fdeb39533fd0800000000000000
+      internalID: -2363447265508939515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_20
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1138
+        width: 359
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b0baf9f4f27ff30800000000000000
+      internalID: 4609204762664700753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1138
+        width: 547
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2642a3dc172a40eb0800000000000000
+      internalID: -4754496696938257310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_22
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1166
+        width: 101
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c553713fa4514f0800000000000000
+      internalID: -858697746017330023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_23
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1428
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba6e7ec9b56d9ae0800000000000000
+      internalID: -1540963648783095119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_24
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1182
+        width: 173
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d16a42f53efacc00800000000000000
+      internalID: 921828581402370518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_25
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1254
+        width: 285
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c949eacf6824960800000000000000
+      internalID: 7584773142264192066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_26
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1113
+        width: 234
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60077904fb17ff590800000000000000
+      internalID: -7638261376760713210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_27
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1399
+        width: 74
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a40cfbab84fa560800000000000000
+      internalID: 7327155085673253502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_28
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1182
+        width: 285
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531a4d9c9dc2a8230800000000000000
+      internalID: 3641772562588148021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 573
+        width: 565
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e000ed26b1211fab0800000000000000
+      internalID: -4976176204435554290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_30
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 573
+        width: 354
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa9edde54ef94ef0800000000000000
+      internalID: -123287938478990673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_31
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1120
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63303362f5a746f70800000000000000
+      internalID: 9179596489569272630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_32
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 963
+        width: 441
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87eb4d0fd31226d0800000000000000
+      internalID: -3016826951663097972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_33
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 926
+        width: 250
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fcae1def8118de0800000000000000
+      internalID: -1332756532002369692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_34
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 566
+        width: 354
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db68d7bc684c5f420800000000000000
+      internalID: 2663250837878179517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_35
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 566
+        width: 395
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b449e891df54f7740800000000000000
+      internalID: 5151913452092953675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_36
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 941
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3637036ebace2740800000000000000
+      internalID: 5129259944675587643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_37
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 862
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f512c73b419da4960800000000000000
+      internalID: 7587115205192851807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_38
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 607
+        width: 136
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad36625a7110a8f70800000000000000
+      internalID: 9190159190669550554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_39
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 573
+        width: 119
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46069c2c308288f60800000000000000
+      internalID: 8036717531660640356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_40
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 854
+        width: 85
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63f6db451f1acd20800000000000000
+      internalID: 3299483853329462122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 572
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301dab40c985fe680800000000000000
+      internalID: -8723656526075866877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_42
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1
+        width: 565
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fd86af236215680800000000000000
+      internalID: -8768184999122247847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_43
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1
+        width: 565
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff31493921f4a0210800000000000000
+      internalID: 1299938383653770239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_44
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 566
+        width: 85
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14eec5814381dfe10800000000000000
+      internalID: 2232967602271743553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_45
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 523
+        width: 85
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c15b08968f897e0800000000000000
+      internalID: -1758382522473571236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_46
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1
+        width: 196
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ed4e9701a9a8510800000000000000
+      internalID: 1552222417137753668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_age_bosses3_47
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6227cf5ea979230800000000000000
+      internalID: 3645552735953233583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ice_age_bosses3_0: -3605168429644123643
+      ice_age_bosses3_1: -8290398848490626671
+      ice_age_bosses3_10: -110071981098452879
+      ice_age_bosses3_11: -1715805703884519439
+      ice_age_bosses3_12: -1918861025677667886
+      ice_age_bosses3_13: -6677046544166554355
+      ice_age_bosses3_14: 3592440716455306063
+      ice_age_bosses3_15: 8378224811194206462
+      ice_age_bosses3_16: 2245547923527530912
+      ice_age_bosses3_17: -3904137848388346204
+      ice_age_bosses3_18: -5047074511231748920
+      ice_age_bosses3_19: -2363447265508939515
+      ice_age_bosses3_2: -4183929279934181795
+      ice_age_bosses3_20: 4609204762664700753
+      ice_age_bosses3_21: -4754496696938257310
+      ice_age_bosses3_22: -858697746017330023
+      ice_age_bosses3_23: -1540963648783095119
+      ice_age_bosses3_24: 921828581402370518
+      ice_age_bosses3_25: 7584773142264192066
+      ice_age_bosses3_26: -7638261376760713210
+      ice_age_bosses3_27: 7327155085673253502
+      ice_age_bosses3_28: 3641772562588148021
+      ice_age_bosses3_29: -4976176204435554290
+      ice_age_bosses3_3: 1224168955865751124
+      ice_age_bosses3_30: -123287938478990673
+      ice_age_bosses3_31: 9179596489569272630
+      ice_age_bosses3_32: -3016826951663097972
+      ice_age_bosses3_33: -1332756532002369692
+      ice_age_bosses3_34: 2663250837878179517
+      ice_age_bosses3_35: 5151913452092953675
+      ice_age_bosses3_36: 5129259944675587643
+      ice_age_bosses3_37: 7587115205192851807
+      ice_age_bosses3_38: 9190159190669550554
+      ice_age_bosses3_39: 8036717531660640356
+      ice_age_bosses3_4: -2199565014863389713
+      ice_age_bosses3_40: 3299483853329462122
+      ice_age_bosses3_41: -8723656526075866877
+      ice_age_bosses3_42: -8768184999122247847
+      ice_age_bosses3_43: 1299938383653770239
+      ice_age_bosses3_44: 2232967602271743553
+      ice_age_bosses3_45: -1758382522473571236
+      ice_age_bosses3_46: 1552222417137753668
+      ice_age_bosses3_47: 3645552735953233583
+      ice_age_bosses3_5: -8635561873046670640
+      ice_age_bosses3_6: -932750829722033137
+      ice_age_bosses3_7: -5486662713618689074
+      ice_age_bosses3_8: -5588533508483651460
+      ice_age_bosses3_9: 6683820930184326894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

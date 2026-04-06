@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 1214dfa9ca1b4c84b88de2a25fa6a905
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -217454924083676628
+    second: privacy_policy_0
+  - first:
+      213: -5796938439846173523
+    second: privacy_policy_1
+  - first:
+      213: -5234734959764732656
+    second: privacy_policy_2
+  - first:
+      213: 4052532370103439260
+    second: privacy_policy_3
+  - first:
+      213: 1823416096880409914
+    second: privacy_policy_4
+  - first:
+      213: -4205698291615928742
+    second: privacy_policy_5
+  - first:
+      213: 631042460362845533
+    second: privacy_policy_6
+  - first:
+      213: 6569954297152450273
+    second: privacy_policy_7
+  - first:
+      213: 3000508041404288136
+    second: privacy_policy_8
+  - first:
+      213: -9093228344081104559
+    second: privacy_policy_9
+  - first:
+      213: 2875723886758651263
+    second: privacy_policy_10
+  - first:
+      213: 1099242358538529635
+    second: privacy_policy_11
+  - first:
+      213: 1044984575281733889
+    second: privacy_policy_12
+  - first:
+      213: -615447908882706300
+    second: privacy_policy_13
+  - first:
+      213: -1899319801905337612
+    second: privacy_policy_14
+  - first:
+      213: -5093948290933429349
+    second: privacy_policy_15
+  - first:
+      213: -7378395645483287405
+    second: privacy_policy_16
+  - first:
+      213: -8280083878514188338
+    second: privacy_policy_17
+  - first:
+      213: -2268193144331660800
+    second: privacy_policy_18
+  - first:
+      213: -6355018817011951358
+    second: privacy_policy_19
+  - first:
+      213: 5542194258715211528
+    second: privacy_policy_20
+  - first:
+      213: 4824022097879007928
+    second: privacy_policy_21
+  - first:
+      213: 6469340280745152744
+    second: privacy_policy_22
+  - first:
+      213: 5194070143582887646
+    second: privacy_policy_23
+  - first:
+      213: -6421269752504896441
+    second: privacy_policy_24
+  - first:
+      213: -5781881885304534812
+    second: privacy_policy_25
+  - first:
+      213: 7828426936143078088
+    second: privacy_policy_26
+  - first:
+      213: -1621137951905104337
+    second: privacy_policy_27
+  - first:
+      213: 424815528292730107
+    second: privacy_policy_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: privacy_policy_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a355f06e17bfcf0800000000000000
+      internalID: -217454924083676628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da46924d3332d8fa0800000000000000
+      internalID: -5796938439846173523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01587e5f94c7a57b0800000000000000
+      internalID: -5234734959764732656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 63
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f89c828bc7d3830800000000000000
+      internalID: 4052532370103439260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 63
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d394c77431e4910800000000000000
+      internalID: 1823416096880409914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 64
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ee3cfbfab52a5c0800000000000000
+      internalID: -4205698291615928742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 63
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dad1836c9e1c800800000000000000
+      internalID: 631042460362845533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 64
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eea258cf9a2d2b50800000000000000
+      internalID: 6569954297152450273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_8
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c0b919a22f3a920800000000000000
+      internalID: 3000508041404288136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_9
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 63
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1514881cffc5ec180800000000000000
+      internalID: -9093228344081104559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 63
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75ea5683af98e720800000000000000
+      internalID: 2875723886758651263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b60ced91b414f00800000000000000
+      internalID: 1099242358538529635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 63
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1012e654fe7808e00800000000000000
+      internalID: 1044984575281733889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_13
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 64
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4801a4d336d7577f0800000000000000
+      internalID: -615447908882706300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_14
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 63
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa219404b244a5e0800000000000000
+      internalID: -1899319801905337612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b64bea409ae49b0800000000000000
+      internalID: -5093948290933429349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_16
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 64
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cfdaab04caa9990800000000000000
+      internalID: -7378395645483287405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_17
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 63
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf19be059b371d80800000000000000
+      internalID: -8280083878514188338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 63
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00292264a52c580e0800000000000000
+      internalID: -2268193144331660800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 64
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20954176e007ec7a0800000000000000
+      internalID: -6355018817011951358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_20
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 63
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807fde28054d9ec40800000000000000
+      internalID: 5542194258715211528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_21
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 63
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b286bc0a8e52f240800000000000000
+      internalID: 4824022097879007928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 64
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0d0f495b6b7c950800000000000000
+      internalID: 6469340280745152744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede58b6b64b051840800000000000000
+      internalID: 5194070143582887646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_24
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 53
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7443cf27e2113e6a0800000000000000
+      internalID: -6421269752504896441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 64
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8482d1f01a2cfa0800000000000000
+      internalID: -5781881885304534812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_26
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 53
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c268e652d824ac60800000000000000
+      internalID: 7828426936143078088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_27
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 63
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ebac43f9f8089e0800000000000000
+      internalID: -1621137951905104337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privacy_policy_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 40
+        width: 583
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf445f2e87f35e500800000000000000
+      internalID: 424815528292730107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      privacy_policy_0: -217454924083676628
+      privacy_policy_1: -5796938439846173523
+      privacy_policy_10: 2875723886758651263
+      privacy_policy_11: 1099242358538529635
+      privacy_policy_12: 1044984575281733889
+      privacy_policy_13: -615447908882706300
+      privacy_policy_14: -1899319801905337612
+      privacy_policy_15: -5093948290933429349
+      privacy_policy_16: -7378395645483287405
+      privacy_policy_17: -8280083878514188338
+      privacy_policy_18: -2268193144331660800
+      privacy_policy_19: -6355018817011951358
+      privacy_policy_2: -5234734959764732656
+      privacy_policy_20: 5542194258715211528
+      privacy_policy_21: 4824022097879007928
+      privacy_policy_22: 6469340280745152744
+      privacy_policy_23: 5194070143582887646
+      privacy_policy_24: -6421269752504896441
+      privacy_policy_25: -5781881885304534812
+      privacy_policy_26: 7828426936143078088
+      privacy_policy_27: -1621137951905104337
+      privacy_policy_28: 424815528292730107
+      privacy_policy_3: 4052532370103439260
+      privacy_policy_4: 1823416096880409914
+      privacy_policy_5: -4205698291615928742
+      privacy_policy_6: 631042460362845533
+      privacy_policy_7: 6569954297152450273
+      privacy_policy_8: 3000508041404288136
+      privacy_policy_9: -9093228344081104559
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

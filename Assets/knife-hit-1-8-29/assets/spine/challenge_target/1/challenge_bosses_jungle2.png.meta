@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: b3a45135151e4e048bc4c00596f607d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3064430108894899775
+    second: challenge_bosses_jungle2_0
+  - first:
+      213: 2705036400711053774
+    second: challenge_bosses_jungle2_1
+  - first:
+      213: -1818684029096177679
+    second: challenge_bosses_jungle2_2
+  - first:
+      213: 2915700420287441554
+    second: challenge_bosses_jungle2_3
+  - first:
+      213: 6924854533009675458
+    second: challenge_bosses_jungle2_4
+  - first:
+      213: -8001083194926973809
+    second: challenge_bosses_jungle2_5
+  - first:
+      213: -2497595326898903313
+    second: challenge_bosses_jungle2_6
+  - first:
+      213: -6761882436989982088
+    second: challenge_bosses_jungle2_7
+  - first:
+      213: -6753254091783116028
+    second: challenge_bosses_jungle2_8
+  - first:
+      213: -418696416505335108
+    second: challenge_bosses_jungle2_9
+  - first:
+      213: -3911273246856160586
+    second: challenge_bosses_jungle2_10
+  - first:
+      213: -4795264176543268728
+    second: challenge_bosses_jungle2_11
+  - first:
+      213: -8852005254621857139
+    second: challenge_bosses_jungle2_12
+  - first:
+      213: 6323154460530092853
+    second: challenge_bosses_jungle2_13
+  - first:
+      213: -2743627634634817420
+    second: challenge_bosses_jungle2_14
+  - first:
+      213: -2593597133576665837
+    second: challenge_bosses_jungle2_15
+  - first:
+      213: -6690305063398172990
+    second: challenge_bosses_jungle2_16
+  - first:
+      213: 2967662904463634528
+    second: challenge_bosses_jungle2_17
+  - first:
+      213: -5608285874451109504
+    second: challenge_bosses_jungle2_18
+  - first:
+      213: 358720301271784007
+    second: challenge_bosses_jungle2_19
+  - first:
+      213: 5008584021394703800
+    second: challenge_bosses_jungle2_20
+  - first:
+      213: 2688856447219563503
+    second: challenge_bosses_jungle2_21
+  - first:
+      213: 9006888937442651070
+    second: challenge_bosses_jungle2_22
+  - first:
+      213: 5196220984191295831
+    second: challenge_bosses_jungle2_23
+  - first:
+      213: 3773814659721418079
+    second: challenge_bosses_jungle2_24
+  - first:
+      213: -1133700056307361239
+    second: challenge_bosses_jungle2_25
+  - first:
+      213: -304026123426789014
+    second: challenge_bosses_jungle2_26
+  - first:
+      213: -4999367284617106917
+    second: challenge_bosses_jungle2_27
+  - first:
+      213: 1314648546248685934
+    second: challenge_bosses_jungle2_28
+  - first:
+      213: 4403477057018429944
+    second: challenge_bosses_jungle2_29
+  - first:
+      213: 5935049617162119206
+    second: challenge_bosses_jungle2_30
+  - first:
+      213: 8283464937406478656
+    second: challenge_bosses_jungle2_31
+  - first:
+      213: 3333196947615276597
+    second: challenge_bosses_jungle2_32
+  - first:
+      213: -8524539976433523514
+    second: challenge_bosses_jungle2_33
+  - first:
+      213: -5893629113049781723
+    second: challenge_bosses_jungle2_34
+  - first:
+      213: 3995472732327177445
+    second: challenge_bosses_jungle2_35
+  - first:
+      213: 4720776396048847093
+    second: challenge_bosses_jungle2_36
+  - first:
+      213: -5350402783220891524
+    second: challenge_bosses_jungle2_37
+  - first:
+      213: 3407730145343528146
+    second: challenge_bosses_jungle2_38
+  - first:
+      213: 2935808585635031805
+    second: challenge_bosses_jungle2_39
+  - first:
+      213: -2910737419976508297
+    second: challenge_bosses_jungle2_40
+  - first:
+      213: 2371828620319489106
+    second: challenge_bosses_jungle2_41
+  - first:
+      213: 1855067181708306731
+    second: challenge_bosses_jungle2_42
+  - first:
+      213: 898602070741939918
+    second: challenge_bosses_jungle2_43
+  - first:
+      213: -7442905283640934805
+    second: challenge_bosses_jungle2_44
+  - first:
+      213: 755110989383159476
+    second: challenge_bosses_jungle2_45
+  - first:
+      213: -1491037266694045509
+    second: challenge_bosses_jungle2_46
+  - first:
+      213: 8762824627166870119
+    second: challenge_bosses_jungle2_47
+  - first:
+      213: -7849550991580642789
+    second: challenge_bosses_jungle2_48
+  - first:
+      213: -185564277798737988
+    second: challenge_bosses_jungle2_49
+  - first:
+      213: 4048369226724350364
+    second: challenge_bosses_jungle2_50
+  - first:
+      213: 7963850504349174540
+    second: challenge_bosses_jungle2_51
+  - first:
+      213: -7773147797988953022
+    second: challenge_bosses_jungle2_52
+  - first:
+      213: 3707635177618694039
+    second: challenge_bosses_jungle2_53
+  - first:
+      213: -9126837552998001767
+    second: challenge_bosses_jungle2_54
+  - first:
+      213: 7829748500648789570
+    second: challenge_bosses_jungle2_55
+  - first:
+      213: -3629503984488855095
+    second: challenge_bosses_jungle2_56
+  - first:
+      213: -8402031527192972293
+    second: challenge_bosses_jungle2_57
+  - first:
+      213: 2802308392781123211
+    second: challenge_bosses_jungle2_58
+  - first:
+      213: 5127800197699106016
+    second: challenge_bosses_jungle2_59
+  - first:
+      213: 3847041534208322698
+    second: challenge_bosses_jungle2_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1902
+        width: 155
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e21bfa2fa078a20800000000000000
+      internalID: 3064430108894899775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2009
+        width: 142
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec132e846483a8520800000000000000
+      internalID: 2705036400711053774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_2
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1902
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffcb07e28cb2c6e0800000000000000
+      internalID: -1818684029096177679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_3
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1847
+        width: 283
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa0be8516a67820800000000000000
+      internalID: 2915700420287441554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_4
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1991
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c49b4122860a1060800000000000000
+      internalID: 6924854533009675458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_5
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2022
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cb70cc93176f090800000000000000
+      internalID: -8001083194926973809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_6
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1956
+        width: 118
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6e3837842c65dd0800000000000000
+      internalID: -2497595326898903313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_7
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1975
+        width: 163
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a6242efb7f822a0800000000000000
+      internalID: -6761882436989982088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_8
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1975
+        width: 105
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b605d0f2f9742a0800000000000000
+      internalID: -6753254091783116028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_9
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1991
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb27879d3dd703af0800000000000000
+      internalID: -418696416505335108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_10
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1991
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba56ad64bd58b9c0800000000000000
+      internalID: -3911273246856160586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1902
+        width: 246
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8808bf843acc37db0800000000000000
+      internalID: -4795264176543268728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_12
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1981
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a7f50fe1c572580800000000000000
+      internalID: -8852005254621857139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_13
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1970
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ba2d7fa7b50c750800000000000000
+      internalID: 6323154460530092853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_14
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1832
+        width: 283
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47085a1e33dace9d0800000000000000
+      internalID: -2743627634634817420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_15
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1956
+        width: 224
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31501b20621b10cd0800000000000000
+      internalID: -2593597133576665837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_16
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1716
+        width: 161
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c69729ddf24723a0800000000000000
+      internalID: -6690305063398172990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_17
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1870
+        width: 46
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060b8a130b14f2920800000000000000
+      internalID: 2967662904463634528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1335
+        width: 567
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089208e06bd5b22b0800000000000000
+      internalID: -5608285874451109504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_19
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1888
+        width: 80
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a9603a63e6af400800000000000000
+      internalID: 358720301271784007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_20
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1847
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5cdee71a0128540800000000000000
+      internalID: 5008584021394703800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_21
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1833
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb7a8c41bcb05520800000000000000
+      internalID: 2688856447219563503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_22
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1687
+        width: 302
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb2aaf94c5eefc70800000000000000
+      internalID: 9006888937442651070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_23
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1716
+        width: 265
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7512721547fac1840800000000000000
+      internalID: 5196220984191295831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_24
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1555
+        width: 367
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f555bd040784f5430800000000000000
+      internalID: 3773814659721418079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_25
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1580
+        width: 330
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a95fd2ec94440f0800000000000000
+      internalID: -1133700056307361239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_26
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1463
+        width: 310
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6905bef9d1e7cbf0800000000000000
+      internalID: -304026123426789014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_27
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1654
+        width: 125
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a20b241fdae9ab0800000000000000
+      internalID: -4999367284617106917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_28
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1706
+        width: 52
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69f2a333e19e3210800000000000000
+      internalID: 1314648546248685934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_29
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1328
+        width: 330
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f18a208d0b4c1d30800000000000000
+      internalID: 4403477057018429944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_30
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1580
+        width: 95
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628244b7e288d5250800000000000000
+      internalID: 5935049617162119206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_31
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1377
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049348f0977c4f270800000000000000
+      internalID: 8283464937406478656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_32
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1463
+        width: 135
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e560db6f4e14e20800000000000000
+      internalID: 3333196947615276597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_33
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1235
+        width: 468
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4201f6e00c2b980800000000000000
+      internalID: -8524539976433523514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_34
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1211
+        width: 329
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a64c62c8f953ea0800000000000000
+      internalID: -5893629113049781723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_35
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1380
+        width: 84
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecee18f745c27730800000000000000
+      internalID: 3995472732327177445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_36
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1211
+        width: 99
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f05a86de11938140800000000000000
+      internalID: 4720776396048847093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 668
+        width: 478
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c708bdc240d8fb5b0800000000000000
+      internalID: -5350402783220891524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_38
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1235
+        width: 78
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc57932380ba4f20800000000000000
+      internalID: 3407730145343528146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_39
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 668
+        width: 567
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa6153aa561eb820800000000000000
+      internalID: 2935808585635031805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_40
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1133
+        width: 332
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cfcdffcbbfa97d0800000000000000
+      internalID: -2910737419976508297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_41
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1134
+        width: 230
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c7f3e409d6ae020800000000000000
+      internalID: 2371828620319489106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_42
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 877
+        width: 315
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b296530f5c58eb910800000000000000
+      internalID: 1855067181708306731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_43
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1135
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6f00582d9787c00800000000000000
+      internalID: 898602070741939918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_44
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 901
+        width: 72
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e34b7241d75b890800000000000000
+      internalID: -7442905283640934805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_45
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 568
+        width: 565
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be4d20b171ba7a00800000000000000
+      internalID: 755110989383159476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_46
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1043
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb005db7185ce4be0800000000000000
+      internalID: -1491037266694045509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_47
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 901
+        width: 48
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a735b229ecb9970800000000000000
+      internalID: 8762824627166870119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_48
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 543
+        width: 315
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12458c36fac01390800000000000000
+      internalID: -7849550991580642789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_49
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 786
+        width: 121
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7edc2c54ebc6df0800000000000000
+      internalID: -185564277798737988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_50
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 542
+        width: 82
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99178ecc52be2830800000000000000
+      internalID: 4048369226724350364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_51
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 478
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b4c04e6d7458e60800000000000000
+      internalID: 7963850504349174540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_52
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1
+        width: 478
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244324af24b302490800000000000000
+      internalID: -7773147797988953022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_53
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 568
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f54b6dc8a247330800000000000000
+      internalID: 3707635177618694039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_54
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1
+        width: 567
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993dbd20a95f65180800000000000000
+      internalID: -9126837552998001767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_55
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 321
+        width: 367
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24681dd07cad8ac60800000000000000
+      internalID: 7829748500648789570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_56
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 443
+        width: 97
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c94da52b5961adc0800000000000000
+      internalID: -3629503984488855095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_57
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1
+        width: 468
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3b70687dcf56b80800000000000000
+      internalID: -8402031527192972293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_58
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 321
+        width: 103
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e80dec2acc3e620800000000000000
+      internalID: 2802308392781123211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_59
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 263
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4780f8c1b992740800000000000000
+      internalID: 5127800197699106016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_jungle2_60
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1
+        width: 44
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c29a294ef636530800000000000000
+      internalID: 3847041534208322698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      challenge_bosses_jungle2_0: 3064430108894899775
+      challenge_bosses_jungle2_1: 2705036400711053774
+      challenge_bosses_jungle2_10: -3911273246856160586
+      challenge_bosses_jungle2_11: -4795264176543268728
+      challenge_bosses_jungle2_12: -8852005254621857139
+      challenge_bosses_jungle2_13: 6323154460530092853
+      challenge_bosses_jungle2_14: -2743627634634817420
+      challenge_bosses_jungle2_15: -2593597133576665837
+      challenge_bosses_jungle2_16: -6690305063398172990
+      challenge_bosses_jungle2_17: 2967662904463634528
+      challenge_bosses_jungle2_18: -5608285874451109504
+      challenge_bosses_jungle2_19: 358720301271784007
+      challenge_bosses_jungle2_2: -1818684029096177679
+      challenge_bosses_jungle2_20: 5008584021394703800
+      challenge_bosses_jungle2_21: 2688856447219563503
+      challenge_bosses_jungle2_22: 9006888937442651070
+      challenge_bosses_jungle2_23: 5196220984191295831
+      challenge_bosses_jungle2_24: 3773814659721418079
+      challenge_bosses_jungle2_25: -1133700056307361239
+      challenge_bosses_jungle2_26: -304026123426789014
+      challenge_bosses_jungle2_27: -4999367284617106917
+      challenge_bosses_jungle2_28: 1314648546248685934
+      challenge_bosses_jungle2_29: 4403477057018429944
+      challenge_bosses_jungle2_3: 2915700420287441554
+      challenge_bosses_jungle2_30: 5935049617162119206
+      challenge_bosses_jungle2_31: 8283464937406478656
+      challenge_bosses_jungle2_32: 3333196947615276597
+      challenge_bosses_jungle2_33: -8524539976433523514
+      challenge_bosses_jungle2_34: -5893629113049781723
+      challenge_bosses_jungle2_35: 3995472732327177445
+      challenge_bosses_jungle2_36: 4720776396048847093
+      challenge_bosses_jungle2_37: -5350402783220891524
+      challenge_bosses_jungle2_38: 3407730145343528146
+      challenge_bosses_jungle2_39: 2935808585635031805
+      challenge_bosses_jungle2_4: 6924854533009675458
+      challenge_bosses_jungle2_40: -2910737419976508297
+      challenge_bosses_jungle2_41: 2371828620319489106
+      challenge_bosses_jungle2_42: 1855067181708306731
+      challenge_bosses_jungle2_43: 898602070741939918
+      challenge_bosses_jungle2_44: -7442905283640934805
+      challenge_bosses_jungle2_45: 755110989383159476
+      challenge_bosses_jungle2_46: -1491037266694045509
+      challenge_bosses_jungle2_47: 8762824627166870119
+      challenge_bosses_jungle2_48: -7849550991580642789
+      challenge_bosses_jungle2_49: -185564277798737988
+      challenge_bosses_jungle2_5: -8001083194926973809
+      challenge_bosses_jungle2_50: 4048369226724350364
+      challenge_bosses_jungle2_51: 7963850504349174540
+      challenge_bosses_jungle2_52: -7773147797988953022
+      challenge_bosses_jungle2_53: 3707635177618694039
+      challenge_bosses_jungle2_54: -9126837552998001767
+      challenge_bosses_jungle2_55: 7829748500648789570
+      challenge_bosses_jungle2_56: -3629503984488855095
+      challenge_bosses_jungle2_57: -8402031527192972293
+      challenge_bosses_jungle2_58: 2802308392781123211
+      challenge_bosses_jungle2_59: 5127800197699106016
+      challenge_bosses_jungle2_6: -2497595326898903313
+      challenge_bosses_jungle2_60: 3847041534208322698
+      challenge_bosses_jungle2_7: -6761882436989982088
+      challenge_bosses_jungle2_8: -6753254091783116028
+      challenge_bosses_jungle2_9: -418696416505335108
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

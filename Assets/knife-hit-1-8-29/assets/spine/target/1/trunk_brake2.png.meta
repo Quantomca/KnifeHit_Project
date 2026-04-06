@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 08dca38eadcc41843a48a98fbaec9a2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7581522360403328210
+    second: trunk_brake2_0
+  - first:
+      213: 2680897112899985718
+    second: trunk_brake2_1
+  - first:
+      213: -6727184384760865556
+    second: trunk_brake2_2
+  - first:
+      213: -5798306173376564917
+    second: trunk_brake2_3
+  - first:
+      213: 3344734632444284274
+    second: trunk_brake2_4
+  - first:
+      213: 3956637565680075270
+    second: trunk_brake2_5
+  - first:
+      213: -5622414154250998771
+    second: trunk_brake2_6
+  - first:
+      213: 5455242034337835971
+    second: trunk_brake2_7
+  - first:
+      213: -8879020139213903552
+    second: trunk_brake2_8
+  - first:
+      213: 9023666685006063041
+    second: trunk_brake2_9
+  - first:
+      213: 9027409054011411160
+    second: trunk_brake2_10
+  - first:
+      213: -1509214985534258454
+    second: trunk_brake2_11
+  - first:
+      213: 3923376313112986716
+    second: trunk_brake2_12
+  - first:
+      213: -6273724063982661761
+    second: trunk_brake2_13
+  - first:
+      213: -7609169409141055400
+    second: trunk_brake2_14
+  - first:
+      213: -3283120361474011936
+    second: trunk_brake2_15
+  - first:
+      213: 4409087581393052660
+    second: trunk_brake2_16
+  - first:
+      213: 1236057080251137713
+    second: trunk_brake2_17
+  - first:
+      213: 6643647564099203879
+    second: trunk_brake2_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trunk_brake2_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1976
+        width: 178
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e238a73f49509c690800000000000000
+      internalID: -7581522360403328210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1822
+        width: 225
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63126cd58b5743520800000000000000
+      internalID: 2680897112899985718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_2
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1648
+        width: 250
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec16c7b17d34a2a0800000000000000
+      internalID: -6727184384760865556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1909
+        width: 226
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b417fec8147488fa0800000000000000
+      internalID: -5798306173376564917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1239
+        width: 604
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc9c25d62ea6e20800000000000000
+      internalID: 3344734632444284274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1843
+        width: 179
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602c35f17ecc8e630800000000000000
+      internalID: 3956637565680075270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_6
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1239
+        width: 568
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cadb39d1c29f1b0800000000000000
+      internalID: -5622414154250998771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_7
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1239
+        width: 568
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb6c742ab9e4bb40800000000000000
+      internalID: 5455242034337835971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_8
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1319
+        width: 252
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049ad98f93267c480800000000000000
+      internalID: -8879020139213903552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_9
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 990
+        width: 252
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c520536a018a3d70800000000000000
+      internalID: 9023666685006063041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 620
+        width: 603
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dace7294bcc74d70800000000000000
+      internalID: 9027409054011411160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_11
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 620
+        width: 604
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2c88187f03e0be0800000000000000
+      internalID: -1509214985534258454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_12
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 619
+        width: 567
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54084748f1a27630800000000000000
+      internalID: 3923376313112986716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_13
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 661
+        width: 252
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f4e7314314fe8a0800000000000000
+      internalID: -6273724063982661761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850e06cccbcc66690800000000000000
+      internalID: -7609169409141055400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1
+        width: 560
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec4d7b0d630072d0800000000000000
+      internalID: -3283120361474011936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_16
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1
+        width: 579
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3e4808bc9303d30800000000000000
+      internalID: 4409087581393052660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_17
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 331
+        width: 252
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beb9769d5b572110800000000000000
+      internalID: 1236057080251137713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk_brake2_18
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1
+        width: 252
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723b50f824af23c50800000000000000
+      internalID: 6643647564099203879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trunk_brake2_0: -7581522360403328210
+      trunk_brake2_1: 2680897112899985718
+      trunk_brake2_10: 9027409054011411160
+      trunk_brake2_11: -1509214985534258454
+      trunk_brake2_12: 3923376313112986716
+      trunk_brake2_13: -6273724063982661761
+      trunk_brake2_14: -7609169409141055400
+      trunk_brake2_15: -3283120361474011936
+      trunk_brake2_16: 4409087581393052660
+      trunk_brake2_17: 1236057080251137713
+      trunk_brake2_18: 6643647564099203879
+      trunk_brake2_2: -6727184384760865556
+      trunk_brake2_3: -5798306173376564917
+      trunk_brake2_4: 3344734632444284274
+      trunk_brake2_5: 3956637565680075270
+      trunk_brake2_6: -5622414154250998771
+      trunk_brake2_7: 5455242034337835971
+      trunk_brake2_8: -8879020139213903552
+      trunk_brake2_9: 9023666685006063041
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2977 @@
+fileFormatVersion: 2
+guid: b6c1a9644407aef49bf3211dba40f151
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 186191566486314104
+    second: challenge_bosses_treasures_0
+  - first:
+      213: -4923397952965702353
+    second: challenge_bosses_treasures_1
+  - first:
+      213: -6201567212383715005
+    second: challenge_bosses_treasures_2
+  - first:
+      213: -8069202119570625768
+    second: challenge_bosses_treasures_3
+  - first:
+      213: 6524657496607464983
+    second: challenge_bosses_treasures_4
+  - first:
+      213: -6859132065076791751
+    second: challenge_bosses_treasures_5
+  - first:
+      213: 8344113173200637081
+    second: challenge_bosses_treasures_6
+  - first:
+      213: 5165259817958379899
+    second: challenge_bosses_treasures_7
+  - first:
+      213: -4213013022740532591
+    second: challenge_bosses_treasures_8
+  - first:
+      213: -5308337981121831984
+    second: challenge_bosses_treasures_9
+  - first:
+      213: 4926643484086464176
+    second: challenge_bosses_treasures_10
+  - first:
+      213: 835998078625854052
+    second: challenge_bosses_treasures_11
+  - first:
+      213: -5028568464569321160
+    second: challenge_bosses_treasures_12
+  - first:
+      213: 3610545346190758194
+    second: challenge_bosses_treasures_13
+  - first:
+      213: 6588404117471900941
+    second: challenge_bosses_treasures_14
+  - first:
+      213: -8490552521223174778
+    second: challenge_bosses_treasures_15
+  - first:
+      213: 3358395666726448156
+    second: challenge_bosses_treasures_16
+  - first:
+      213: -8204126554505116093
+    second: challenge_bosses_treasures_17
+  - first:
+      213: 2931380494054107564
+    second: challenge_bosses_treasures_18
+  - first:
+      213: 6989940674971528373
+    second: challenge_bosses_treasures_19
+  - first:
+      213: 6658007278002376263
+    second: challenge_bosses_treasures_20
+  - first:
+      213: -6570711364621715679
+    second: challenge_bosses_treasures_21
+  - first:
+      213: -1032501092727543374
+    second: challenge_bosses_treasures_22
+  - first:
+      213: 6905829569511199691
+    second: challenge_bosses_treasures_23
+  - first:
+      213: 5562888469928215633
+    second: challenge_bosses_treasures_24
+  - first:
+      213: 7799466964167339446
+    second: challenge_bosses_treasures_25
+  - first:
+      213: -565598514459436470
+    second: challenge_bosses_treasures_26
+  - first:
+      213: -6417354434117161005
+    second: challenge_bosses_treasures_27
+  - first:
+      213: 6800124356458386421
+    second: challenge_bosses_treasures_28
+  - first:
+      213: -6726841861689572749
+    second: challenge_bosses_treasures_29
+  - first:
+      213: -5353046654298215411
+    second: challenge_bosses_treasures_30
+  - first:
+      213: -7131079227986196733
+    second: challenge_bosses_treasures_31
+  - first:
+      213: -1177317753751643378
+    second: challenge_bosses_treasures_32
+  - first:
+      213: -2858512323157357230
+    second: challenge_bosses_treasures_33
+  - first:
+      213: -1451963676810177957
+    second: challenge_bosses_treasures_34
+  - first:
+      213: -2633495548266453578
+    second: challenge_bosses_treasures_35
+  - first:
+      213: -363584494965914101
+    second: challenge_bosses_treasures_36
+  - first:
+      213: -806871501067834040
+    second: challenge_bosses_treasures_37
+  - first:
+      213: 1881795632668796322
+    second: challenge_bosses_treasures_38
+  - first:
+      213: 261252583300306896
+    second: challenge_bosses_treasures_39
+  - first:
+      213: -4470406532956656095
+    second: challenge_bosses_treasures_40
+  - first:
+      213: -2174843817652771223
+    second: challenge_bosses_treasures_41
+  - first:
+      213: 1145742688973886394
+    second: challenge_bosses_treasures_42
+  - first:
+      213: -5459787450799597052
+    second: challenge_bosses_treasures_43
+  - first:
+      213: -257849478958581294
+    second: challenge_bosses_treasures_44
+  - first:
+      213: -5199395313853216488
+    second: challenge_bosses_treasures_45
+  - first:
+      213: 6223864216167252204
+    second: challenge_bosses_treasures_46
+  - first:
+      213: 6811831228557370157
+    second: challenge_bosses_treasures_47
+  - first:
+      213: 5428356125182491713
+    second: challenge_bosses_treasures_48
+  - first:
+      213: 6903281548050464601
+    second: challenge_bosses_treasures_49
+  - first:
+      213: 4996073241217836373
+    second: challenge_bosses_treasures_50
+  - first:
+      213: 1369980110069682868
+    second: challenge_bosses_treasures_51
+  - first:
+      213: 8104616456941319474
+    second: challenge_bosses_treasures_52
+  - first:
+      213: -7890926831333912206
+    second: challenge_bosses_treasures_53
+  - first:
+      213: -2482775650732846416
+    second: challenge_bosses_treasures_54
+  - first:
+      213: -9218986655533592517
+    second: challenge_bosses_treasures_55
+  - first:
+      213: -3900348633572870026
+    second: challenge_bosses_treasures_56
+  - first:
+      213: -2265113520346458793
+    second: challenge_bosses_treasures_57
+  - first:
+      213: -51892323095233765
+    second: challenge_bosses_treasures_58
+  - first:
+      213: -2225378789149228382
+    second: challenge_bosses_treasures_59
+  - first:
+      213: 5767709987800085232
+    second: challenge_bosses_treasures_60
+  - first:
+      213: -8279798850266749343
+    second: challenge_bosses_treasures_61
+  - first:
+      213: -7705696130331919573
+    second: challenge_bosses_treasures_62
+  - first:
+      213: 4165913104581367325
+    second: challenge_bosses_treasures_63
+  - first:
+      213: 1417537649568095200
+    second: challenge_bosses_treasures_64
+  - first:
+      213: -1235513566427919626
+    second: challenge_bosses_treasures_65
+  - first:
+      213: 3681168921080824123
+    second: challenge_bosses_treasures_66
+  - first:
+      213: 8526665165988394863
+    second: challenge_bosses_treasures_67
+  - first:
+      213: 5893288740465722146
+    second: challenge_bosses_treasures_68
+  - first:
+      213: 8051146752266302975
+    second: challenge_bosses_treasures_69
+  - first:
+      213: -2575133295449426457
+    second: challenge_bosses_treasures_70
+  - first:
+      213: 4543825364936863151
+    second: challenge_bosses_treasures_71
+  - first:
+      213: -7778279186138873762
+    second: challenge_bosses_treasures_72
+  - first:
+      213: -4138577500235378693
+    second: challenge_bosses_treasures_73
+  - first:
+      213: -3188666727062656250
+    second: challenge_bosses_treasures_74
+  - first:
+      213: 6272598489134682090
+    second: challenge_bosses_treasures_75
+  - first:
+      213: 5783157348674541345
+    second: challenge_bosses_treasures_76
+  - first:
+      213: -1131565495744422402
+    second: challenge_bosses_treasures_77
+  - first:
+      213: -7820607456604634422
+    second: challenge_bosses_treasures_78
+  - first:
+      213: 1067335656453635373
+    second: challenge_bosses_treasures_79
+  - first:
+      213: -8276558251213535294
+    second: challenge_bosses_treasures_80
+  - first:
+      213: 9016033960440792725
+    second: challenge_bosses_treasures_81
+  - first:
+      213: 6948473638567492268
+    second: challenge_bosses_treasures_82
+  - first:
+      213: 4605221672464023202
+    second: challenge_bosses_treasures_83
+  - first:
+      213: -9145949784083918852
+    second: challenge_bosses_treasures_84
+  - first:
+      213: -7410612052702132750
+    second: challenge_bosses_treasures_85
+  - first:
+      213: -7054313773375160487
+    second: challenge_bosses_treasures_86
+  - first:
+      213: 3333278249095117068
+    second: challenge_bosses_treasures_87
+  - first:
+      213: -961713818230287897
+    second: challenge_bosses_treasures_88
+  - first:
+      213: 1084950480385545872
+    second: challenge_bosses_treasures_89
+  - first:
+      213: -3322414013143865650
+    second: challenge_bosses_treasures_90
+  - first:
+      213: -7966615859548995682
+    second: challenge_bosses_treasures_91
+  - first:
+      213: 7360549744094432864
+    second: challenge_bosses_treasures_92
+  - first:
+      213: -941870627315812007
+    second: challenge_bosses_treasures_93
+  - first:
+      213: 3263115381251775282
+    second: challenge_bosses_treasures_94
+  - first:
+      213: 7123658494877942258
+    second: challenge_bosses_treasures_95
+  - first:
+      213: 2940574748810488698
+    second: challenge_bosses_treasures_96
+  - first:
+      213: -4380501041674382407
+    second: challenge_bosses_treasures_97
+  - first:
+      213: 7464837650719654651
+    second: challenge_bosses_treasures_98
+  - first:
+      213: 5984089319862350713
+    second: challenge_bosses_treasures_99
+  - first:
+      213: -7899422713277345679
+    second: challenge_bosses_treasures_100
+  - first:
+      213: -3661172403496880619
+    second: challenge_bosses_treasures_101
+  - first:
+      213: 5392866836317648321
+    second: challenge_bosses_treasures_102
+  - first:
+      213: 6708545221118387160
+    second: challenge_bosses_treasures_103
+  - first:
+      213: 3619080132313365280
+    second: challenge_bosses_treasures_104
+  - first:
+      213: -8906737496203185350
+    second: challenge_bosses_treasures_105
+  - first:
+      213: -6528128808046325329
+    second: challenge_bosses_treasures_106
+  - first:
+      213: 557987868415835954
+    second: challenge_bosses_treasures_107
+  - first:
+      213: -3302345344639397283
+    second: challenge_bosses_treasures_108
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c17944e3c759200800000000000000
+      internalID: 186191566486314104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 146
+        width: 80
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d0895a5a39cabb0800000000000000
+      internalID: -4923397952965702353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 242
+        width: 93
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341c8274a7b9fe9a0800000000000000
+      internalID: -6201567212383715005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 242
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81be92abc6f640090800000000000000
+      internalID: -8069202119570625768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 242
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e906e8c6d3c8a50800000000000000
+      internalID: 6524657496607464983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 242
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9363b916ab77fc0a0800000000000000
+      internalID: -6859132065076791751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 144
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c0846d8be3cc370800000000000000
+      internalID: 8344113173200637081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 217
+        width: 114
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71120e0070bea740800000000000000
+      internalID: 5165259817958379899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 217
+        width: 118
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192b4713afe5885c0800000000000000
+      internalID: -4213013022740532591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 217
+        width: 108
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbd48f1bbef456b0800000000000000
+      internalID: -5308337981121831984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_10
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 223
+        width: 118
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be67f37524fe5440800000000000000
+      internalID: 4926643484086464176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 238
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462376db2df0a9b00800000000000000
+      internalID: 835998078625854052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_12
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 238
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8393d9cbf9fe63ab0800000000000000
+      internalID: -5028568464569321160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_13
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 238
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231d325ecdb3b1230800000000000000
+      internalID: 3610545346190758194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_14
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 136
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0532a253a6be6b50800000000000000
+      internalID: 6588404117471900941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_15
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 136
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68502b1877f7b2a80800000000000000
+      internalID: -8490552521223174778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_16
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 241
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ce07ab01b6b9e20800000000000000
+      internalID: 3358395666726448156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_17
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 169
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3468f52bd56152e80800000000000000
+      internalID: -8204126554505116093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_18
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 202
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9aa99370b5ea820800000000000000
+      internalID: 2931380494054107564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_19
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 192
+        width: 77
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc6bb47202410160800000000000000
+      internalID: 6989940674971528373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_20
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 192
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e0c4df75ef56c50800000000000000
+      internalID: 6658007278002376263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_21
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 189
+        width: 94
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127b916b3d420d4a0800000000000000
+      internalID: -6570711364621715679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_22
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 244
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9a5c10ab1dba1f0800000000000000
+      internalID: -1032501092727543374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_23
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 140
+        width: 37
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc39a12a76f66df50800000000000000
+      internalID: 6905829569511199691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_24
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 244
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15400370799533d40800000000000000
+      internalID: 5562888469928215633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_25
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 224
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bda69c61e54d3c60800000000000000
+      internalID: 7799466964167339446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_26
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 224
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a1824d5279628f0800000000000000
+      internalID: -565598514459436470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_27
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 239
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df2bac842af0f6a0800000000000000
+      internalID: -6417354434117161005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_28
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 239
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f31f27d215ee5e50800000000000000
+      internalID: 6800124356458386421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_29
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 240
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37204c597f475a2a0800000000000000
+      internalID: -6726841861689572749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_30
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 240
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c2678fd6826b5b0800000000000000
+      internalID: -5353046654298215411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_31
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 240
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30747b66931590d90800000000000000
+      internalID: -7131079227986196733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_32
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 231
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b5fdb9db359afe0800000000000000
+      internalID: -1177317753751643378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_33
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 231
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d0128ef268458d0800000000000000
+      internalID: -2858512323157357230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_34
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 222
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5295f09ab699dbe0800000000000000
+      internalID: -1451963676810177957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_35
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 239
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5610070c1f37bd0800000000000000
+      internalID: -2633495548266453578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_36
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 238
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0687b304d944faf0800000000000000
+      internalID: -363584494965914101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_37
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 238
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d277f05aa6dc4f0800000000000000
+      internalID: -806871501067834040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_38
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 228
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5ea11682b7d1a10800000000000000
+      internalID: 1881795632668796322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_39
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 232
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7944027d720a300800000000000000
+      internalID: 261252583300306896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_40
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 239
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e688981fce5f1c0800000000000000
+      internalID: -4470406532956656095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_41
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 140
+        width: 124
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9662ad6121761d1e0800000000000000
+      internalID: -2174843817652771223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_42
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 147
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab31a4cb7ee76ef00800000000000000
+      internalID: 1145742688973886394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_43
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 224
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a54fd9d30fa34b0800000000000000
+      internalID: -5459787450799597052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_44
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 153
+        width: 40
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d97729d34feb6cf0800000000000000
+      internalID: -257849478958581294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_45
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 222
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819c2f6728908d7b0800000000000000
+      internalID: -5199395313853216488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_46
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 207
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce00ae6778b9f5650800000000000000
+      internalID: 6223864216167252204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_47
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 222
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d232318696c788e50800000000000000
+      internalID: 6811831228557370157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_48
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 222
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c71db9225655b40800000000000000
+      internalID: 5428356125182491713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_49
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 211
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f7e082ef16dcf50800000000000000
+      internalID: 6903281548050464601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_50
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 209
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555af9e742e955540800000000000000
+      internalID: 4996073241217836373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_51
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 211
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2dd02d6a5230310800000000000000
+      internalID: 1369980110069682868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_52
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 226
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235b5cc3ab1697070800000000000000
+      internalID: 8104616456941319474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_53
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 211
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2715eb5dadbcd7290800000000000000
+      internalID: -7890926831333912206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_54
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 209
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2541133b86b8dd0800000000000000
+      internalID: -2482775650732846416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_55
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 209
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b309ad72b749f0080800000000000000
+      internalID: -9218986655533592517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_56
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 122
+        width: 114
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67875bb259d2fd9c0800000000000000
+      internalID: -3900348633572870026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_57
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 122
+        width: 114
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75590db1143b090e0800000000000000
+      internalID: -2265113520346458793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_58
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 144
+        width: 121
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bb6530534a74ff0800000000000000
+      internalID: -51892323095233765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_59
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 144
+        width: 118
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2421628cddd11e0800000000000000
+      internalID: -2225378789149228382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_60
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 144
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2fb4edca50b0050800000000000000
+      internalID: 5767709987800085232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_61
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 142
+        width: 104
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166a92e50de381d80800000000000000
+      internalID: -8279798850266749343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_62
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 145
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bb67c223edf0590800000000000000
+      internalID: -7705696130331919573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_63
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 164
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1697bb85eb40d930800000000000000
+      internalID: 4165913104581367325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_64
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 164
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb9f3a5bfa1ca310800000000000000
+      internalID: 1417537649568095200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_65
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 170
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa43e515f29adee0800000000000000
+      internalID: -1235513566427919626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_66
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 169
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b310b3b41a3261330800000000000000
+      internalID: 3681168921080824123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_67
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 200
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f677f61daccc45670800000000000000
+      internalID: 8526665165988394863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_68
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 169
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223c44ea2ea29c150800000000000000
+      internalID: 5893288740465722146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_69
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 192
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff57f5b705b6bbf60800000000000000
+      internalID: 8051146752266302975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_70
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 192
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5b47359e9434cd0800000000000000
+      internalID: -2575133295449426457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_71
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 147
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fada87e5819ee0f30800000000000000
+      internalID: 4543825364936863151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_72
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 147
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50c0629a400e0490800000000000000
+      internalID: -7778279186138873762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_73
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 142
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffcb0fc0b1d096c0800000000000000
+      internalID: -4138577500235378693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_74
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 132
+        width: 96
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ba25a81849fb3d0800000000000000
+      internalID: -3188666727062656250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_75
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 138
+        width: 100
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef468b971fbc0750800000000000000
+      internalID: 6272598489134682090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_76
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 138
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1279fe7d7f6e14050800000000000000
+      internalID: 5783157348674541345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_77
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 115
+        width: 109
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd901a4d2fdb40f0800000000000000
+      internalID: -1131565495744422402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_78
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 169
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac24f4d14fe977390800000000000000
+      internalID: -7820607456604634422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_79
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 108
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2df603ef10ffce00800000000000000
+      internalID: 1067335656453635373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_80
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 140
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7c6912f12c32d80800000000000000
+      internalID: -8276558251213535294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_81
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 104
+        width: 125
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5968ee63e136f1d70800000000000000
+      internalID: 9016033960440792725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_82
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 93
+        width: 124
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa3bfda5ffed6060800000000000000
+      internalID: 6948473638567492268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_83
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 145
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aef52b26b809ef30800000000000000
+      internalID: 4605221672464023202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_84
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 115
+        width: 122
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff0e12f02f031180800000000000000
+      internalID: -9145949784083918852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_85
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 151
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f50676e997382990800000000000000
+      internalID: -7410612052702132750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_86
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1
+        width: 182
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ff3db9ffa0a1e90800000000000000
+      internalID: -7054313773375160487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_87
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 122
+        width: 94
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09b9d638ee224e20800000000000000
+      internalID: 3333278249095117068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_88
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1
+        width: 168
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e19cc0b06e47a2f0800000000000000
+      internalID: -961713818230287897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_89
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 135
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096154ea6b48e0f00800000000000000
+      internalID: 1084950480385545872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_90
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 122
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6a7c5de0a64e1d0800000000000000
+      internalID: -3322414013143865650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_91
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1
+        width: 143
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fb69da515e07190800000000000000
+      internalID: -7966615859548995682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_92
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1
+        width: 143
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e47509efce52660800000000000000
+      internalID: 7360549744094432864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_93
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1
+        width: 136
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959777a97adcde2f0800000000000000
+      internalID: -941870627315812007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_94
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 91
+        width: 122
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b10a8862ae84d20800000000000000
+      internalID: 3263115381251775282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_95
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 98
+        width: 111
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1c46888a15cd260800000000000000
+      internalID: 7123658494877942258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_96
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 98
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b255a77250fc820800000000000000
+      internalID: 2940574748810488698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_97
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b315c0f2855533c0800000000000000
+      internalID: -4380501041674382407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_98
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1
+        width: 132
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf24b1dfa4e689760800000000000000
+      internalID: 7464837650719654651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_99
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 104
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973ba960881cb0350800000000000000
+      internalID: 5984089319862350713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_100
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 91
+        width: 121
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170937c25ec9f5290800000000000000
+      internalID: -7899422713277345679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_101
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516fa14c817e03dc0800000000000000
+      internalID: -3661172403496880619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_102
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5b2b3a0df47da40800000000000000
+      internalID: 5392866836317648321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_103
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1
+        width: 75
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3e760d55a891d50800000000000000
+      internalID: 6708545221118387160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_104
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1
+        width: 138
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b3634a43e893230800000000000000
+      internalID: 3619080132313365280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_105
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1
+        width: 138
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a333827ef69e46480800000000000000
+      internalID: -8906737496203185350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_106
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 91
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa19764cf6d6765a0800000000000000
+      internalID: -6528128808046325329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_107
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1
+        width: 125
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f37ed820f5eb700800000000000000
+      internalID: 557987868415835954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_treasures_108
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1
+        width: 124
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d529a17d766bb22d0800000000000000
+      internalID: -3302345344639397283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      challenge_bosses_treasures_0: 186191566486314104
+      challenge_bosses_treasures_1: -4923397952965702353
+      challenge_bosses_treasures_10: 4926643484086464176
+      challenge_bosses_treasures_100: -7899422713277345679
+      challenge_bosses_treasures_101: -3661172403496880619
+      challenge_bosses_treasures_102: 5392866836317648321
+      challenge_bosses_treasures_103: 6708545221118387160
+      challenge_bosses_treasures_104: 3619080132313365280
+      challenge_bosses_treasures_105: -8906737496203185350
+      challenge_bosses_treasures_106: -6528128808046325329
+      challenge_bosses_treasures_107: 557987868415835954
+      challenge_bosses_treasures_108: -3302345344639397283
+      challenge_bosses_treasures_11: 835998078625854052
+      challenge_bosses_treasures_12: -5028568464569321160
+      challenge_bosses_treasures_13: 3610545346190758194
+      challenge_bosses_treasures_14: 6588404117471900941
+      challenge_bosses_treasures_15: -8490552521223174778
+      challenge_bosses_treasures_16: 3358395666726448156
+      challenge_bosses_treasures_17: -8204126554505116093
+      challenge_bosses_treasures_18: 2931380494054107564
+      challenge_bosses_treasures_19: 6989940674971528373
+      challenge_bosses_treasures_2: -6201567212383715005
+      challenge_bosses_treasures_20: 6658007278002376263
+      challenge_bosses_treasures_21: -6570711364621715679
+      challenge_bosses_treasures_22: -1032501092727543374
+      challenge_bosses_treasures_23: 6905829569511199691
+      challenge_bosses_treasures_24: 5562888469928215633
+      challenge_bosses_treasures_25: 7799466964167339446
+      challenge_bosses_treasures_26: -565598514459436470
+      challenge_bosses_treasures_27: -6417354434117161005
+      challenge_bosses_treasures_28: 6800124356458386421
+      challenge_bosses_treasures_29: -6726841861689572749
+      challenge_bosses_treasures_3: -8069202119570625768
+      challenge_bosses_treasures_30: -5353046654298215411
+      challenge_bosses_treasures_31: -7131079227986196733
+      challenge_bosses_treasures_32: -1177317753751643378
+      challenge_bosses_treasures_33: -2858512323157357230
+      challenge_bosses_treasures_34: -1451963676810177957
+      challenge_bosses_treasures_35: -2633495548266453578
+      challenge_bosses_treasures_36: -363584494965914101
+      challenge_bosses_treasures_37: -806871501067834040
+      challenge_bosses_treasures_38: 1881795632668796322
+      challenge_bosses_treasures_39: 261252583300306896
+      challenge_bosses_treasures_4: 6524657496607464983
+      challenge_bosses_treasures_40: -4470406532956656095
+      challenge_bosses_treasures_41: -2174843817652771223
+      challenge_bosses_treasures_42: 1145742688973886394
+      challenge_bosses_treasures_43: -5459787450799597052
+      challenge_bosses_treasures_44: -257849478958581294
+      challenge_bosses_treasures_45: -5199395313853216488
+      challenge_bosses_treasures_46: 6223864216167252204
+      challenge_bosses_treasures_47: 6811831228557370157
+      challenge_bosses_treasures_48: 5428356125182491713
+      challenge_bosses_treasures_49: 6903281548050464601
+      challenge_bosses_treasures_5: -6859132065076791751
+      challenge_bosses_treasures_50: 4996073241217836373
+      challenge_bosses_treasures_51: 1369980110069682868
+      challenge_bosses_treasures_52: 8104616456941319474
+      challenge_bosses_treasures_53: -7890926831333912206
+      challenge_bosses_treasures_54: -2482775650732846416
+      challenge_bosses_treasures_55: -9218986655533592517
+      challenge_bosses_treasures_56: -3900348633572870026
+      challenge_bosses_treasures_57: -2265113520346458793
+      challenge_bosses_treasures_58: -51892323095233765
+      challenge_bosses_treasures_59: -2225378789149228382
+      challenge_bosses_treasures_6: 8344113173200637081
+      challenge_bosses_treasures_60: 5767709987800085232
+      challenge_bosses_treasures_61: -8279798850266749343
+      challenge_bosses_treasures_62: -7705696130331919573
+      challenge_bosses_treasures_63: 4165913104581367325
+      challenge_bosses_treasures_64: 1417537649568095200
+      challenge_bosses_treasures_65: -1235513566427919626
+      challenge_bosses_treasures_66: 3681168921080824123
+      challenge_bosses_treasures_67: 8526665165988394863
+      challenge_bosses_treasures_68: 5893288740465722146
+      challenge_bosses_treasures_69: 8051146752266302975
+      challenge_bosses_treasures_7: 5165259817958379899
+      challenge_bosses_treasures_70: -2575133295449426457
+      challenge_bosses_treasures_71: 4543825364936863151
+      challenge_bosses_treasures_72: -7778279186138873762
+      challenge_bosses_treasures_73: -4138577500235378693
+      challenge_bosses_treasures_74: -3188666727062656250
+      challenge_bosses_treasures_75: 6272598489134682090
+      challenge_bosses_treasures_76: 5783157348674541345
+      challenge_bosses_treasures_77: -1131565495744422402
+      challenge_bosses_treasures_78: -7820607456604634422
+      challenge_bosses_treasures_79: 1067335656453635373
+      challenge_bosses_treasures_8: -4213013022740532591
+      challenge_bosses_treasures_80: -8276558251213535294
+      challenge_bosses_treasures_81: 9016033960440792725
+      challenge_bosses_treasures_82: 6948473638567492268
+      challenge_bosses_treasures_83: 4605221672464023202
+      challenge_bosses_treasures_84: -9145949784083918852
+      challenge_bosses_treasures_85: -7410612052702132750
+      challenge_bosses_treasures_86: -7054313773375160487
+      challenge_bosses_treasures_87: 3333278249095117068
+      challenge_bosses_treasures_88: -961713818230287897
+      challenge_bosses_treasures_89: 1084950480385545872
+      challenge_bosses_treasures_9: -5308337981121831984
+      challenge_bosses_treasures_90: -3322414013143865650
+      challenge_bosses_treasures_91: -7966615859548995682
+      challenge_bosses_treasures_92: 7360549744094432864
+      challenge_bosses_treasures_93: -941870627315812007
+      challenge_bosses_treasures_94: 3263115381251775282
+      challenge_bosses_treasures_95: 7123658494877942258
+      challenge_bosses_treasures_96: 2940574748810488698
+      challenge_bosses_treasures_97: -4380501041674382407
+      challenge_bosses_treasures_98: 7464837650719654651
+      challenge_bosses_treasures_99: 5984089319862350713
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

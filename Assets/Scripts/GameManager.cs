@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     Button knifeSelectButton;
     GameObject canvasUiRoot;
     GameObject globalAppleHudObject;
+    bool hasPlayedLoseSound;
 
     void Awake()
     {
@@ -82,6 +83,12 @@ public class GameManager : MonoBehaviour
     {
         ResolveSceneReferences();
 
+        if (!hasPlayedLoseSound)
+        {
+            GameAudio.PlayGameLose();
+            hasPlayedLoseSound = true;
+        }
+
         ConfigureOverlayCanvas(gameOverUI, gameOverCanvas);
 
         if (gameContinueUI != null)
@@ -92,6 +99,8 @@ public class GameManager : MonoBehaviour
 
         if (levelCounterUI != null)
             levelCounterUI.SetActive(true);
+
+        RefreshGiftButtons(gameOverUI);
 
         SetCanvasUiChildrenVisibleForGameOver();
         SetGameplayWorldState(isVisible: false, isPaused: true);
@@ -105,6 +114,7 @@ public class GameManager : MonoBehaviour
     {
         ResolveSceneReferences();
         Time.timeScale = 1f;
+        hasPlayedLoseSound = false;
 
         if (gameContinueUI != null)
             gameContinueUI.SetActive(false);
@@ -118,6 +128,7 @@ public class GameManager : MonoBehaviour
         if (levelCounterUI != null)
             levelCounterUI.SetActive(false);
 
+        RefreshGiftButtons(gameOverUI);
         SetCanvasUiChildrenVisibleForGameplay();
         SetGameplayWorldState(isVisible: true, isPaused: false);
         KnifeCounterUI.SetDisplayMode(KnifeCounterDisplayMode.Gameplay);
@@ -354,6 +365,16 @@ public class GameManager : MonoBehaviour
             bool shouldRemainVisible = childObject == globalAppleHudObject;
             childObject.SetActive(shouldRemainVisible);
         }
+    }
+
+    void RefreshGiftButtons(GameObject rootObject)
+    {
+        if (rootObject == null)
+            return;
+
+        GiftButtonController[] giftButtons = rootObject.GetComponentsInChildren<GiftButtonController>(true);
+        for (int i = 0; i < giftButtons.Length; i++)
+            giftButtons[i].RefreshNow();
     }
 
     GameObject FindSceneObject(string objectName)

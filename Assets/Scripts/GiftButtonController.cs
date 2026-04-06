@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,6 +14,8 @@ public class GiftButtonController : MonoBehaviour
     [SerializeField] Button button;
     [SerializeField] TMP_Text timeCounterText;
 
+    Coroutine refreshRoutine;
+
     void Reset()
     {
         ResolveReferences();
@@ -21,7 +24,6 @@ public class GiftButtonController : MonoBehaviour
     void Awake()
     {
         ResolveReferences();
-        EnsureReadyTimestampInitialized();
         BindButton();
         RefreshUI();
     }
@@ -30,6 +32,7 @@ public class GiftButtonController : MonoBehaviour
     {
         ResolveReferences();
         BindButton();
+        RestartRefreshLoop();
         RefreshUI();
     }
 
@@ -37,10 +40,30 @@ public class GiftButtonController : MonoBehaviour
     {
         if (button != null)
             button.onClick.RemoveListener(HandleClick);
+
+        if (refreshRoutine != null)
+        {
+            StopCoroutine(refreshRoutine);
+            refreshRoutine = null;
+        }
     }
 
-    void Update()
+    void OnApplicationFocus(bool hasFocus)
     {
+        if (hasFocus)
+            RefreshUI();
+    }
+
+    void OnApplicationPause(bool pauseStatus)
+    {
+        if (!pauseStatus)
+            RefreshUI();
+    }
+
+    public void RefreshNow()
+    {
+        ResolveReferences();
+        BindButton();
         RefreshUI();
     }
 
@@ -48,6 +71,13 @@ public class GiftButtonController : MonoBehaviour
     {
         if (button == null)
             button = GetComponent<Button>();
+
+        if (timeCounterText == null)
+        {
+            Transform timeCounterTransform = FindChildRecursive(transform, "TimeCounter");
+            if (timeCounterTransform != null)
+                timeCounterText = timeCounterTransform.GetComponent<TMP_Text>();
+        }
 
         if (timeCounterText == null)
             timeCounterText = GetComponentInChildren<TMP_Text>(true);
@@ -62,6 +92,25 @@ public class GiftButtonController : MonoBehaviour
         button.onClick.AddListener(HandleClick);
     }
 
+    void RestartRefreshLoop()
+    {
+        if (refreshRoutine != null)
+            StopCoroutine(refreshRoutine);
+
+        refreshRoutine = StartCoroutine(RefreshLoop());
+    }
+
+    IEnumerator RefreshLoop()
+    {
+        WaitForSecondsRealtime wait = new WaitForSecondsRealtime(0.25f);
+
+        while (enabled)
+        {
+            RefreshUI();
+            yield return wait;
+        }
+    }
+
     void HandleClick()
     {
         if (!IsReady())
@@ -74,10 +123,18 @@ public class GiftButtonController : MonoBehaviour
 
     void RefreshUI()
     {
+        bool isReady = IsReady();
+
+        if (isReady)
+            ClearExpiredCooldown();
+
+        if (button != null)
+            button.interactable = isReady;
+
         if (timeCounterText == null)
             return;
 
-        if (IsReady())
+        if (isReady)
         {
             timeCounterText.text = "READY!";
             return;
@@ -104,26 +161,19 @@ public class GiftButtonController : MonoBehaviour
         return readyAtUtc - DateTime.UtcNow;
     }
 
-    void EnsureReadyTimestampInitialized()
-    {
-        if (PlayerPrefs.HasKey(ReadyAtKey))
-            return;
-
-        SetReadyAtUtc(DateTime.UtcNow.AddSeconds(CountdownSeconds));
-    }
-
     DateTime GetReadyAtUtc()
     {
-        EnsureReadyTimestampInitialized();
+        if (!PlayerPrefs.HasKey(ReadyAtKey))
+            return DateTime.MinValue;
+
         string rawValue = PlayerPrefs.GetString(ReadyAtKey, string.Empty);
         rawValue = rawValue.Trim().TrimEnd('\0');
 
-        if (long.TryParse(rawValue, out long ticks))
-            return new DateTime(ticks, DateTimeKind.Utc);
+        if (TryParseReadyAtUtc(rawValue, out DateTime readyAtUtc))
+            return readyAtUtc;
 
-        DateTime fallback = DateTime.UtcNow.AddSeconds(CountdownSeconds);
-        SetReadyAtUtc(fallback);
-        return fallback;
+        ClearReadyAtUtc();
+        return DateTime.MinValue;
     }
 
     void SetReadyAtUtc(DateTime utcTime)
@@ -131,18 +181,96 @@ public class GiftButtonController : MonoBehaviour
         PlayerPrefs.SetString(ReadyAtKey, utcTime.Ticks.ToString());
         PlayerPrefs.Save();
     }
+
+    void ClearReadyAtUtc()
+    {
+        if (!PlayerPrefs.HasKey(ReadyAtKey))
+            return;
+
+        PlayerPrefs.DeleteKey(ReadyAtKey);
+        PlayerPrefs.Save();
+    }
+
+    void ClearExpiredCooldown()
+    {
+        if (!PlayerPrefs.HasKey(ReadyAtKey))
+            return;
+
+        if (DateTime.UtcNow >= GetReadyAtUtc())
+            ClearReadyAtUtc();
+    }
+
+    bool TryParseReadyAtUtc(string rawValue, out DateTime readyAtUtc)
+    {
+        readyAtUtc = default;
+
+        if (!long.TryParse(rawValue, out long rawNumber))
+            return false;
+
+        try
+        {
+            if (rawValue.Length >= 17)
+            {
+                readyAtUtc = new DateTime(rawNumber, DateTimeKind.Utc);
+                return !IsClearlyInvalidTimestamp(readyAtUtc);
+            }
+
+            readyAtUtc = DateTimeOffset.FromUnixTimeSeconds(rawNumber).UtcDateTime;
+            return !IsClearlyInvalidTimestamp(readyAtUtc);
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            return false;
+        }
+    }
+
+    bool IsClearlyInvalidTimestamp(DateTime readyAtUtc)
+    {
+        DateTime nowUtc = DateTime.UtcNow;
+        return readyAtUtc < nowUtc.AddYears(-1) || readyAtUtc > nowUtc.AddYears(10);
+    }
+
+    Transform FindChildRecursive(Transform root, string objectName)
+    {
+        if (root == null)
+            return null;
+
+        for (int i = 0; i < root.childCount; i++)
+        {
+            Transform child = root.GetChild(i);
+            if (child.name == objectName)
+                return child;
+
+            Transform nested = FindChildRecursive(child, objectName);
+            if (nested != null)
+                return nested;
+        }
+
+        return null;
+    }
 }
 
 public static class GiftButtonBootstrap
 {
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
-    static void InstallGiftButtonsInCurrentScene()
+    static void Install()
     {
-        Scene activeScene = SceneManager.GetActiveScene();
-        if (!activeScene.IsValid())
+        SceneManager.sceneLoaded -= HandleSceneLoaded;
+        SceneManager.sceneLoaded += HandleSceneLoaded;
+        InstallGiftButtonsInScene(SceneManager.GetActiveScene());
+    }
+
+    static void HandleSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        InstallGiftButtonsInScene(scene);
+    }
+
+    static void InstallGiftButtonsInScene(Scene scene)
+    {
+        if (!scene.IsValid() || !scene.isLoaded)
             return;
 
-        GameObject[] rootObjects = activeScene.GetRootGameObjects();
+        GameObject[] rootObjects = scene.GetRootGameObjects();
         for (int i = 0; i < rootObjects.Length; i++)
             InstallGiftButtonsRecursive(rootObjects[i].transform);
     }

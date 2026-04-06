@@ -284,6 +284,7 @@ public class KnifeSelectManager : MonoBehaviour
 
         currentSelectedID = unlockedKnifeId;
         KnifeDatabase.SelectKnife(unlockedKnifeId);
+        GameAudio.PlayKnifeUnlock();
 
         GenerateUI();
         UpdateSelectionUI();

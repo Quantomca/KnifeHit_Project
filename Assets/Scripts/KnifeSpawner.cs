@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class KnifeSpawner : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class KnifeSpawner : MonoBehaviour
 
         if (!canThrow) return;
 
-        if (Input.GetMouseButtonDown(0))
+        if (WasThrowPressedThisFrame())
         {
             if (currentKnife == null) return;
             if (LevelManager.instance == null) return;
@@ -31,6 +32,7 @@ public class KnifeSpawner : MonoBehaviour
             canThrow = false;
 
             knife.Throw();
+            GameAudio.PlayKnifeThrow();
 
             KnifeUIManager.instance.UseKnife();
             LevelManager.instance.OnKnifeThrown();
@@ -68,10 +70,21 @@ public class KnifeSpawner : MonoBehaviour
         CancelInvoke();
         canThrow = false;
 
-        if (currentKnife != null)
+            if (currentKnife != null)
             Destroy(currentKnife);
 
         currentKnife = null;
+    }
+
+    bool WasThrowPressedThisFrame()
+    {
+        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+            return true;
+
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+            return true;
+
+        return false;
     }
 
     void ApplySelectedKnifeAppearance(GameObject knifeObject)

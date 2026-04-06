@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f45c80f57e4050a359e8713154e621, type: 3}
+  m_Name: GameAudioSettings
+  m_EditorClassIdentifier: 
+  buttonClickClip: {fileID: 8300000, guid: cdc0f3f2d7245444487238162e414deb, type: 3}
+  appleGainClip: {fileID: 8300000, guid: a05e4beeb7029bc479c519374f933dd7, type: 3}
+  knifeUnlockClip: {fileID: 8300000, guid: 8da2f865be8e1bc4e92207dbf21d558f, type: 3}
+  knifeThrowClip: {fileID: 8300000, guid: f45559bfc1b93f24ebd50cef7449d31e, type: 3}
+  knifeHitWoodClip: {fileID: 8300000, guid: 0774025af046f14409a9a7f7377c8134, type: 3}
+  knifeHitKnifeClip: {fileID: 8300000, guid: 928d7db9943af084cab106fb8f5ef52f, type: 3}
+  gameLoseClip: {fileID: 8300000, guid: c9079f21b5eed474795f8541a1045c6b, type: 3}
+  continueRewardClip: {fileID: 8300000, guid: e2c2e4073a3048d4691cf74069c9a1c6, type: 3}
+  rewardedAppleClip: {fileID: 8300000, guid: 27a0f7f2ea4a137439fdc94468b2430a, type: 3}
+  buttonClickVolume: 0.8
+  appleGainVolume: 0.9
+  knifeUnlockVolume: 1
+  knifeThrowVolume: 0.9
+  knifeHitWoodVolume: 1
+  knifeHitKnifeVolume: 1
+  gameLoseVolume: 1
+  continueRewardVolume: 1
+  rewardedAppleVolume: 1

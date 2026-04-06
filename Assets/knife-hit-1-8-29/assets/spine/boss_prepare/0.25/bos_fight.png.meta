@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 3b6b95a310bfd0f4cb3544adcd64240c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2544559651187999486
+    second: bos_fight_0
+  - first:
+      213: -8010126272345572229
+    second: bos_fight_1
+  - first:
+      213: -2928088732154368950
+    second: bos_fight_2
+  - first:
+      213: 1666567422865935396
+    second: bos_fight_3
+  - first:
+      213: -5711262377316910830
+    second: bos_fight_4
+  - first:
+      213: -9100241276689579995
+    second: bos_fight_5
+  - first:
+      213: 1304767185664758802
+    second: bos_fight_6
+  - first:
+      213: -3526571285560263789
+    second: bos_fight_7
+  - first:
+      213: 6125221867846960856
+    second: bos_fight_8
+  - first:
+      213: 7782606210950142246
+    second: bos_fight_9
+  - first:
+      213: -5539855157361102379
+    second: bos_fight_10
+  - first:
+      213: 5920553232984784526
+    second: bos_fight_11
+  - first:
+      213: -3521817802787958317
+    second: bos_fight_12
+  - first:
+      213: -3185247776096138305
+    second: bos_fight_13
+  - first:
+      213: -5454544679861290363
+    second: bos_fight_14
+  - first:
+      213: -6119661761847755845
+    second: bos_fight_15
+  - first:
+      213: -4075432660412582477
+    second: bos_fight_16
+  - first:
+      213: -3401862326084768684
+    second: bos_fight_17
+  - first:
+      213: 3200423006788674043
+    second: bos_fight_18
+  - first:
+      213: 2881538347929899872
+    second: bos_fight_19
+  - first:
+      213: -6459500691284993464
+    second: bos_fight_20
+  - first:
+      213: 2624160400276582234
+    second: bos_fight_21
+  - first:
+      213: -1310646114653372084
+    second: bos_fight_22
+  - first:
+      213: -4477649885239061716
+    second: bos_fight_23
+  - first:
+      213: -4938758603626203421
+    second: bos_fight_24
+  - first:
+      213: -7837574080805312308
+    second: bos_fight_25
+  - first:
+      213: -4441778221957745540
+    second: bos_fight_26
+  - first:
+      213: 995564081875818806
+    second: bos_fight_27
+  - first:
+      213: -3094383630161128197
+    second: bos_fight_28
+  - first:
+      213: 7714626593799550804
+    second: bos_fight_29
+  - first:
+      213: 6224555217209142109
+    second: bos_fight_30
+  - first:
+      213: -1039064872041069756
+    second: bos_fight_31
+  - first:
+      213: 5752112502254382504
+    second: bos_fight_32
+  - first:
+      213: 3052764314688228147
+    second: bos_fight_33
+  - first:
+      213: 5815286392040722585
+    second: bos_fight_34
+  - first:
+      213: 5479525585555591800
+    second: bos_fight_35
+  - first:
+      213: -1631073707616621050
+    second: bos_fight_36
+  - first:
+      213: -2539994290884589853
+    second: bos_fight_37
+  - first:
+      213: 2916210258744171305
+    second: bos_fight_38
+  - first:
+      213: -509225384626241539
+    second: bos_fight_39
+  - first:
+      213: 4050248402140825642
+    second: bos_fight_40
+  - first:
+      213: -2767632196382937371
+    second: bos_fight_41
+  - first:
+      213: -7795685538240793399
+    second: bos_fight_42
+  - first:
+      213: -6821203745651627358
+    second: bos_fight_43
+  - first:
+      213: 7044121566479857386
+    second: bos_fight_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bos_fight_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20db5299a78efacd0800000000000000
+      internalID: -2544559651187999486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 239
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c71d2489056d090800000000000000
+      internalID: -8010126272345572229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 239
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c6d11dfc65d57d0800000000000000
+      internalID: -2928088732154368950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 239
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c8922cd36d02710800000000000000
+      internalID: 1666567422865935396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_4
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 239
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219f8fc90258db0b0800000000000000
+      internalID: -5711262377316910830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 239
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520029426c275b180800000000000000
+      internalID: -9100241276689579995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 239
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2145228a7d67b1210800000000000000
+      internalID: 1304767185664758802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 239
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b7611b91a1f0fc0800000000000000
+      internalID: -3526571285560263789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 239
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6097306d8210550800000000000000
+      internalID: 6125221867846960856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 239
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6299e666d1f510c60800000000000000
+      internalID: 7782606210950142246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 239
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d13066f51b7e13b0800000000000000
+      internalID: -5539855157361102379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_11
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 239
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e39d50cc70a2250800000000000000
+      internalID: 5920553232984784526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_12
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 239
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d15d252e5dff1fc0800000000000000
+      internalID: -3521817802787958317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 219
+        width: 156
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbcf28160abbc3d0800000000000000
+      internalID: -3185247776096138305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_14
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 189
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58afe5953809d44b0800000000000000
+      internalID: -5454544679861290363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_15
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbf58b0d08921ba0800000000000000
+      internalID: -6119661761847755845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 223
+        width: 110
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5351286972177c0800000000000000
+      internalID: -4075432660412582477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 231
+        width: 68
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ceeeefc382ac0d0800000000000000
+      internalID: -3401862326084768684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_18
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 223
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf160a2a4cf2a6c20800000000000000
+      internalID: 3200423006788674043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_19
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 232
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06317034cd74df720800000000000000
+      internalID: 2881538347929899872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 226
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a519d585e3b56a0800000000000000
+      internalID: -6459500691284993464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 6
+        width: 207
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fe12c0bf3ea6420800000000000000
+      internalID: 2624160400276582234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_22
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 169
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4107d58d46afcde0800000000000000
+      internalID: -1310646114653372084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_23
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 178
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23d1c927213cd1c0800000000000000
+      internalID: -4477649885239061716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_24
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 178
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6b4777731067bb0800000000000000
+      internalID: -4938758603626203421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_25
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 169
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc86ac416e75b3390800000000000000
+      internalID: -7837574080805312308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_26
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 187
+        width: 155
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74742d9d32ab52c0800000000000000
+      internalID: -4441778221957745540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_27
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 150
+        width: 155
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639985bf144f0dd00800000000000000
+      internalID: 995564081875818806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_28
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 39
+        width: 37
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4567dab7a8e05d0800000000000000
+      internalID: -3094383630161128197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_29
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1
+        width: 86
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4573432630cdf0b60800000000000000
+      internalID: 7714626593799550804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_30
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 113
+        width: 156
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b2e8eadff026650800000000000000
+      internalID: 6224555217209142109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_31
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 76
+        width: 156
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443c76b01008491f0800000000000000
+      internalID: -1039064872041069756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_32
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1
+        width: 42
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ada4f448db93df40800000000000000
+      internalID: 5752112502254382504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_33
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 39
+        width: 156
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b0bff48f89d5a20800000000000000
+      internalID: 3052764314688228147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_34
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 8
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99010c0b92c04b050800000000000000
+      internalID: 5815286392040722585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_35
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 8
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87294b00d7f2b0c40800000000000000
+      internalID: 5479525585555591800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_36
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 8
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e280fca134d59e0800000000000000
+      internalID: -1631073707616621050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_37
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 8
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6cd4066a020ccd0800000000000000
+      internalID: -2539994290884589853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_38
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 8
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bdbc297c5787820800000000000000
+      internalID: 2916210258744171305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_39
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 8
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffbdbee53edee8f0800000000000000
+      internalID: -509225384626241539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_40
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 8
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2882bd667f553830800000000000000
+      internalID: 4050248402140825642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_41
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 8
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee29a15e256799d0800000000000000
+      internalID: -2767632196382937371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_42
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 8
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4f1886e4920d390800000000000000
+      internalID: -7795685538240793399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_43
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 15
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aaeed765573651a0800000000000000
+      internalID: -6821203745651627358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bos_fight_44
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 8
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae633bc4e3fb1c160800000000000000
+      internalID: 7044121566479857386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bos_fight_0: -2544559651187999486
+      bos_fight_1: -8010126272345572229
+      bos_fight_10: -5539855157361102379
+      bos_fight_11: 5920553232984784526
+      bos_fight_12: -3521817802787958317
+      bos_fight_13: -3185247776096138305
+      bos_fight_14: -5454544679861290363
+      bos_fight_15: -6119661761847755845
+      bos_fight_16: -4075432660412582477
+      bos_fight_17: -3401862326084768684
+      bos_fight_18: 3200423006788674043
+      bos_fight_19: 2881538347929899872
+      bos_fight_2: -2928088732154368950
+      bos_fight_20: -6459500691284993464
+      bos_fight_21: 2624160400276582234
+      bos_fight_22: -1310646114653372084
+      bos_fight_23: -4477649885239061716
+      bos_fight_24: -4938758603626203421
+      bos_fight_25: -7837574080805312308
+      bos_fight_26: -4441778221957745540
+      bos_fight_27: 995564081875818806
+      bos_fight_28: -3094383630161128197
+      bos_fight_29: 7714626593799550804
+      bos_fight_3: 1666567422865935396
+      bos_fight_30: 6224555217209142109
+      bos_fight_31: -1039064872041069756
+      bos_fight_32: 5752112502254382504
+      bos_fight_33: 3052764314688228147
+      bos_fight_34: 5815286392040722585
+      bos_fight_35: 5479525585555591800
+      bos_fight_36: -1631073707616621050
+      bos_fight_37: -2539994290884589853
+      bos_fight_38: 2916210258744171305
+      bos_fight_39: -509225384626241539
+      bos_fight_4: -5711262377316910830
+      bos_fight_40: 4050248402140825642
+      bos_fight_41: -2767632196382937371
+      bos_fight_42: -7795685538240793399
+      bos_fight_43: -6821203745651627358
+      bos_fight_44: 7044121566479857386
+      bos_fight_5: -9100241276689579995
+      bos_fight_6: 1304767185664758802
+      bos_fight_7: -3526571285560263789
+      bos_fight_8: 6125221867846960856
+      bos_fight_9: 7782606210950142246
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

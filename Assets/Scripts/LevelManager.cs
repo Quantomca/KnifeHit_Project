@@ -118,19 +118,10 @@ public class LevelManager : MonoBehaviour
 
         Vector2 impactPoint = thrownKnife.GetTipPosition();
         Vector2 outwardDirection = target.GetOutwardDirection(impactPoint);
-        Knife stuckKnife = SpawnStuckKnife(outwardDirection, true, true);
-
-        if (stuckKnife != null)
-        {
-            thrownKnife.DisableBeforeDestroy();
-            Destroy(thrownKnife.gameObject);
-        }
-        else
-        {
-            thrownKnife.PlaceAsStuck(target, outwardDirection, true);
-        }
+        thrownKnife.PlaceAsStuck(target, outwardDirection, true);
 
         target.PlayHitFeedback();
+        GameAudio.PlayKnifeHitWood();
         OnKnifeStuck();
     }
 
@@ -150,6 +141,7 @@ public class LevelManager : MonoBehaviour
             return;
 
         canThrow = false;
+        GameAudio.PlayKnifeHitKnife();
 
         KnifeSpawner spawner = FindFirstObjectByType<KnifeSpawner>();
         if (spawner != null)
@@ -186,6 +178,31 @@ public class LevelManager : MonoBehaviour
     {
         canThrow = false;
         ShowFinalGameOverUI();
+    }
+
+    public void ContinueAfterRewardedAd()
+    {
+        if (isStageClearing)
+            return;
+
+        if (knivesLeft <= 0)
+        {
+            knivesLeft = 1;
+
+            if (KnifeUIManager.instance != null)
+                KnifeUIManager.instance.AddReserveKnives(1);
+        }
+
+        canThrow = true;
+        CancelInvoke();
+        GameAudio.PlayContinueReward();
+
+        if (GameManager.instance != null)
+            GameManager.instance.PrepareGameplayUI();
+
+        KnifeSpawner spawner = FindFirstObjectByType<KnifeSpawner>();
+        if (spawner != null)
+            spawner.ResetSpawner();
     }
 
     public void NotifyAppleCollected()

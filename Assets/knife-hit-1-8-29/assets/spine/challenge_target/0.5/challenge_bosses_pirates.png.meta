@@ -1,0 +1,4719 @@
+fileFormatVersion: 2
+guid: 4a8a21e63a0fe2841ba5099d712e1d01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7364613103611813684
+    second: challenge_bosses_pirates_0
+  - first:
+      213: -1597167332768312157
+    second: challenge_bosses_pirates_1
+  - first:
+      213: -831146218347026454
+    second: challenge_bosses_pirates_2
+  - first:
+      213: 330922723260438434
+    second: challenge_bosses_pirates_3
+  - first:
+      213: -2532715012404893088
+    second: challenge_bosses_pirates_4
+  - first:
+      213: 2429071948142254183
+    second: challenge_bosses_pirates_5
+  - first:
+      213: 2758945475304768477
+    second: challenge_bosses_pirates_6
+  - first:
+      213: 3154044411737956610
+    second: challenge_bosses_pirates_7
+  - first:
+      213: 5600251155445596697
+    second: challenge_bosses_pirates_8
+  - first:
+      213: -7300448859610577967
+    second: challenge_bosses_pirates_9
+  - first:
+      213: 8400933290274032503
+    second: challenge_bosses_pirates_10
+  - first:
+      213: 485334734125452031
+    second: challenge_bosses_pirates_11
+  - first:
+      213: -5032809925540307816
+    second: challenge_bosses_pirates_12
+  - first:
+      213: 3235063615641665951
+    second: challenge_bosses_pirates_13
+  - first:
+      213: 395511917314870650
+    second: challenge_bosses_pirates_14
+  - first:
+      213: 3123367578168639042
+    second: challenge_bosses_pirates_15
+  - first:
+      213: -830925288710007792
+    second: challenge_bosses_pirates_16
+  - first:
+      213: 9070369457964296029
+    second: challenge_bosses_pirates_17
+  - first:
+      213: -4310600062432575347
+    second: challenge_bosses_pirates_18
+  - first:
+      213: -7342437747416165406
+    second: challenge_bosses_pirates_19
+  - first:
+      213: -1436608571668712039
+    second: challenge_bosses_pirates_20
+  - first:
+      213: -6137046912512282303
+    second: challenge_bosses_pirates_21
+  - first:
+      213: -8910683289753522454
+    second: challenge_bosses_pirates_22
+  - first:
+      213: 4263730565144678689
+    second: challenge_bosses_pirates_23
+  - first:
+      213: 2897606626798919593
+    second: challenge_bosses_pirates_24
+  - first:
+      213: -7449535641456616174
+    second: challenge_bosses_pirates_25
+  - first:
+      213: -2944334411111137031
+    second: challenge_bosses_pirates_26
+  - first:
+      213: 3083430728374270347
+    second: challenge_bosses_pirates_27
+  - first:
+      213: -7001277024935835345
+    second: challenge_bosses_pirates_28
+  - first:
+      213: 6948498333168714161
+    second: challenge_bosses_pirates_29
+  - first:
+      213: -8375632777476218665
+    second: challenge_bosses_pirates_30
+  - first:
+      213: 3768785382633439495
+    second: challenge_bosses_pirates_31
+  - first:
+      213: 2361074698884300614
+    second: challenge_bosses_pirates_32
+  - first:
+      213: 2632511791382174824
+    second: challenge_bosses_pirates_33
+  - first:
+      213: 500222932313946423
+    second: challenge_bosses_pirates_34
+  - first:
+      213: -5632757170718589296
+    second: challenge_bosses_pirates_35
+  - first:
+      213: 399408653670089582
+    second: challenge_bosses_pirates_36
+  - first:
+      213: 1176789354925477869
+    second: challenge_bosses_pirates_37
+  - first:
+      213: -6676432887881137625
+    second: challenge_bosses_pirates_38
+  - first:
+      213: -616979783276054068
+    second: challenge_bosses_pirates_39
+  - first:
+      213: 7016596086131670868
+    second: challenge_bosses_pirates_40
+  - first:
+      213: 5672792702550984165
+    second: challenge_bosses_pirates_41
+  - first:
+      213: 7860836232853148475
+    second: challenge_bosses_pirates_42
+  - first:
+      213: -2284890949256379274
+    second: challenge_bosses_pirates_43
+  - first:
+      213: -1713680736519041363
+    second: challenge_bosses_pirates_44
+  - first:
+      213: -8080943823120956371
+    second: challenge_bosses_pirates_45
+  - first:
+      213: 1087158869604371673
+    second: challenge_bosses_pirates_46
+  - first:
+      213: 627030384182139514
+    second: challenge_bosses_pirates_47
+  - first:
+      213: -8525764240680437390
+    second: challenge_bosses_pirates_48
+  - first:
+      213: -7314747975528612049
+    second: challenge_bosses_pirates_49
+  - first:
+      213: 6115759337559963183
+    second: challenge_bosses_pirates_50
+  - first:
+      213: -3209157893672826689
+    second: challenge_bosses_pirates_51
+  - first:
+      213: 5916237831127420604
+    second: challenge_bosses_pirates_52
+  - first:
+      213: 7020597753924637601
+    second: challenge_bosses_pirates_53
+  - first:
+      213: 6875290142925196917
+    second: challenge_bosses_pirates_54
+  - first:
+      213: -6392786633403831913
+    second: challenge_bosses_pirates_55
+  - first:
+      213: 4964950331580750630
+    second: challenge_bosses_pirates_56
+  - first:
+      213: -1325909066713169405
+    second: challenge_bosses_pirates_57
+  - first:
+      213: 1045501946245573363
+    second: challenge_bosses_pirates_58
+  - first:
+      213: -6110647076258946479
+    second: challenge_bosses_pirates_59
+  - first:
+      213: 3009761397543136948
+    second: challenge_bosses_pirates_60
+  - first:
+      213: 513140797147336294
+    second: challenge_bosses_pirates_61
+  - first:
+      213: 5167472795065903926
+    second: challenge_bosses_pirates_62
+  - first:
+      213: -6908691759696179686
+    second: challenge_bosses_pirates_63
+  - first:
+      213: -7777209653664545671
+    second: challenge_bosses_pirates_64
+  - first:
+      213: 5647971780620024518
+    second: challenge_bosses_pirates_65
+  - first:
+      213: 3096642810738443817
+    second: challenge_bosses_pirates_66
+  - first:
+      213: -2310038843713672015
+    second: challenge_bosses_pirates_67
+  - first:
+      213: 6631471229928251764
+    second: challenge_bosses_pirates_68
+  - first:
+      213: 4494814784516645529
+    second: challenge_bosses_pirates_69
+  - first:
+      213: -9221032032427695818
+    second: challenge_bosses_pirates_70
+  - first:
+      213: 16729699893219962
+    second: challenge_bosses_pirates_71
+  - first:
+      213: -8803733100738404670
+    second: challenge_bosses_pirates_72
+  - first:
+      213: -8957627388531593051
+    second: challenge_bosses_pirates_73
+  - first:
+      213: -8440166567155440102
+    second: challenge_bosses_pirates_74
+  - first:
+      213: 1222207318866532418
+    second: challenge_bosses_pirates_75
+  - first:
+      213: 1925134680842300097
+    second: challenge_bosses_pirates_76
+  - first:
+      213: -3277173739006653739
+    second: challenge_bosses_pirates_77
+  - first:
+      213: 3287151688440909582
+    second: challenge_bosses_pirates_78
+  - first:
+      213: -821465270920695280
+    second: challenge_bosses_pirates_79
+  - first:
+      213: 7823444528502188998
+    second: challenge_bosses_pirates_80
+  - first:
+      213: -9143034529863783977
+    second: challenge_bosses_pirates_81
+  - first:
+      213: -2060247013870435365
+    second: challenge_bosses_pirates_82
+  - first:
+      213: 840923935798783144
+    second: challenge_bosses_pirates_83
+  - first:
+      213: -2096432015137000120
+    second: challenge_bosses_pirates_84
+  - first:
+      213: 3091378294784824574
+    second: challenge_bosses_pirates_85
+  - first:
+      213: 8615696836807185995
+    second: challenge_bosses_pirates_86
+  - first:
+      213: -4363940737435926458
+    second: challenge_bosses_pirates_87
+  - first:
+      213: -1997806492080308014
+    second: challenge_bosses_pirates_88
+  - first:
+      213: -4267416258324989498
+    second: challenge_bosses_pirates_89
+  - first:
+      213: -4067880496607219944
+    second: challenge_bosses_pirates_90
+  - first:
+      213: 3533592197747384826
+    second: challenge_bosses_pirates_91
+  - first:
+      213: 4556390264781975044
+    second: challenge_bosses_pirates_92
+  - first:
+      213: -7835685015490283671
+    second: challenge_bosses_pirates_93
+  - first:
+      213: -7523077479113720849
+    second: challenge_bosses_pirates_94
+  - first:
+      213: -7899527326753568094
+    second: challenge_bosses_pirates_95
+  - first:
+      213: -1134539531833809911
+    second: challenge_bosses_pirates_96
+  - first:
+      213: -6357022808907631276
+    second: challenge_bosses_pirates_97
+  - first:
+      213: -7691126328906190554
+    second: challenge_bosses_pirates_98
+  - first:
+      213: -8146707659919180110
+    second: challenge_bosses_pirates_99
+  - first:
+      213: -5880719780831367867
+    second: challenge_bosses_pirates_100
+  - first:
+      213: -7121488908291699771
+    second: challenge_bosses_pirates_101
+  - first:
+      213: 833730096771839679
+    second: challenge_bosses_pirates_102
+  - first:
+      213: -8666281487912129019
+    second: challenge_bosses_pirates_103
+  - first:
+      213: 1297726201280429179
+    second: challenge_bosses_pirates_104
+  - first:
+      213: -4150259428325571525
+    second: challenge_bosses_pirates_105
+  - first:
+      213: 526828676288842966
+    second: challenge_bosses_pirates_106
+  - first:
+      213: -2423691976900658467
+    second: challenge_bosses_pirates_107
+  - first:
+      213: -3501647601495419954
+    second: challenge_bosses_pirates_108
+  - first:
+      213: 3858256053266704395
+    second: challenge_bosses_pirates_109
+  - first:
+      213: 4832643310796936438
+    second: challenge_bosses_pirates_110
+  - first:
+      213: 5330979295061996231
+    second: challenge_bosses_pirates_111
+  - first:
+      213: 990859354281663859
+    second: challenge_bosses_pirates_112
+  - first:
+      213: -567316930409480329
+    second: challenge_bosses_pirates_113
+  - first:
+      213: -2015964667480463347
+    second: challenge_bosses_pirates_114
+  - first:
+      213: 6159784438881420349
+    second: challenge_bosses_pirates_115
+  - first:
+      213: 6202680885041195819
+    second: challenge_bosses_pirates_116
+  - first:
+      213: -7404767763707679876
+    second: challenge_bosses_pirates_117
+  - first:
+      213: -4168672935432743849
+    second: challenge_bosses_pirates_118
+  - first:
+      213: 7774677959863373716
+    second: challenge_bosses_pirates_119
+  - first:
+      213: -26113785778360909
+    second: challenge_bosses_pirates_120
+  - first:
+      213: 1243944310599804516
+    second: challenge_bosses_pirates_121
+  - first:
+      213: 6195947722647059641
+    second: challenge_bosses_pirates_122
+  - first:
+      213: 1298602612712199998
+    second: challenge_bosses_pirates_123
+  - first:
+      213: -8166302495514235161
+    second: challenge_bosses_pirates_124
+  - first:
+      213: -3633996340134953121
+    second: challenge_bosses_pirates_125
+  - first:
+      213: 7971739009002479570
+    second: challenge_bosses_pirates_126
+  - first:
+      213: -5523080560006448341
+    second: challenge_bosses_pirates_127
+  - first:
+      213: -5369573178515448474
+    second: challenge_bosses_pirates_128
+  - first:
+      213: 4879578445037540143
+    second: challenge_bosses_pirates_129
+  - first:
+      213: 5802824978400993724
+    second: challenge_bosses_pirates_130
+  - first:
+      213: 3645621747655398203
+    second: challenge_bosses_pirates_131
+  - first:
+      213: -4481389289140596087
+    second: challenge_bosses_pirates_132
+  - first:
+      213: 5063374460557681847
+    second: challenge_bosses_pirates_133
+  - first:
+      213: -7618676082413302453
+    second: challenge_bosses_pirates_134
+  - first:
+      213: 8356749968414529951
+    second: challenge_bosses_pirates_135
+  - first:
+      213: -3124674237551342191
+    second: challenge_bosses_pirates_136
+  - first:
+      213: -9207532379464930475
+    second: challenge_bosses_pirates_137
+  - first:
+      213: -1033078491523333623
+    second: challenge_bosses_pirates_138
+  - first:
+      213: 5112270526249597550
+    second: challenge_bosses_pirates_139
+  - first:
+      213: 4504891998994025397
+    second: challenge_bosses_pirates_140
+  - first:
+      213: -8250233603730321997
+    second: challenge_bosses_pirates_141
+  - first:
+      213: -517310000241357904
+    second: challenge_bosses_pirates_142
+  - first:
+      213: -2777172380357945705
+    second: challenge_bosses_pirates_143
+  - first:
+      213: -2388956672746807533
+    second: challenge_bosses_pirates_144
+  - first:
+      213: -5290850510406695839
+    second: challenge_bosses_pirates_145
+  - first:
+      213: 5425697545913938046
+    second: challenge_bosses_pirates_146
+  - first:
+      213: 729517626309783658
+    second: challenge_bosses_pirates_147
+  - first:
+      213: 1870092233906105655
+    second: challenge_bosses_pirates_148
+  - first:
+      213: -2181602797879871218
+    second: challenge_bosses_pirates_149
+  - first:
+      213: 3095542650035224831
+    second: challenge_bosses_pirates_150
+  - first:
+      213: 9125563258872272407
+    second: challenge_bosses_pirates_151
+  - first:
+      213: -9170197870614701626
+    second: challenge_bosses_pirates_152
+  - first:
+      213: 1494073255346786855
+    second: challenge_bosses_pirates_153
+  - first:
+      213: -272970526158092391
+    second: challenge_bosses_pirates_154
+  - first:
+      213: -5935591680815764659
+    second: challenge_bosses_pirates_155
+  - first:
+      213: 5233847623391403482
+    second: challenge_bosses_pirates_156
+  - first:
+      213: 6649988141714402285
+    second: challenge_bosses_pirates_157
+  - first:
+      213: -6416612102482026792
+    second: challenge_bosses_pirates_158
+  - first:
+      213: 3974462106255976529
+    second: challenge_bosses_pirates_159
+  - first:
+      213: -9111680819647395633
+    second: challenge_bosses_pirates_160
+  - first:
+      213: 782237103870261348
+    second: challenge_bosses_pirates_161
+  - first:
+      213: -2351691518778166244
+    second: challenge_bosses_pirates_162
+  - first:
+      213: 234312727464583904
+    second: challenge_bosses_pirates_163
+  - first:
+      213: -7276942159716153253
+    second: challenge_bosses_pirates_164
+  - first:
+      213: -8089360722691947340
+    second: challenge_bosses_pirates_165
+  - first:
+      213: 6533986343665197379
+    second: challenge_bosses_pirates_166
+  - first:
+      213: -2890905946507235427
+    second: challenge_bosses_pirates_167
+  - first:
+      213: 6974474010792684381
+    second: challenge_bosses_pirates_168
+  - first:
+      213: -1457301581281770712
+    second: challenge_bosses_pirates_169
+  - first:
+      213: -6145387189053830866
+    second: challenge_bosses_pirates_170
+  - first:
+      213: 6451972100258860713
+    second: challenge_bosses_pirates_171
+  - first:
+      213: -8637662544736334643
+    second: challenge_bosses_pirates_172
+  - first:
+      213: -7540965986473548762
+    second: challenge_bosses_pirates_173
+  - first:
+      213: 9012621576212195954
+    second: challenge_bosses_pirates_174
+  - first:
+      213: -1729432360138148004
+    second: challenge_bosses_pirates_175
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1270
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f18fc299c543660800000000000000
+      internalID: 7364613103611813684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 986
+        width: 284
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a49c73e5c8b5d9e0800000000000000
+      internalID: -1597167332768312157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1270
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae724030bec2774f0800000000000000
+      internalID: -831146218347026454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1220
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a71b08a67ca79400800000000000000
+      internalID: 330922723260438434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1220
+        width: 172
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06aae487d1df9dcd0800000000000000
+      internalID: -2532715012404893088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_5
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1225
+        width: 136
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76892ea211cc5b120800000000000000
+      internalID: 2429071948142254183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_6
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1257
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd34632da4eb94620800000000000000
+      internalID: 2758945475304768477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_7
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1256
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201627f7eaa65cb20800000000000000
+      internalID: 3154044411737956610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_8
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1256
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9124e4521c618bd40800000000000000
+      internalID: 5600251155445596697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_9
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1256
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3810e01789faa90800000000000000
+      internalID: -7300448859610577967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1077
+        width: 150
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b8984415c169470800000000000000
+      internalID: 8400933290274032503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_11
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1237
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffac4b88e514cb600800000000000000
+      internalID: 485334734125452031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_12
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1237
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c1c16a90ed72ab0800000000000000
+      internalID: -5032809925540307816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_13
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1253
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91cc14e73145ec20800000000000000
+      internalID: 3235063615641665951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_14
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1253
+        width: 61
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d8cf74ef32d7500800000000000000
+      internalID: 395511917314870650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_15
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1253
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24eb6b7934e685b20800000000000000
+      internalID: 3123367578168639042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_16
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1195
+        width: 122
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0141d833ad5f774f0800000000000000
+      internalID: -830925288710007792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_17
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1195
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57a38317fc60ed70800000000000000
+      internalID: 9070369457964296029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_18
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1195
+        width: 77
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d800eede41cad24c0800000000000000
+      internalID: -4310600062432575347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_19
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1239
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e317d745cb6a1a90800000000000000
+      internalID: -7342437747416165406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_20
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1239
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995b7649d14201ce0800000000000000
+      internalID: -1436608571668712039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_21
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1225
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1413cc93954d4daa0800000000000000
+      internalID: -6137046912512282303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_22
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1075
+        width: 111
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee6b3042c4e65480800000000000000
+      internalID: -8910683289753522454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_23
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1199
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1219c69db50db2b30800000000000000
+      internalID: 4263730565144678689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_24
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1164
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afda29ffdd563820800000000000000
+      internalID: 2897606626798919593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_25
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1208
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ddd5dadceed9890800000000000000
+      internalID: -7449535641456616174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_26
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1239
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f003cde37f9327d0800000000000000
+      internalID: -2944334411111137031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_27
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1042
+        width: 274
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89b54629eb8aca20800000000000000
+      internalID: 3083430728374270347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_28
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1062
+        width: 151
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f298892e3a776de90800000000000000
+      internalID: -7001277024935835345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_29
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1154
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b14ae65b660e6060800000000000000
+      internalID: 6948498333168714161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_30
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1167
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d069696d56c3cb80800000000000000
+      internalID: -8375632777476218665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_31
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1195
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7010d8e665a6d4430800000000000000
+      internalID: 3768785382633439495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_32
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f392bdde834c020800000000000000
+      internalID: 2361074698884300614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_33
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c9c50d68f888420800000000000000
+      internalID: 2632511791382174824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_34
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1208
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739b31d4b1621f600800000000000000
+      internalID: 500222932313946423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_35
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1198
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eb845623d64d1b0800000000000000
+      internalID: -5632757170718589296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_36
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1185
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63093aed0cfa8500800000000000000
+      internalID: 399408653670089582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_37
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1189
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def4bc3feabc45010800000000000000
+      internalID: 1176789354925477869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_38
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1143
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7220c1769ab8853a0800000000000000
+      internalID: -6676432887881137625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_39
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1163
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9bb30f72c0077f0800000000000000
+      internalID: -616979783276054068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_40
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1154
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f364ef6f4ff5160800000000000000
+      internalID: 7016596086131670868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_41
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1110
+        width: 154
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5caff38eec9be40800000000000000
+      internalID: 5672792702550984165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_42
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b335bb0c7ec471d60800000000000000
+      internalID: 7860836232853148475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_43
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1141
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674811b99cf6a40e0800000000000000
+      internalID: -2284890949256379274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_44
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae4a591378c738e0800000000000000
+      internalID: -1713680736519041363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_45
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1117
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d240df45868badf80800000000000000
+      internalID: -8080943823120956371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_46
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1164
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc0f2d5b3d561f00800000000000000
+      internalID: 1087158869604371673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_47
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1075
+        width: 80
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a9d80ffc8a3b800800000000000000
+      internalID: 627030384182139514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_48
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1094
+        width: 81
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279b38338966ea980800000000000000
+      internalID: -8525764240680437390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_49
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1137
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ffb11b87bcc7a90800000000000000
+      internalID: -7314747975528612049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_50
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1131
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f263a0ff6ba8fd450800000000000000
+      internalID: 6115759337559963183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_51
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1068
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb88d7706e7c673d0800000000000000
+      internalID: -3209157893672826689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_52
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1115
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbec31b36f2ba1250800000000000000
+      internalID: 5916237831127420604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_53
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1102
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a35591e57c2e6160800000000000000
+      internalID: 7020597753924637601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_54
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1084
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e0dc845ffe96f50800000000000000
+      internalID: 6875290142925196917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_55
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1110
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79969176d624847a0800000000000000
+      internalID: -6392786633403831913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_56
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 995
+        width: 146
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b1459650c07e440800000000000000
+      internalID: 4964950331580750630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_57
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 995
+        width: 75
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30287129abc699de0800000000000000
+      internalID: -1325909066713169405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_58
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1080
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa62f51b7e528e00800000000000000
+      internalID: 1045501946245573363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_59
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1071
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1526ec71cde923ba0800000000000000
+      internalID: -6110647076258946479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_60
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 983
+        width: 165
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4beed3f6b02d4c920800000000000000
+      internalID: 3009761397543136948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_61
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 864
+        width: 274
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e4ab516da0f1700800000000000000
+      internalID: 513140797147336294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 955
+        width: 117
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63be560f02d86b740800000000000000
+      internalID: 5167472795065903926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_63
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1031
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e04a8c2756f10a0800000000000000
+      internalID: -6908691759696179686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_64
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 863
+        width: 115
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9740691860dc11490800000000000000
+      internalID: -7777209653664545671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_65
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 878
+        width: 150
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca79450960a16e40800000000000000
+      internalID: 5647971780620024518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_66
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 944
+        width: 165
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926055aca3c79fa20800000000000000
+      internalID: 3096642810738443817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_67
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 972
+        width: 73
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bca71729e711ffd0800000000000000
+      internalID: -2310038843713672015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_68
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 972
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471a816d2f7b70c50800000000000000
+      internalID: 6631471229928251764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_69
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 696
+        width: 287
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992e9426b3ac06e30800000000000000
+      internalID: 4494814784516645529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_70
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 857
+        width: 165
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63126acb830580080800000000000000
+      internalID: -9221032032427695818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_71
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 983
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72955bc29f6b3000800000000000000
+      internalID: 16729699893219962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_72
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 852
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce9329936bd2d580800000000000000
+      internalID: -8803733100738404670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_73
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 972
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0b344895d10b380800000000000000
+      internalID: -8957627388531593051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_74
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 937
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16629f99318eda80800000000000000
+      internalID: -8440166567155440102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_75
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 960
+        width: 77
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2481ceab41726f010800000000000000
+      internalID: 1222207318866532418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_76
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 851
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cae36cdac377ba10800000000000000
+      internalID: 1925134680842300097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_77
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 953
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da054bf8d32582d0800000000000000
+      internalID: -3277173739006653739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_78
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 864
+        width: 144
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f88586b0f4e9d20800000000000000
+      internalID: 3287151688440909582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_79
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 936
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012b37b30b19994f0800000000000000
+      internalID: -821465270920695280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_80
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 861
+        width: 175
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cba8592955729c60800000000000000
+      internalID: 7823444528502188998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_81
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 944
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9a656798a6d1180800000000000000
+      internalID: -9143034529863783977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_82
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 852
+        width: 70
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd381bca1488863e0800000000000000
+      internalID: -2060247013870435365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_83
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 932
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ace86c3ddf8bab00800000000000000
+      internalID: 840923935798783144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_84
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 925
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845b00a803af7e2e0800000000000000
+      internalID: -2096432015137000120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_85
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 583
+        width: 284
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef490072e28c6ea20800000000000000
+      internalID: 3091378294784824574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_86
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 845
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46595a00aa119770800000000000000
+      internalID: 8615696836807185995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_87
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 851
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640864c350b2073c0800000000000000
+      internalID: -4363940737435926458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_88
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 859
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0859d849d5644e0800000000000000
+      internalID: -1997806492080308014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_89
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 862
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9ffc5d58717c4c0800000000000000
+      internalID: -4267416258324989498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_90
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 851
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81facfaad3cfb87c0800000000000000
+      internalID: -4067880496607219944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_91
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 862
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af123dfc167d90130800000000000000
+      internalID: 3533592197747384826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_92
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 776
+        width: 39
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ea0661ecc8b3f30800000000000000
+      internalID: 4556390264781975044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_93
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 819
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967b9df5efd024390800000000000000
+      internalID: -7835685015490283671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_94
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 839
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb7fa744e8a89790800000000000000
+      internalID: -7523077479113720849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_95
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 836
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aacc53ffbd3f5290800000000000000
+      internalID: -7899527326753568094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_96
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 843
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904686d8e4e4140f0800000000000000
+      internalID: -1134539531833809911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_97
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 825
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455310eaf6157c7a0800000000000000
+      internalID: -6357022808907631276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_98
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 840
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62174ea6a51a34590800000000000000
+      internalID: -7691126328906190554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_99
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 715
+        width: 172
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be3091eb8411fe80800000000000000
+      internalID: -8146707659919180110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_100
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 711
+        width: 172
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54deee7448c736ea0800000000000000
+      internalID: -5880719780831367867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_101
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 721
+        width: 163
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb8365b1936b2d90800000000000000
+      internalID: -7121488908291699771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_102
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 775
+        width: 160
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb633a01b11029b00800000000000000
+      internalID: 833730096771839679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_103
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 759
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e247517ee2bb780800000000000000
+      internalID: -8666281487912129019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_104
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 810
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c790bba13720210800000000000000
+      internalID: 1297726201280429179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_105
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 825
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3440f8f9015766c0800000000000000
+      internalID: -4150259428325571525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_106
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 807
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc8fabc3ebaf4700800000000000000
+      internalID: 526828676288842966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_107
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 809
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda3fdffcf05d5ed0800000000000000
+      internalID: -2423691976900658467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_108
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 791
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec354481f06a76fc0800000000000000
+      internalID: -3501647601495419954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_109
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 786
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08667340774b8530800000000000000
+      internalID: 3858256053266704395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_110
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 758
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4183a9c7ff01340800000000000000
+      internalID: 4832643310796936438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_111
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2f1239c617bf940800000000000000
+      internalID: 5330979295061996231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_112
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 764
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dd45a355d30cd00800000000000000
+      internalID: 990859354281663859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_113
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 764
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fb0efe14c7028f0800000000000000
+      internalID: -567316930409480329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_114
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 686
+        width: 169
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08a613e0dad504e0800000000000000
+      internalID: -2015964667480463347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_115
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 735
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34818caf43fb7550800000000000000
+      internalID: 6159784438881420349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_116
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 695
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b6cf7d669541650800000000000000
+      internalID: 6202680885041195819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_117
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 743
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ba0f773fafc3990800000000000000
+      internalID: -7404767763707679876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_118
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 740
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7541fb24d06e526c0800000000000000
+      internalID: -4168672935432743849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_119
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 721
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f07b8996435eb60800000000000000
+      internalID: 7774677959863373716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_120
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 716
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bda0f276a933aff0800000000000000
+      internalID: -26113785778360909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_121
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 725
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4666ba182c0634110800000000000000
+      internalID: 1243944310599804516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_122
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 461
+        width: 135
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcb44f40ad6cf550800000000000000
+      internalID: 6195947722647059641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_123
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 696
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37da1b2230950210800000000000000
+      internalID: 1298602612712199998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_124
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 662
+        width: 104
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eeec72b5277bae80800000000000000
+      internalID: -8166302495514235161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_125
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 632
+        width: 184
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fbf271593719dc0800000000000000
+      internalID: -3633996340134953121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_126
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 617
+        width: 215
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df97b1846e41ae60800000000000000
+      internalID: 7971739009002479570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_127
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 627
+        width: 179
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b33f24e731a53b0800000000000000
+      internalID: -5523080560006448341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 350
+        width: 346
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d1f13b4a17b75b0800000000000000
+      internalID: -5369573178515448474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_129
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 678
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f239d1e1ebeb7b340800000000000000
+      internalID: 4879578445037540143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_130
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 350
+        width: 29
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1ea5bb296c78050800000000000000
+      internalID: 5802824978400993724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_131
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 627
+        width: 172
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3350760aa9d79230800000000000000
+      internalID: 3645621747655398203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_132
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 538
+        width: 140
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982d8885f28eec1c0800000000000000
+      internalID: -4481389289140596087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_133
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 621
+        width: 77
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b46356be38b44640800000000000000
+      internalID: 5063374460557681847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_134
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 604
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d8df0f776054690800000000000000
+      internalID: -7618676082413302453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_135
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 458
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99da1002d329f370800000000000000
+      internalID: 8356749968414529951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_136
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 518
+        width: 212
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d00ff065de2a4d0800000000000000
+      internalID: -3124674237551342191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_137
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 514
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55be510a516483080800000000000000
+      internalID: -9207532379464930475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_138
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 299
+        width: 284
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902c7afd594c9a1f0800000000000000
+      internalID: -1033078491523333623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_139
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 461
+        width: 162
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a7ec825fe62f640800000000000000
+      internalID: 5112270526249597550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_140
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 518
+        width: 236
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbc987b767948e30800000000000000
+      internalID: 4504891998994025397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_141
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 458
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdc9afbf38418d80800000000000000
+      internalID: -8250233603730321997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_142
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 458
+        width: 17
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb4bdcab4522d8f0800000000000000
+      internalID: -517310000241357904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_143
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 361
+        width: 140
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7961db42f608579d0800000000000000
+      internalID: -2777172380357945705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_144
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 397
+        width: 222
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f90293098b8ded0800000000000000
+      internalID: -2388956672746807533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_145
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 283
+        width: 274
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164c38f2e7f1396b0800000000000000
+      internalID: -5290850510406695839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_146
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 361
+        width: 259
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70b8e2eb23fb4b40800000000000000
+      internalID: 5425697545913938046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_147
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 450
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60b49d7a64cf1a00800000000000000
+      internalID: 729517626309783658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_148
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 422
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73da0338af6e3f910800000000000000
+      internalID: 1870092233906105655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_149
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 397
+        width: 47
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e093f5f50d369b1e0800000000000000
+      internalID: -2181602797879871218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_150
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 240
+        width: 316
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0cb6aa3a395fa20800000000000000
+      internalID: 3095542650035224831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_151
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 376
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71610744f6384ae70800000000000000
+      internalID: 9125563258872272407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_152
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 347
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c997f95f99ecb080800000000000000
+      internalID: -9170197870614701626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_153
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 347
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7225b55b5b30cb410800000000000000
+      internalID: 1494073255346786855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_154
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 184
+        width: 94
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9970232b0c6363cf0800000000000000
+      internalID: -272970526158092391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_155
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 353
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b663d70da80ada0800000000000000
+      internalID: -5935591680815764659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_156
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 299
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add54c0feac52a840800000000000000
+      internalID: 5233847623391403482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_157
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 283
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb62735bf0894c50800000000000000
+      internalID: 6649988141714402285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_158
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 240
+        width: 328
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de161a1a4d93f6a0800000000000000
+      internalID: -6416612102482026792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_159
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 317
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15863a06a30282730800000000000000
+      internalID: 3974462106255976529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_160
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 317
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc84d2ef19ecc8180800000000000000
+      internalID: -9111680819647395633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_161
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 301
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468315260801bda00800000000000000
+      internalID: 782237103870261348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_162
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 303
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14bde1060d1d5fd0800000000000000
+      internalID: -2351691518778166244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_163
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 295
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e221e62f22704300800000000000000
+      internalID: 234312727464583904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_164
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 295
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b580e0f19ab130b90800000000000000
+      internalID: -7276942159716153253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_165
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1
+        width: 298
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b403ff2841dcbf80800000000000000
+      internalID: -8089360722691947340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_166
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 240
+        width: 346
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341ea6506f16daa50800000000000000
+      internalID: 6533986343665197379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_167
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1
+        width: 334
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f2f5bbb5071e7d0800000000000000
+      internalID: -2890905946507235427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_168
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1
+        width: 334
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bed74192f4ac060800000000000000
+      internalID: 6974474010792684381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_169
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1
+        width: 334
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823c515deef96cbe0800000000000000
+      internalID: -1457301581281770712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_170
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 240
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29c53549e237baa0800000000000000
+      internalID: -6145387189053830866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_171
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 194
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae09a0f0720a8950800000000000000
+      internalID: 6451972100258860713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_172
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 139
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc4b4b0eabd02880800000000000000
+      internalID: -8637662544736334643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_173
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 113
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624e0f8936b195790800000000000000
+      internalID: -7540965986473548762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_174
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 82
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a26299293431d70800000000000000
+      internalID: 9012621576212195954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenge_bosses_pirates_175
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 1
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5776ee6e62dff7e0800000000000000
+      internalID: -1729432360138148004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      challenge_bosses_pirates_0: 7364613103611813684
+      challenge_bosses_pirates_1: -1597167332768312157
+      challenge_bosses_pirates_10: 8400933290274032503
+      challenge_bosses_pirates_100: -5880719780831367867
+      challenge_bosses_pirates_101: -7121488908291699771
+      challenge_bosses_pirates_102: 833730096771839679
+      challenge_bosses_pirates_103: -8666281487912129019
+      challenge_bosses_pirates_104: 1297726201280429179
+      challenge_bosses_pirates_105: -4150259428325571525
+      challenge_bosses_pirates_106: 526828676288842966
+      challenge_bosses_pirates_107: -2423691976900658467
+      challenge_bosses_pirates_108: -3501647601495419954
+      challenge_bosses_pirates_109: 3858256053266704395
+      challenge_bosses_pirates_11: 485334734125452031
+      challenge_bosses_pirates_110: 4832643310796936438
+      challenge_bosses_pirates_111: 5330979295061996231
+      challenge_bosses_pirates_112: 990859354281663859
+      challenge_bosses_pirates_113: -567316930409480329
+      challenge_bosses_pirates_114: -2015964667480463347
+      challenge_bosses_pirates_115: 6159784438881420349
+      challenge_bosses_pirates_116: 6202680885041195819
+      challenge_bosses_pirates_117: -7404767763707679876
+      challenge_bosses_pirates_118: -4168672935432743849
+      challenge_bosses_pirates_119: 7774677959863373716
+      challenge_bosses_pirates_12: -5032809925540307816
+      challenge_bosses_pirates_120: -26113785778360909
+      challenge_bosses_pirates_121: 1243944310599804516
+      challenge_bosses_pirates_122: 6195947722647059641
+      challenge_bosses_pirates_123: 1298602612712199998
+      challenge_bosses_pirates_124: -8166302495514235161
+      challenge_bosses_pirates_125: -3633996340134953121
+      challenge_bosses_pirates_126: 7971739009002479570
+      challenge_bosses_pirates_127: -5523080560006448341
+      challenge_bosses_pirates_128: -5369573178515448474
+      challenge_bosses_pirates_129: 4879578445037540143
+      challenge_bosses_pirates_13: 3235063615641665951
+      challenge_bosses_pirates_130: 5802824978400993724
+      challenge_bosses_pirates_131: 3645621747655398203
+      challenge_bosses_pirates_132: -4481389289140596087
+      challenge_bosses_pirates_133: 5063374460557681847
+      challenge_bosses_pirates_134: -7618676082413302453
+      challenge_bosses_pirates_135: 8356749968414529951
+      challenge_bosses_pirates_136: -3124674237551342191
+      challenge_bosses_pirates_137: -9207532379464930475
+      challenge_bosses_pirates_138: -1033078491523333623
+      challenge_bosses_pirates_139: 5112270526249597550
+      challenge_bosses_pirates_14: 395511917314870650
+      challenge_bosses_pirates_140: 4504891998994025397
+      challenge_bosses_pirates_141: -8250233603730321997
+      challenge_bosses_pirates_142: -517310000241357904
+      challenge_bosses_pirates_143: -2777172380357945705
+      challenge_bosses_pirates_144: -2388956672746807533
+      challenge_bosses_pirates_145: -5290850510406695839
+      challenge_bosses_pirates_146: 5425697545913938046
+      challenge_bosses_pirates_147: 729517626309783658
+      challenge_bosses_pirates_148: 1870092233906105655
+      challenge_bosses_pirates_149: -2181602797879871218
+      challenge_bosses_pirates_15: 3123367578168639042
+      challenge_bosses_pirates_150: 3095542650035224831
+      challenge_bosses_pirates_151: 9125563258872272407
+      challenge_bosses_pirates_152: -9170197870614701626
+      challenge_bosses_pirates_153: 1494073255346786855
+      challenge_bosses_pirates_154: -272970526158092391
+      challenge_bosses_pirates_155: -5935591680815764659
+      challenge_bosses_pirates_156: 5233847623391403482
+      challenge_bosses_pirates_157: 6649988141714402285
+      challenge_bosses_pirates_158: -6416612102482026792
+      challenge_bosses_pirates_159: 3974462106255976529
+      challenge_bosses_pirates_16: -830925288710007792
+      challenge_bosses_pirates_160: -9111680819647395633
+      challenge_bosses_pirates_161: 782237103870261348
+      challenge_bosses_pirates_162: -2351691518778166244
+      challenge_bosses_pirates_163: 234312727464583904
+      challenge_bosses_pirates_164: -7276942159716153253
+      challenge_bosses_pirates_165: -8089360722691947340
+      challenge_bosses_pirates_166: 6533986343665197379
+      challenge_bosses_pirates_167: -2890905946507235427
+      challenge_bosses_pirates_168: 6974474010792684381
+      challenge_bosses_pirates_169: -1457301581281770712
+      challenge_bosses_pirates_17: 9070369457964296029
+      challenge_bosses_pirates_170: -6145387189053830866
+      challenge_bosses_pirates_171: 6451972100258860713
+      challenge_bosses_pirates_172: -8637662544736334643
+      challenge_bosses_pirates_173: -7540965986473548762
+      challenge_bosses_pirates_174: 9012621576212195954
+      challenge_bosses_pirates_175: -1729432360138148004
+      challenge_bosses_pirates_18: -4310600062432575347
+      challenge_bosses_pirates_19: -7342437747416165406
+      challenge_bosses_pirates_2: -831146218347026454
+      challenge_bosses_pirates_20: -1436608571668712039
+      challenge_bosses_pirates_21: -6137046912512282303
+      challenge_bosses_pirates_22: -8910683289753522454
+      challenge_bosses_pirates_23: 4263730565144678689
+      challenge_bosses_pirates_24: 2897606626798919593
+      challenge_bosses_pirates_25: -7449535641456616174
+      challenge_bosses_pirates_26: -2944334411111137031
+      challenge_bosses_pirates_27: 3083430728374270347
+      challenge_bosses_pirates_28: -7001277024935835345
+      challenge_bosses_pirates_29: 6948498333168714161
+      challenge_bosses_pirates_3: 330922723260438434
+      challenge_bosses_pirates_30: -8375632777476218665
+      challenge_bosses_pirates_31: 3768785382633439495
+      challenge_bosses_pirates_32: 2361074698884300614
+      challenge_bosses_pirates_33: 2632511791382174824
+      challenge_bosses_pirates_34: 500222932313946423
+      challenge_bosses_pirates_35: -5632757170718589296
+      challenge_bosses_pirates_36: 399408653670089582
+      challenge_bosses_pirates_37: 1176789354925477869
+      challenge_bosses_pirates_38: -6676432887881137625
+      challenge_bosses_pirates_39: -616979783276054068
+      challenge_bosses_pirates_4: -2532715012404893088
+      challenge_bosses_pirates_40: 7016596086131670868
+      challenge_bosses_pirates_41: 5672792702550984165
+      challenge_bosses_pirates_42: 7860836232853148475
+      challenge_bosses_pirates_43: -2284890949256379274
+      challenge_bosses_pirates_44: -1713680736519041363
+      challenge_bosses_pirates_45: -8080943823120956371
+      challenge_bosses_pirates_46: 1087158869604371673
+      challenge_bosses_pirates_47: 627030384182139514
+      challenge_bosses_pirates_48: -8525764240680437390
+      challenge_bosses_pirates_49: -7314747975528612049
+      challenge_bosses_pirates_5: 2429071948142254183
+      challenge_bosses_pirates_50: 6115759337559963183
+      challenge_bosses_pirates_51: -3209157893672826689
+      challenge_bosses_pirates_52: 5916237831127420604
+      challenge_bosses_pirates_53: 7020597753924637601
+      challenge_bosses_pirates_54: 6875290142925196917
+      challenge_bosses_pirates_55: -6392786633403831913
+      challenge_bosses_pirates_56: 4964950331580750630
+      challenge_bosses_pirates_57: -1325909066713169405
+      challenge_bosses_pirates_58: 1045501946245573363
+      challenge_bosses_pirates_59: -6110647076258946479
+      challenge_bosses_pirates_6: 2758945475304768477
+      challenge_bosses_pirates_60: 3009761397543136948
+      challenge_bosses_pirates_61: 513140797147336294
+      challenge_bosses_pirates_62: 5167472795065903926
+      challenge_bosses_pirates_63: -6908691759696179686
+      challenge_bosses_pirates_64: -7777209653664545671
+      challenge_bosses_pirates_65: 5647971780620024518
+      challenge_bosses_pirates_66: 3096642810738443817
+      challenge_bosses_pirates_67: -2310038843713672015
+      challenge_bosses_pirates_68: 6631471229928251764
+      challenge_bosses_pirates_69: 4494814784516645529
+      challenge_bosses_pirates_7: 3154044411737956610
+      challenge_bosses_pirates_70: -9221032032427695818
+      challenge_bosses_pirates_71: 16729699893219962
+      challenge_bosses_pirates_72: -8803733100738404670
+      challenge_bosses_pirates_73: -8957627388531593051
+      challenge_bosses_pirates_74: -8440166567155440102
+      challenge_bosses_pirates_75: 1222207318866532418
+      challenge_bosses_pirates_76: 1925134680842300097
+      challenge_bosses_pirates_77: -3277173739006653739
+      challenge_bosses_pirates_78: 3287151688440909582
+      challenge_bosses_pirates_79: -821465270920695280
+      challenge_bosses_pirates_8: 5600251155445596697
+      challenge_bosses_pirates_80: 7823444528502188998
+      challenge_bosses_pirates_81: -9143034529863783977
+      challenge_bosses_pirates_82: -2060247013870435365
+      challenge_bosses_pirates_83: 840923935798783144
+      challenge_bosses_pirates_84: -2096432015137000120
+      challenge_bosses_pirates_85: 3091378294784824574
+      challenge_bosses_pirates_86: 8615696836807185995
+      challenge_bosses_pirates_87: -4363940737435926458
+      challenge_bosses_pirates_88: -1997806492080308014
+      challenge_bosses_pirates_89: -4267416258324989498
+      challenge_bosses_pirates_9: -7300448859610577967
+      challenge_bosses_pirates_90: -4067880496607219944
+      challenge_bosses_pirates_91: 3533592197747384826
+      challenge_bosses_pirates_92: 4556390264781975044
+      challenge_bosses_pirates_93: -7835685015490283671
+      challenge_bosses_pirates_94: -7523077479113720849
+      challenge_bosses_pirates_95: -7899527326753568094
+      challenge_bosses_pirates_96: -1134539531833809911
+      challenge_bosses_pirates_97: -6357022808907631276
+      challenge_bosses_pirates_98: -7691126328906190554
+      challenge_bosses_pirates_99: -8146707659919180110
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -48,6 +48,8 @@ public class Knife : MonoBehaviour
         defaultLayer = gameObject.layer;
 
         rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         gameObject.tag = KnifeTag;
 
         if (spriteRenderer != null)
@@ -112,13 +114,13 @@ public class Knife : MonoBehaviour
         Vector2 worldTipOffset = transform.TransformVector(GetLocalTipOffset());
         transform.position = desiredTipPosition - worldTipOffset;
         transform.SetParent(target.transform, true);
-        transform.SetAsLastSibling();
+        transform.SetAsFirstSibling();
 
         SpriteRenderer targetRenderer = target.GetComponent<SpriteRenderer>();
         if (spriteRenderer != null && targetRenderer != null)
         {
             spriteRenderer.sortingLayerID = targetRenderer.sortingLayerID;
-            spriteRenderer.sortingOrder = targetRenderer.sortingOrder + 1;
+            spriteRenderer.sortingOrder = targetRenderer.sortingOrder - 1;
         }
 
         int stuckLayer = LayerMask.NameToLayer(StuckKnifeLayer);
@@ -173,7 +175,8 @@ public class Knife : MonoBehaviour
         if (target == null || spriteRenderer == null)
             return false;
 
-        return Vector2.Distance(target.transform.position, GetTipPosition()) <= target.Radius;
+        Vector2 offset = GetTipPosition() - (Vector2)target.transform.position;
+        return offset.sqrMagnitude <= target.Radius * target.Radius;
     }
 
     public Vector2 GetTipPosition()

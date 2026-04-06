@@ -9,6 +9,7 @@ public static class AppleWallet
     static int cachedAppleCount;
 
     public static event Action<int> AppleCountChanged;
+    public static event Action<int> ApplesAdded;
 
     public static int GetAppleCount()
     {
@@ -22,6 +23,7 @@ public static class AppleWallet
             return;
 
         SetAppleCount(GetAppleCount() + amount);
+        ApplesAdded?.Invoke(amount);
     }
 
     public static bool TrySpendApples(int amount)
@@ -66,5 +68,6 @@ public static class AppleWallet
         hasLoaded = false;
         cachedAppleCount = 0;
         AppleCountChanged = null;
+        ApplesAdded = null;
     }
 }

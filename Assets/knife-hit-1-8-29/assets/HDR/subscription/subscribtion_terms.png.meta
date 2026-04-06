@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: b9efad428ffcf404ba1a7f1760a02c37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1058140440735672243
+    second: subscribtion_terms_0
+  - first:
+      213: 1544005162579058659
+    second: subscribtion_terms_1
+  - first:
+      213: -8302163591108983155
+    second: subscribtion_terms_2
+  - first:
+      213: 5777857659192620598
+    second: subscribtion_terms_3
+  - first:
+      213: -1199103070655013799
+    second: subscribtion_terms_4
+  - first:
+      213: -6717501812161978109
+    second: subscribtion_terms_5
+  - first:
+      213: 133251990388748339
+    second: subscribtion_terms_6
+  - first:
+      213: -5341456073100935839
+    second: subscribtion_terms_7
+  - first:
+      213: 1092554285794658755
+    second: subscribtion_terms_8
+  - first:
+      213: 6289585567270272146
+    second: subscribtion_terms_9
+  - first:
+      213: -763760101487947907
+    second: subscribtion_terms_10
+  - first:
+      213: -8900078382464906323
+    second: subscribtion_terms_11
+  - first:
+      213: -4384497740290632381
+    second: subscribtion_terms_12
+  - first:
+      213: 7627956866583052050
+    second: subscribtion_terms_13
+  - first:
+      213: 7820595402328267982
+    second: subscribtion_terms_14
+  - first:
+      213: 4257107934938094773
+    second: subscribtion_terms_15
+  - first:
+      213: 2503333006683152040
+    second: subscribtion_terms_16
+  - first:
+      213: 8358155959940289154
+    second: subscribtion_terms_17
+  - first:
+      213: -5290845607221586042
+    second: subscribtion_terms_18
+  - first:
+      213: 2675930683211074580
+    second: subscribtion_terms_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: subscribtion_terms_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 63
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48997b10eab051f0800000000000000
+      internalID: -1058140440735672243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 63
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efd4eec3886d6510800000000000000
+      internalID: 1544005162579058659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 63
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8684cc533ac8cc80800000000000000
+      internalID: -8302163591108983155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 63
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63632fabde21f2050800000000000000
+      internalID: 5777857659192620598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c17804c1eeb5fe0800000000000000
+      internalID: -1199103070655013799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301ea0451b3a6c2a0800000000000000
+      internalID: -6717501812161978109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 54
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3303cb0baf769d100800000000000000
+      internalID: 133251990388748339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 63
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d377370065fd5b0800000000000000
+      internalID: -5341456073100935839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c90f969558892f00800000000000000
+      internalID: 1092554285794658755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 63
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c7191ffb8194750800000000000000
+      internalID: 6289585567270272146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fc139fb349665f0800000000000000
+      internalID: -763760101487947907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabcb04add19c7480800000000000000
+      internalID: -8900078382464906323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 63
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345597709822723c0800000000000000
+      internalID: -4384497740290632381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_13
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f3fa20b52fbd960800000000000000
+      internalID: 7627956866583052050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 64
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc54d74516588c60800000000000000
+      internalID: 7820595402328267982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_15
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 63
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc5b789c19441b30800000000000000
+      internalID: 4257107934938094773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 63
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae1cd93b10adb220800000000000000
+      internalID: 2503333006683152040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2821e89ef822ef370800000000000000
+      internalID: 8358155959940289154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_18
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 64
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6871f1cc3f32396b0800000000000000
+      internalID: -5290845607221586042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subscribtion_terms_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 41
+        width: 348
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c4d5857c0d22520800000000000000
+      internalID: 2675930683211074580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      subscribtion_terms_0: -1058140440735672243
+      subscribtion_terms_1: 1544005162579058659
+      subscribtion_terms_10: -763760101487947907
+      subscribtion_terms_11: -8900078382464906323
+      subscribtion_terms_12: -4384497740290632381
+      subscribtion_terms_13: 7627956866583052050
+      subscribtion_terms_14: 7820595402328267982
+      subscribtion_terms_15: 4257107934938094773
+      subscribtion_terms_16: 2503333006683152040
+      subscribtion_terms_17: 8358155959940289154
+      subscribtion_terms_18: -5290845607221586042
+      subscribtion_terms_19: 2675930683211074580
+      subscribtion_terms_2: -8302163591108983155
+      subscribtion_terms_3: 5777857659192620598
+      subscribtion_terms_4: -1199103070655013799
+      subscribtion_terms_5: -6717501812161978109
+      subscribtion_terms_6: 133251990388748339
+      subscribtion_terms_7: -5341456073100935839
+      subscribtion_terms_8: 1092554285794658755
+      subscribtion_terms_9: 6289585567270272146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
