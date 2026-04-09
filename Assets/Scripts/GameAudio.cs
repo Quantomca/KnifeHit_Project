@@ -4,7 +4,10 @@ using UnityEngine.UI;
 
 public class GameAudio : MonoBehaviour
 {
+    const string MutedKey = "GameAudio.Muted";
+
     static GameAudio instance;
+    static bool isMuted;
 
     AudioSource audioSource;
     GameAudioSettings settings;
@@ -12,6 +15,9 @@ public class GameAudio : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     static void CreateInstance()
     {
+        LoadMuteState();
+        ApplyMuteState();
+
         if (instance != null)
             return;
 
@@ -35,6 +41,7 @@ public class GameAudio : MonoBehaviour
         audioSource.playOnAwake = false;
         audioSource.loop = false;
         audioSource.spatialBlend = 0f;
+        audioSource.mute = isMuted;
 
         settings = Resources.Load<GameAudioSettings>("GameAudioSettings");
 
@@ -43,6 +50,8 @@ public class GameAudio : MonoBehaviour
 
         SceneManager.sceneLoaded -= HandleSceneLoaded;
         SceneManager.sceneLoaded += HandleSceneLoaded;
+
+        ApplyMuteState();
     }
 
     void OnDestroy()
@@ -55,6 +64,19 @@ public class GameAudio : MonoBehaviour
     {
         instance?.PlayClip(instance.settings != null ? instance.settings.buttonClickClip : null,
             instance != null && instance.settings != null ? instance.settings.buttonClickVolume : 1f);
+    }
+
+    public static bool IsMuted => isMuted;
+
+    public static void SetMuted(bool muted)
+    {
+        if (isMuted == muted)
+            return;
+
+        isMuted = muted;
+        PlayerPrefs.SetInt(MutedKey, isMuted ? 1 : 0);
+        PlayerPrefs.Save();
+        ApplyMuteState();
     }
 
     public static void PlayKnifeThrow()
@@ -117,16 +139,50 @@ public class GameAudio : MonoBehaviour
         Button[] buttons = Object.FindObjectsByType<Button>(FindObjectsInactive.Include, FindObjectsSortMode.None);
         for (int i = 0; i < buttons.Length; i++)
         {
-            if (buttons[i].GetComponent<UIButtonSound>() == null)
+            UIButtonSound buttonSound = buttons[i].GetComponent<UIButtonSound>();
+
+            if (ShouldSkipButtonSound(buttons[i]))
+            {
+                if (buttonSound != null)
+                    Destroy(buttonSound);
+
+                continue;
+            }
+
+            if (buttonSound == null)
                 buttons[i].gameObject.AddComponent<UIButtonSound>();
         }
     }
 
     void PlayClip(AudioClip clip, float volume)
     {
-        if (audioSource == null || clip == null)
+        if (isMuted || audioSource == null || clip == null)
             return;
 
         audioSource.PlayOneShot(clip, Mathf.Clamp01(volume));
+    }
+
+    static void LoadMuteState()
+    {
+        isMuted = PlayerPrefs.GetInt(MutedKey, 0) == 1;
+    }
+
+    static void ApplyMuteState()
+    {
+        AudioListener.volume = isMuted ? 0f : 1f;
+
+        if (instance != null && instance.audioSource != null)
+            instance.audioSource.mute = isMuted;
+    }
+
+    static bool ShouldSkipButtonSound(Button button)
+    {
+        if (button == null)
+            return false;
+
+        Transform parent = button.transform.parent;
+        return parent != null
+            && parent.name == "SOUNDSRow"
+            && button.name == "ToggleButton";
     }
 }
